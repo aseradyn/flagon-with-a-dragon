@@ -56,7 +56,8 @@
             case "/credits":
                 require __DIR__ . '/credits.php';
                 break;
-            case '/hobbies/spinning/cotton/spindles/' :
+            case '/hobbies/spinning/cotton/spindles' :
+            case '/hobbies/reed-baskets:
                 require __DIR__ . "/content" . $request . 'index.php';
                 break;
             default:
