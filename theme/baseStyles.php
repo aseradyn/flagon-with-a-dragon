@@ -45,5 +45,8 @@
         display: grid;
         justify-items: center;
     }
+    .page-content {
+        padding: 20px;
+    }
     
 </style>

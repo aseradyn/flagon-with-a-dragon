@@ -1,6 +1,6 @@
 <?php 
     // TODO: Add dark mode logic
-    $useDarkMode = true;
+    $useDarkMode = false;
     
     include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/markdown/index.php";
     
@@ -25,6 +25,7 @@
             include_once 'theme/colors.php';
             include_once 'theme/baseStyles.php';
             include_once 'components/icon.php';
+            include_once "components/breadcrumbs.php";
         ?>
         
         <style>
@@ -58,6 +59,8 @@
             case "/credits":
                 require __DIR__ . '/credits.php';
                 break;
+            case '/professional':
+            case '/hobbies':
             case '/hobbies/reed-baskets':
             case '/hobbies/spinning/cotton/spindles':
                 require __DIR__ . "/content" . $request . '/index.php';
