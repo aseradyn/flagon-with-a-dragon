@@ -1,4 +1,37 @@
 <style>
+    /* https://www.fontspace.com/steelworks-vintage-font-f24016 */
+    @font-face {
+        font-family: 'SteelworksVintageDemo';
+        src:    url('theme/fonts/SteelworksVintageDemo-P5wE.otf'), 
+                url('theme/fonts/SteelworksVintageDemo-rR98.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    /* https://rsms.me/inter/ */
+    @import url('theme/fonts/Inter/inter.css');
+
+    body {
+        color: <?php echo $useDarkMode ? $gray[200] : $gray[900] ?>;
+        background-color: <?php echo $useDarkMode ? $gray[700] : $primary[200]?>;
+        padding: 0px;
+        margin: 0px;
+        font-family: Inter, Arial, sans-serif;
+        font-size: 14px;
+    }
+    a, a:active, a:visited {
+        color: <?php echo $useDarkMode ? $secondary[500] : $secondary[700]?>;
+        text-underline-position: under;
+    }
+    h1 {
+        font-size: 1.4em;
+        font-variant: small-caps;
+    }
+    h2 {
+        font-size: 1.15em;
+        font-variant: small-caps;
+        margin-top: 30px;
+    }
 
     .my-container {
         width: 100%;
@@ -12,45 +45,5 @@
         display: grid;
         justify-items: center;
     }
-    .subject-group {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        align-items: stretch;
-        gap: 20px;
-        padding: 20px;
-
-        @media only screen and (max-width: 950px) {
-            grid-template-columns: auto;
-        }
-    }
-    .subject-card {
-        display: grid;
-        grid-template-rows: auto auto;
-    }
-    .subject-description {
-        align-self: start;
-
-        & img {
-        width: 100%;
-        border: 1px solid <?php echo $useDarkMode ? $primary[600] : $primary[200] ?>;
-        margin-bottom: 20px;
-        }
-    }
-    .subject-link {
-        align-self: end;
-        display: grid;
-        grid-template-columns: 2em auto;
-        align-items: center;
-    }
-
-    .subject-link .material-icons {
-        color: <?php echo $useDarkMode ? $primary[400] : $primary[400] ?>
-    }
-
-    .home-welcome {
-        color: <?php echo $useDarkMode ? $accent[500] : $accent[700] ?>; 
-        font-size: 1.1em; 
-        font-weight: bolder;
-        letter-spacing: 1px;
-    }
+    
 </style>
