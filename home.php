@@ -32,7 +32,7 @@
 
         & img {
         width: 100%;
-        border: 1px solid ${useDarkMode ? colors.primary[600] : colors.primary[200]};
+        border: 1px solid <?php echo $useDarkMode ? $primary[600] : $primary[200] ?>;
         margin-bottom: 20px;
         }
     }
@@ -42,10 +42,16 @@
         grid-template-columns: 2em auto;
         align-items: center;
     }
+    .home-welcome {
+        color: <?php echo $useDarkMode ? $accent[500] : $accent[700] ?>; 
+        font-size: 1.1em; 
+        font-weight: bolder;
+        letter-spacing: 1px;
+    }
 </style>
 
 <div class="my-container" customStyles={MyContainerStyleProps}>
-            <span style={{color: useDarkMode ? colors.accent[500] : colors.accent[700], fontSize: "1.1em", fontWeight: "bolder", letterSpacing: "1px"}}>
+            <span class="home-welcome">
                 Welcome!
             </span> I'm so glad you're here!
             <div class="section">

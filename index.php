@@ -8,12 +8,23 @@
 ?>
 
 <html>
+    <!-- 
+        Hand-crafted artisinal code right here, lads!
+        ... 
+        ...
+        ...
+        Nah, I'm screwing with you. Nothing here but compiled mayhem.
+
+        If you really want to snoop on the code, it's in a public repo
+        https://github.com/aseradyn/flagon-with-a-dragon
+    -->
+
     <head>
         <style>
             .card {
                 padding: 10px;
-                background-color: <?php echo $useDarkMode ? "inherit" : $primary['100'] ?>;
-                border: 1px solid <?php echo $useDarkMode ? $primary['400'] : $primary['300'] ?>;
+                background-color: <?php echo $useDarkMode ? "inherit" : $primary[100] ?>;
+                border: 1px solid <?php echo $useDarkMode ? $primary[400] : $primary[300] ?>;
                 max-width: 50em;
 
                 h1, h2 {
@@ -24,8 +35,6 @@
 
     </head>
     <body>
-    
-
 
     <?php
 
