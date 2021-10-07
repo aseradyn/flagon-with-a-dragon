@@ -2,6 +2,7 @@
     // TODO: Add dark mode logic
     $useDarkMode = true;
     
+    include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/markdown/index.php";
     
 ?>
 
@@ -45,6 +46,7 @@
     <?php
 
         $request = $_SERVER['REQUEST_URI'];
+        $request = rtrim($request, '/\\'); // ignore trailing slashes
 
         switch ($request) {
             case '/' :
@@ -56,8 +58,9 @@
             case "/credits":
                 require __DIR__ . '/credits.php';
                 break;
-            case '/hobbies/spinning/cotton/spindles/' :
-                require __DIR__ . "/content" . $request . 'index.php';
+            case '/hobbies/reed-baskets':
+            case '/hobbies/spinning/cotton/spindles':
+                require __DIR__ . "/content" . $request . '/index.php';
                 break;
             default:
                 http_response_code(404);
