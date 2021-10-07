@@ -8,6 +8,10 @@ $primary = array(
     500 => "#216497",
     600 => "#0E2B44"
 );
+
+?>
+
+<?php
 $secondary = array(
     100 => "#F0F9F6",
     200 => "#C5E8DD",

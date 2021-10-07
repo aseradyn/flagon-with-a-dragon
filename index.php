@@ -1,10 +1,8 @@
 <?php 
-
-    include_once 'theme/colors.php';
-
     // TODO: Add dark mode logic
-    $useDarkMode = false;
-
+    $useDarkMode = true;
+    
+    
 ?>
 
 <html>
@@ -20,6 +18,14 @@
     -->
 
     <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <?php
+            include_once 'theme/colors.php';
+            include_once 'theme/baseStyles.php';
+            include_once 'components/icon.php';
+        ?>
+        
         <style>
             .card {
                 padding: 10px;
