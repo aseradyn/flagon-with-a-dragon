@@ -48,5 +48,15 @@
     .page-content {
         padding: 20px;
     }
+    .card {
+        padding: 10px;
+        background-color: <?php echo $useDarkMode ? "inherit" : $primary[100] ?>;
+        border: 1px solid <?php echo $useDarkMode ? $primary[400] : $primary[300] ?>;
+        max-width: 50em;
+
+        h1, h2 {
+            margin-top: 0px;
+        }
+    }
     
 </style>

@@ -1,3 +1,5 @@
+<?php include $_SERVER["DOCUMENT_ROOT"]."/header.php" ?>
+
 <style>
     .professional-grid {
         margin-top: 20px;
@@ -12,7 +14,7 @@
 </style>
 
 <div class="page-content">
-    <?php Breadcrumbs("Professional") ?>
+    <?php Breadcrumbs() ?>
     <div class="card" style="margin-left: auto; margin-right: auto">
         <h1>I Build Tools to Make Life Easier</h1>
         <p>
@@ -103,3 +105,5 @@
     </div>
             
 </div>
+
+<?php include $_SERVER["DOCUMENT_ROOT"]."/footer.php" ?>

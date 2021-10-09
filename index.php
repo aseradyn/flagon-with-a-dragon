@@ -1,77 +1,104 @@
-<?php 
-    // TODO: Add dark mode logic
-    $useDarkMode = false;
-    
-    include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/markdown/index.php";
-    
-?>
+<?php include $_SERVER["DOCUMENT_ROOT"]."/header.php" ?>
 
-<html>
-    <!-- 
-        Hand-crafted artisinal code right here, lads!
-        ... 
-        ...
-        ...
-        Nah, I'm screwing with you. Nothing here but compiled mayhem.
+<style>
+    .home-welcome {
+        color: <?php echo $useDarkMode ? $accent[500] : $accent[700] ?>; 
+        font-size: 1.1em; 
+        font-weight: bolder;
+        letter-spacing: 1px;
+    }
+    .subject-group {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: stretch;
+        gap: 20px;
+        padding: 20px;
 
-        If you really want to snoop on the code, it's in a public repo
-        https://github.com/aseradyn/flagon-with-a-dragon
-    -->
-
-    <head>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        
-        <?php
-            include_once 'theme/colors.php';
-            include_once 'theme/baseStyles.php';
-            include_once 'components/icon.php';
-            include_once "components/breadcrumbs.php";
-        ?>
-        
-        <style>
-            .card {
-                padding: 10px;
-                background-color: <?php echo $useDarkMode ? "inherit" : $primary[100] ?>;
-                border: 1px solid <?php echo $useDarkMode ? $primary[400] : $primary[300] ?>;
-                max-width: 50em;
-
-                h1, h2 {
-                    margin-top: 0px;
-                }
-            }
-        </style>
-
-    </head>
-    <body>
-
-    <?php
-
-        $request = $_SERVER['REQUEST_URI'];
-        $request = rtrim($request, '/\\'); // ignore trailing slashes
-
-        switch ($request) {
-            case '/' :
-                require __DIR__ . '/home.php';
-                break;
-            case '' :
-                require __DIR__ . '/home.php';
-                break;
-            case "/credits":
-                require __DIR__ . '/credits.php';
-                break;
-            case '/professional':
-            case '/hobbies':
-            case '/hobbies/reed-baskets':
-            case '/hobbies/spinning/cotton/spindles':
-                require __DIR__ . "/content" . $request . '/index.php';
-                break;
-            default:
-                http_response_code(404);
-                require __DIR__ . '/404.php';
-                break;
+        @media only screen and (max-width: 950px) {
+            grid-template-columns: auto;
         }
+    }
+    .subject-card {
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+    .subject-description {
+        align-self: start;
 
-    ?>
+        & img {
+        width: 100%;
+        border: 1px solid <?php echo $useDarkMode ? $primary[600] : $primary[200] ?>;
+        margin-bottom: 20px;
+        }
+    }
+    .subject-link {
+        align-self: end;
+        display: grid;
+        grid-template-columns: 2em auto;
+        align-items: center;
+        gap: 5px;
+    }
 
-    </body>
-</html>
+    .subject-link .material-icons {
+        color: <?php echo $useDarkMode ? $primary[300] : $primary[400] ?>
+    }
+</style>
+
+<div class="my-container" customStyles={MyContainerStyleProps}>
+    <span class="home-welcome">
+        Welcome!
+    </span> I'm so glad you're here!
+    <div class="section">
+    <span>What can I interest you in?</span>
+        <div class="subject-group">
+            <div class="card subject-card">
+                <div class="subject-description">
+                    My <b>professional</b> experience?
+                    <p>Including:</p>
+                    <ul>
+                        <li>User experience and interface design</li>
+                        <li>Web development (focus on UI)</li>
+                        <li>Technical communication</li>
+                    </ul>
+                </div>
+                <div class="subject-link">
+                    <?php Icon('ads_click') ?>
+                    <a href="/professional" title="Go to Professional">Click this way</a>
+                </div>
+            </div>
+            <div class="card subject-card">
+                <div class="subject-description">
+                    My <b>personal</b> life? 
+                    <p>Such as:</p>
+                    <ul>
+                        <li>Travel</li>
+                        <li>Pets</li>
+                        <li>Beloved books and media</li>
+                    </ul>
+                </div>
+                <div class="subject-link">
+                    <?php Icon('beach_access') ?>
+                    <a href="/personal" title="Go to Personal">Let's hang out</a>
+                </div>
+            </div>
+            <div class="card subject-card">
+                <div class="subject-description">
+                    My endless <b>hobbies</b>? 
+                    <p>Especially:</p>
+                    <ul>
+                        <li>Spinning yarn</li>
+                        <li>Weaving cloth</li>
+                        <li>Growing flowers</li>
+                        <li>Pointing my camera at things</li>
+                    </ul>
+                </div>
+                <div class="subject-link">
+                    <?php Icon('airport_shuttle') ?>
+                    <a href="/hobbies" title="Go to Hobbies">Follow me down the rabbit hole</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php include $_SERVER["DOCUMENT_ROOT"]."/footer.php" ?>
