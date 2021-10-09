@@ -1,6 +1,6 @@
 <?php 
 
-include $_SERVER["DOCUMENT_ROOT"]."/header.php" ;
+include "../header.php" ;
 Breadcrumbs();
 
 ?>
@@ -11,7 +11,7 @@ Breadcrumbs();
     <p>Check out a few:</p>
     <ul>
         <li><a href="reed-baskets">Weaving baskets</a></li>
-        <li><a href="spinning/cotton/spindles">Spinning cotton</a></li>
+        <li><a href="spinning/">Spinning cotton</a></li>
 </article>
 
-<?php include $_SERVER["DOCUMENT_ROOT"]."/footer.php" ?>
+<?php include "../footer.php" ?>

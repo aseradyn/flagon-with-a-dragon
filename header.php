@@ -3,9 +3,7 @@
 // TODO: Add dark mode logic
 $useDarkMode = true;
 
-// TODO: Detect environment
-
-include_once $_SERVER["DOCUMENT_ROOT"].'/theme/colors.php';
+include_once 'theme/colors.php';
 
 ?>
 
@@ -24,17 +22,18 @@ include_once $_SERVER["DOCUMENT_ROOT"].'/theme/colors.php';
 
 <head>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <?php include_once $_SERVER["DOCUMENT_ROOT"].'/theme/baseStyles.php'; ?>
+    <?php include_once 'theme/baseStyles.php'; ?>
 </head>
 
 <?php
 
 // Utilities
-include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/markdown/index.php";
+include_once "utilities/markdown/index.php";
 
 // Components
-include_once $_SERVER["DOCUMENT_ROOT"].'/components/icon.php';
-include_once $_SERVER["DOCUMENT_ROOT"]."/components/breadcrumbs.php";
+include_once 'components/icon.php';
+include_once "components/breadcrumbs.php";
+include_once "components/article-basic.php";
 
 ?>
 

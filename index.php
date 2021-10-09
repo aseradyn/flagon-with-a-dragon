@@ -1,4 +1,4 @@
-<?php include $_SERVER["DOCUMENT_ROOT"]."/header.php" ?>
+<?php include "header.php" ?>
 
 <style>
     .home-welcome {
@@ -24,12 +24,11 @@
     }
     .subject-description {
         align-self: start;
-
-        & img {
+    }
+    .subject-description img {
         width: 100%;
         border: 1px solid <?php echo $useDarkMode ? $primary[600] : $primary[200] ?>;
         margin-bottom: 20px;
-        }
     }
     .subject-link {
         align-self: end;
@@ -38,7 +37,6 @@
         align-items: center;
         gap: 5px;
     }
-
     .subject-link .material-icons {
         color: <?php echo $useDarkMode ? $primary[300] : $primary[400] ?>
     }
@@ -101,4 +99,4 @@
     </div>
 </div>
 
-<?php include $_SERVER["DOCUMENT_ROOT"]."/footer.php" ?>
+<?php include "footer.php" ?>

@@ -1,17 +1,12 @@
 <?php 
 
-    include $_SERVER["DOCUMENT_ROOT"]."/header.php";
-    Breadcrumbs("Hobbies");
+    include "../../header.php";
+    Breadcrumbs();
 
 ?>
 
 <article>
-    <p></p>
-
-    <p>Check out a few:</p>
-    <ul>
-        <li><a href="reed-baskets">Weaving baskets</a></li>
-        <li><a href="spinning/cotton/spindles">Spinning cotton</a></li>
+    Spinning!
 </article>
 
-<?php include $_SERVER["DOCUMENT_ROOT"]."/footer.php" ?>
+<?php include "../../footer.php" ?>
