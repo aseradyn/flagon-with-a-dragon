@@ -7,6 +7,11 @@ function Breadcrumbs() {
 
     $sitePaths = array(
         array(
+            // empty to prevent $key == 0
+            'name' => '',
+            'path' => ''
+        ),
+        array(
             'name' => 'Professional Life',
             'path' => 'professional'
         ),
@@ -67,7 +72,7 @@ function Breadcrumbs() {
 
                     // Get info from the array
                     $key = array_search($piece, array_column($sitePaths, 'path'));
-                    if ($key | $key == 0) {
+                    if ($key > 0) {
                         $pathArray = $sitePaths[$key];
                         $name = $pathArray['name'];
                     } else {
