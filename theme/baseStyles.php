@@ -2,14 +2,14 @@
     /* https://www.fontspace.com/steelworks-vintage-font-f24016 */
     @font-face {
         font-family: 'SteelworksVintageDemo';
-        src:    url('theme/fonts/SteelworksVintageDemo-P5wE.otf'), 
-                url('theme/fonts/SteelworksVintageDemo-rR98.ttf') format('truetype');
+        src:    url('/theme/fonts/SteelworksVintageDemo-P5wE.otf'), 
+                url('/theme/fonts/SteelworksVintageDemo-rR98.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
     }
 
     /* https://rsms.me/inter/ */
-    @import url('theme/fonts/Inter/inter.css');
+    @import url('/theme/fonts/Inter/inter.css');
 
     body {
         color: <?php echo $useDarkMode ? $gray[200] : $gray[900] ?>;
@@ -53,10 +53,14 @@
         background-color: <?php echo $useDarkMode ? "inherit" : $primary[100] ?>;
         border: 1px solid <?php echo $useDarkMode ? $primary[400] : $primary[300] ?>;
         max-width: 50em;
+    }
+    .card h1,
+    .card h2 {
+        margin-top: 0px;
+    }
 
-        h1, h2 {
-            margin-top: 0px;
-        }
+    li {
+        margin-bottom: 10px;
     }
     
 </style>

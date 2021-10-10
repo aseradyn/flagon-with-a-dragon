@@ -27,26 +27,28 @@
     <div class="professional-grid">
         <div class="card">
             <h2>User Experience</h2>
+            <p>
+                TL;DR : I care about making it work well more than making it pretty.
+            </p>
             <p>My areas of focus in UX are:</p>
             <ul>
-                <li>Optimizing workflow and business rules, including discovery of
+                <li>Optimizing <b>workflows</b>, including discovery of
                     users' existing processes and expectations
                 </li>
-                <li>Identifying and incorporating users' mental models, including
+                <li>Identifying and incorporating users' <b>mental models</b>, including
                     direct user research and usability testing
                 </li>
-                <li>Creating fast mockups and prototypes to bring teams into alignment</li>
+                <li>Creating <em>fast</em> mockups and prototypes to bring teams into alignment</li>
                 <li>Defining a clear design language and building tools to help
                     developers easily implement it
                 </li>
-            </ul>
-            <p>
-                TL;DR : I care about making it work, not about making it pretty.
-            </p>
+            </ul> 
         </div>
         <div class="card">
             <h2>Web Development</h2>
-            
+            <p>
+                TL;DR : CSS, React, Typescript, C# MVC, SQL, and a little PHP.
+            </p>
                 <ul>
                     <li>Extensive experience with HTML and CSS - I 💙 CSS!</li>
                     <li>Building user experiences with React and Typescript since 2019</li>
@@ -59,6 +61,9 @@
                     </li>
                     <li>Working with Microsoft SQL databases - SQL and the 
                         MS SQL Management Studio
+                    </li>
+                    <li>
+                        Tinkering with PHP for personal projects
                     </li>
                 </ul>
             
@@ -91,8 +96,7 @@
             </p>
             <ul>
                 <li>Packages of shared React components to speed up development
-                    of common interfaces (<em>not</em> a solo effort! I worked 
-                    with a team on this)
+                    of common interfaces (<em>not</em> a solo effort! shout out to my team!)
                 </li>
                 <li>Interactive release checklist built in Excel</li>
                 <li>Batch scripts to simplify repeated tasks</li>

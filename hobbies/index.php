@@ -8,10 +8,10 @@ Breadcrumbs();
 <article>
     <p>I have hobbies!</p>
 
-    <p>Check out a few:</p>
-    <ul>
-        <li><a href="reed-baskets">Weaving baskets</a></li>
-        <li><a href="spinning/">Spinning cotton</a></li>
+    <h2>Spinning Yarn</h2>
+    <?php include 'spinning/list.php' ?>
+    <h2>Web Development</h2>
+    <?php include 'web-dev/list.php' ?>
 </article>
 
 <?php include "../footer.php" ?>
