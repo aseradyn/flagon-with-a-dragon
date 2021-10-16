@@ -1,0 +1,78 @@
+@import "colors.css";
+
+/* https://rsms.me/inter/ */
+@import url('/theme/fonts/Inter/inter.css');
+
+/* https://www.fontspace.com/steelworks-vintage-font-f24016 */
+@font-face {
+    font-family: 'SteelworksVintageDemo';
+    src:    url('/theme/fonts/SteelworksVintageDemo-P5wE.otf'), 
+            url('/theme/fonts/SteelworksVintageDemo-rR98.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    color: var(--gray900);
+    background-color: var(--primary200);
+    padding: 0px;
+    margin: 0px;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 14px;
+}
+body.dark-mode {
+    color: var(--gray200);
+    background-color: var(--gray700);
+}
+
+a:any-link {
+    color: var(--secondary700);
+    text-underline-position: under;
+}
+.dark-mode a:any-link {
+    color: var(--secondary500);
+}
+
+h1 {
+    font-size: 1.4em;
+    font-variant: small-caps;
+}
+h2 {
+    font-size: 1.15em;
+    font-variant: small-caps;
+    margin-top: 30px;
+}
+
+.my-container {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    padding-top: 20px;
+    width: 100%;
+}
+.section {
+    margin-top: 50px;
+    display: grid;
+    justify-items: center;
+}
+.page-content {
+    padding: 20px;
+}
+.card {
+    padding: 10px;
+    background-color: var(--primary100);
+    border: 1px solid var(--primary300);
+    max-width: 50em;
+}
+.dark-mode .card {
+    background-color: inherit;
+    border-color: var(--primary400);
+}
+.card h1,
+.card h2 {
+    margin-top: 0px;
+}
+
+li {
+    margin-bottom: 10px;
+}

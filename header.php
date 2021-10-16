@@ -1,86 +1,69 @@
+<!-- 
+    Hand-crafted artisinal code right here, lads!
+
+
+    If you want to see how it is built, it's in a public repo:
+    https://github.com/aseradyn/flagon-with-a-dragon
+-->
+
 <?php 
-
-    $useDarkMode = false;
-    if (isset($_COOKIE["useDarkMode"])) {
-        if ($_COOKIE["useDarkMode"] == "false") {
-            $useDarkMode = false;
-        } else {
-            $useDarkMode = true;
-        }
-    } else {
-        $useDarkMode = true;
-    }
-    if (isset($_GET['useDarkMode'])) {
-        if ($_GET['useDarkMode'] == "true") {
-            setCookie("useDarkMode", "true", 0, "/");
-            $useDarkMode = true;
-        } else if ($_GET['useDarkMode'] == "false") {
-            setCookie("useDarkMode", "false", 0, "/");
-            $useDarkMode = false;
-        }
-    }
-
     // Utilities
     include_once "utilities/markdown/index.php";
-
-    include_once 'theme/colors.php';
 
     // Components
     include_once 'components/icon.php';
     include_once "components/breadcrumbs.php";
     include_once "components/article-basic.php";
+
 ?>
 
 <html>
 
-<!-- 
-    Hand-crafted artisinal code right here, lads!
-    ... 
-    ...
-    ...
-    Nah, I'm screwing with you. Nothing here but compiled mayhem.
-
-    If you really want to snoop on the code, it's in a public repo
-    https://github.com/aseradyn/flagon-with-a-dragon
--->
-
 <head>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <?php include_once 'theme/baseStyles.php'; ?>
+    <link href="/theme/baseStyles.css" rel="stylesheet">
 
-    <script>
+<script>
 
-<?php include_once 'utilities/cookies.js'; ?>
+    <?php include_once 'utilities/cookies.js'; ?>
 
-function setDarkMode(newState) {
-    if (newState == true) {
-        window.location.href = window.location.pathname+"?"+"useDarkMode=true";
-    } else {
-        window.location.href = window.location.pathname+"?"+"useDarkMode=false";
-    }
-}
-
-const detectDarkMode = () => {
-    const preferDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const preferLightMode = window.matchMedia('(prefers-color-scheme: light)').matches;
-    const _darkModeCookie = getCookie("useDarkMode");
-
-    // if they don't have a proper darkModeCookie
-    // Note: PHP will check the cookie and then the query string
-    // This should only do anything IFF the cookie is missing by the time this script executes
-    if (_darkModeCookie !== "true" && _darkModeCookie !== "false") {
-        // and their OS is set to dark mode
-        if (preferDarkMode) {
-            // use dark mode
-            setDarkMode(true);
-        }
-        if (preferLightMode) {
-            setDarkMode(false);
+    const detectDarkMode = () => {
+        const _darkModeCookie = getCookie("useDarkMode");
+        const _preferDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        // if they have a dark mode cookie or their OS is set to dark mode, turn off the lights
+        if (_darkModeCookie === "true" || _preferDarkMode) {
+            // apply the dark mode styles
+            document.querySelector('body').classList.add('dark-mode');
+            // highlight the right icon in the mode control
+            document.querySelector('#use-dark-mode').classList.add('selected');
+        } else {
+            // use light mode
+            // highlight the right icon in the mode control
+            const lightClasses = document.querySelector('#use-light-mode').classList;
+            document.querySelector('#use-light-mode').classList.add('selected');
         }
     }
-}
+
+    // value = boolean; true = turn on dark mode; false = turn on light mode
+    // TODO: Is it worth coming up with a control to delete the cookie?
+    const setDarkMode = (value) => {
+        // set the cookies and toggle the body class
+        if (value == true) {
+            document.cookie = "useDarkMode=true";
+            document.querySelector('body').classList.add('dark-mode');
+            document.querySelector('#use-dark-mode').classList.add('selected');
+            document.querySelector('#use-light-mode').classList.remove('selected');
+        }
+        if (value == false) {
+            document.cookie = "useDarkMode=false";
+            document.querySelector('body').classList.remove('dark-mode');
+            document.querySelector('#use-dark-mode').classList.remove('selected');
+            document.querySelector('#use-light-mode').classList.add('selected');
+        }
+    }
 
 </script>
+
 </head>
 
 <body onload="detectDarkMode()">
@@ -94,11 +77,17 @@ const detectDarkMode = () => {
     #header-bar {
         position: sticky;
         top: 0px;
-        border-bottom: 1px solid <?php echo $useDarkMode ? $primary[400] : $primary[200] ?>;
-        background-color: <?php echo $useDarkMode ? $gray[700] : $primary[100] ?>;
-        color: <?php echo $useDarkMode ? $primary[300] : $primary[500] ?>;
+        border-bottom: 1px solid var(--primary200);
+        background-color: var(--primary100);
+        color: var(--primary400);
         padding: 5px;
-        box-shadow: 0px 5px 10px <?php echo $useDarkMode ? $primary[400] : $primary[500] ?>;
+        box-shadow: 0px 5px 10px var(--primary500);
+    }
+    .dark-mode #header-bar {
+        border-bottom-color: var(--primary400);
+        background-color: var(--gray700);
+        color: var(--primary300);
+        box-shadow: 0px 5px 10px var(--primary400);
     }
 
     #header-layout {
@@ -107,8 +96,16 @@ const detectDarkMode = () => {
         grid-template-columns: 12em auto 10em;
         align-items: center;
     }
+    #header-layout a {
+        text-decoration: none;
+        color: var(--primary500);
+    }
+    .dark-mode #header-layout a {
+        color: var(--primary300);
+    }
+
     #header-layout .quip-wrapper {
-            justify-self: end;
+        justify-self: end;
     }
     #header-layout .quip {
         font-size: 0.9em;
@@ -125,17 +122,27 @@ const detectDarkMode = () => {
     }
 
     #color-mode-control > a > span {
-        color: <?php echo $useDarkMode ? $primary[300] : $primary[500] ?>;
-        border: 1px solid <?php echo $useDarkMode ? $gray[700] : $primary[100]?>;
+        color: var(--primary500);
+        border: 1px solid var(--primary100);
         border-radius: 20px;
         padding: 5px;
     }
-    #color-mode-control > a > span:hover {
-        background-color: <?php echo $useDarkMode ? "rgb(255, 255, 255, 0.1)" : $primary[200]."80" ?>;
-
+    .dark-mode #color-mode-control > a > span {
+        color: var(--primary300);
+        border-color: var(--gray700);
     }
-    #color-mode-control > a > span.selected {
-        border: 1px solid <?php echo $useDarkMode ? $primary[300] : $primary[500]?>;
+
+    #color-mode-control > a > span:hover {
+        background-color: var(--primary20080);
+    }
+    .dark-mode #color-mode-control > a > span:hover {
+        background-color: rgb(255, 255, 255, 0.1);
+    }
+    #color-mode-control > a.selected > span {
+        border: 1px solid var(--primary500);
+    }
+    #color-mode-control > a.selected > span {
+        border-color: var(--primary300);
     }
     #page-content {
         padding: 20px;
@@ -147,20 +154,22 @@ const detectDarkMode = () => {
     <div id="top-wrapper">
         <div id="header-bar">
             <div id="header-layout">
-                <div style="justify-self: start; font-family: 'SteelworksVintageDemo'; font-size: 2em">
-                    Jill.Menning
-                </div>
+                <a href="/">
+                    <div style="justify-self: start; font-family: 'SteelworksVintageDemo'; font-size: 2em">
+                        Jill.Menning
+                    </div>
+                </a>
                 <span className="quip-wrapper">
                     <div className="quip">
                         Serial hobbyist. Plotter and schemer.
                     </div>
                 </span>
                 <div id="color-mode-control">
-                    <a href='javascript:setDarkMode(true)'>
-                        <?php $useDarkMode ? Icon("dark_mode", "selected") : Icon("dark_mode"); ?>
+                    <a href='javascript:setDarkMode(true)' id="use-dark-mode" alt="Enable dark mode" title="Enable dark mode">
+                        <?php Icon("dark_mode") ?>
                     </a>
-                    <a href='javascript:setDarkMode(false)'>
-                        <?php $useDarkMode ? Icon("light_mode") : Icon("light_mode", "selected"); ?>
+                    <a href='javascript:setDarkMode(false)' id="use-light-mode" alt="Enable light mode" title="Enable light mode">
+                        <?php Icon("light_mode") ?>
                     </a>
                 </div>
             </div>

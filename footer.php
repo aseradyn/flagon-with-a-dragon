@@ -3,8 +3,8 @@
 </div id="top-wrapper">
 <style>
     #footer-container {
-        border-top: 1px solid <?php echo $useDarkMode ? $primary[500] : $primary[400]?>;
-        background-color: <?php echo $useDarkMode ?$primary[600] : $primary[500]?>;
+        border-top: 1px solid var(--primary400);
+        background-color: var(--primary200);
         padding: 5px 10px 10px 15px;
         align-self: end;
         font-size: 0.8em;
@@ -12,11 +12,18 @@
         grid-template-columns: auto auto;
         color: <?php echo $useDarkMode ? "inherit" : "white"?>;
     }
+    .dark-mode #footer-container {
+        border-top-color: var(--primary500);
+        background-color: var(--primary600);
+    }
     #footer-container a, 
     #footer-container a:active, 
     #footer-container a:visited {
-            color: <?php echo $useDarkMode ? $secondary[300] : $secondary[200] ?>;
+            color: var(--secondary200);
         }
+    .dark-mode #footer-container a:any-link {
+        color: var(--secondary300);
+    }
 </style>
 
 <div id="footer-container">

@@ -3,8 +3,6 @@
 // $pathLinks should be in the form [{name: name, path: path}];
 function Breadcrumbs() {
 
-    $primary = $GLOBALS['primary'];
-
     $sitePaths = array(
         array(
             // empty to prevent $key == 0
@@ -26,6 +24,10 @@ function Breadcrumbs() {
         array(
             'name' => 'Baskets',
             'path' => 'reed-baskets'
+        ),
+        array(
+            'name' => 'Web Development',
+            'path' => 'web-dev'
         )
     );
 
@@ -58,11 +60,15 @@ function Breadcrumbs() {
             margin-left: 10px;
             margin-right: 10px;
         }
+        .breadcrumbs-home-icon {
+            color: var(--primary400);
+            font-size: 20px;
+        }
     </style>
 
         <div class="breadcrumbs-container">
-            <a href="/" style="color: <?php echo $primary[400] ?>">
-                <?php Icon("home", "", "font-size: 20px") ?>
+            <a href="/">
+                <?php Icon("home", "breadcrumbs-home-icon") ?>
             </a>
             <span>
                 <?php

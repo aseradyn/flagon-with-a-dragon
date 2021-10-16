@@ -2,10 +2,13 @@
 
 <style>
     .home-welcome {
-        color: <?php echo $useDarkMode ? $accent[500] : $accent[700] ?>; 
+        color: var(--accent700); 
         font-size: 1.1em; 
         font-weight: bolder;
         letter-spacing: 1px;
+    }
+    .dark-mode .home-welcome {
+        color: var(--accent500);
     }
     .subject-group {
         display: grid;
@@ -27,8 +30,11 @@
     }
     .subject-description img {
         width: 100%;
-        border: 1px solid <?php echo $useDarkMode ? $primary[600] : $primary[200] ?>;
+        border: 1px solid var(--primary200);
         margin-bottom: 20px;
+    }
+    .dark-mode .subject-description img {
+        border-color: var(--primary600);
     }
     .subject-link {
         align-self: end;
@@ -38,7 +44,10 @@
         gap: 5px;
     }
     .subject-link .material-icons {
-        color: <?php echo $useDarkMode ? $primary[300] : $primary[400] ?>
+        color: var(--primary400);
+    }
+    .dark-mode .subject-link .material-icons {
+        color: var(--primary300);
     }
 </style>
 
