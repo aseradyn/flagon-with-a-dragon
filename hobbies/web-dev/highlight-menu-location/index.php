@@ -1,6 +1,6 @@
 <?php 
     include "../../../header.php";
     Breadcrumbs();
-    BasicArticle("JM_highlight_menu_location.md");
+    BasicArticle("JS_highlight_menu_location.md");
     include "../../../footer.php"
 ?>

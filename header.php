@@ -49,13 +49,13 @@
     const setDarkMode = (value) => {
         // set the cookies and toggle the body class
         if (value == true) {
-            document.cookie = "useDarkMode=true";
+            document.cookie = "useDarkMode=true;path=/";
             document.querySelector('body').classList.add('dark-mode');
             document.querySelector('#use-dark-mode').classList.add('selected');
             document.querySelector('#use-light-mode').classList.remove('selected');
         }
         if (value == false) {
-            document.cookie = "useDarkMode=false";
+            document.cookie = "useDarkMode=false;path=/";
             document.querySelector('body').classList.remove('dark-mode');
             document.querySelector('#use-dark-mode').classList.remove('selected');
             document.querySelector('#use-light-mode').classList.add('selected');
