@@ -1,6 +1,8 @@
 Using Javascript to change the style of a link based on the path to the current page
 ====================================================================================
 
+_Originally written in 2013. Last updated October 15 2021_
+
 In which I turn an ordinary menu into a kind of abbreviated breadcrumb trail, automagically.
 
 Let's say you have a menu system, and you want it to do double-duty as an indicator of which section of your site a user is in.  Specifically, you want to apply a different style - perhaps a color or an underline - to the menu item that represents this part of the site.  However, your menu lives in some template file (header.php, say), and you don't want to add custom code to each page to indicate which menu item should light up.
@@ -32,14 +34,6 @@ First, we need to find the path to the current page.
 
 First, we declare a new variable, `PageURL`.  Then we fill that variable with the path to the current page.
 
-For example, for this page, it gives us: 
-
-<script>
-var CurrentLocation;
-CurrentLocation = docment.URL;
-document.write (CurrentLocation);
-</script>
-
 Getting to know you...
 ----------------------
 
@@ -61,15 +55,19 @@ Now that we can reliably determine where we are in the site, we need to create a
 We're basically going to write a series of nested `if` statements checking whether the path, `PageURL`, contains the key for the menu item.  If it does, we'll apply a highlight.
 
     if(PageURL.indexOf('/posts/') != -1){
-        document.getElementById("BlogPosts").style.backgroundColor="red";
+		document.querySelector("#BlogPosts").style.backgroundColor="red";
     } else if (PageURL.indexOf('/galleries/') != -1) {
-        document.getElementById("Galleries").style.backgroundColor="red";
+        document.querySelector("#Galleries").style.backgroundColor="red";
     } else if (PageURL.indexOf('links.php') != -1) {
-        document.getElementById("Links").style.backgroundColor="red";
+        document.querySelector("#Links").style.backgroundColor="red";
     }
 		
 .indexOf() returns the location of the key (for example, `/posts/`) within the path (`PageURL`). If the key is not found within the path, it returns -1.  So, if the indexOf() is anything other than -1, the key exists within the `PageURL` path.  If you have chosen your keys well, that means that we now know which menu item to highlight!
-		
+
+As an alternative, you can set a class on the matching element:
+
+	document.querySelector('BlogPosts).classList.add("selected");
+
 **Watch those braces!** If you don't close them all, you could have a spot of trouble.
 
 Turning On the Power
@@ -110,11 +108,11 @@ In the header.php:
 	            PageURL = document.URL;
 
 	            if(PageURL.indexOf('/posts/') != -1){
-	                document.getElementById("BlogPosts").style.backgroundColor="red";
+	                document.querySelector("#BlogPosts").style.backgroundColor="red";
 	            } else if (PageURL.indexOf('/galleries/') != -1) {
-	                document.getElementById("Galleries").style.backgroundColor="red";
+	                document.querySelector("#Galleries").style.backgroundColor="red";
 	            } else if (PageURL.indexOf('links.php') != -1) {
-	                document.getElementById("Links").style.backgroundColor="red";
+	                document.querySelector("#Links").style.backgroundColor="red";
 	            }
 	        }
 

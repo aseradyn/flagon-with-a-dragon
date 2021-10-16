@@ -1,5 +1,3 @@
-<?php include "../header.php" ?>
-
 <style>
     .professional-grid {
         margin-top: 20px;
@@ -109,5 +107,3 @@
     </div>
             
 </div>
-
-<?php include "../footer.php" ?>

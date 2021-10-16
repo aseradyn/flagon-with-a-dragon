@@ -1,5 +1,5 @@
-Reed Baskets
-============
+Weaving a Reed Basket
+=====================
 
 I made a basket!
 

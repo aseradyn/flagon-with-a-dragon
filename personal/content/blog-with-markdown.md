@@ -5,7 +5,7 @@ A blog post written using Markdown about how to make Markdown work as the source
 
 Markdown, for the uninitiated, is a standard for creating human-readable, machine-readable text files that convert well to HTML for use on the web.  It's a very fast, easy way to create content, without getting hung up on font sizes, colors, fancy layouts, and all that jazz.  This, my friends, is what writing was meant to be.  You can find more information about Markdown [on Daring Fireball](http://daringfireball.net/projects/markdown/).
 
-Update October 2021: In my newer projects I've switched to using [Parsedown](https://parsedown.org/) for processing Markdown instead of php-markdown.
+The idea here is to create a simple blog when you have a PHP server but no access to a database. Everything is stored in text and PHP files that can be easily copied to a server.
 
 Prerequisites
 -------------

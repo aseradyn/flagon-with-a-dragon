@@ -1,1 +1,0 @@
-<?php include 'spinning.php'; ?>
