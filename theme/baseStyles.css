@@ -25,7 +25,7 @@ body.dark-mode {
     background-color: var(--gray700);
 }
 
-a:any-link {
+a, a:hover, a:visited {
     color: var(--secondary700);
     text-underline-position: under;
 }
@@ -62,7 +62,7 @@ h2 {
     padding: 10px;
     background-color: var(--primary100);
     border: 1px solid var(--primary300);
-    max-width: 50em;
+    max-width: 60em;
 }
 .dark-mode .card {
     background-color: inherit;
@@ -75,4 +75,18 @@ h2 {
 
 li {
     margin-bottom: 10px;
+}
+
+.article-back-link {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2em auto;
+    margin-bottom: 20px;
+}
+
+.material-icons {
+    color: var(--primary400);
+}
+.dark-mode .material-icons {
+    color: var(--primary300);
 }

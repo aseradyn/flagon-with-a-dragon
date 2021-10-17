@@ -99,7 +99,7 @@ If it doesn't match anything, return a 404.
 Extending the Concept
 ---------------------
 
-I like this approach because the routes file is very fast and easy to update, I avoid a ton of boilerplate code, and I can pretty easily extend it to handle other types of files, like file downloads.
+I like this approach because the routes file is very fast and easy to update, I avoid a ton of boilerplate code, and I can pretty easily extend it to handle other types of files.
 
 For example, if I wanted to hand out links to a .zip file, I could add a third array, like:
 
@@ -110,3 +110,5 @@ For example, if I wanted to hand out links to a .zip file, I could add a third a
 ```
 
 And look for the path in that before dropping into the 404 error.
+
+Or, if I wanted to give more customized back links, I could create an array for the Markdown pages used in each section of the site.

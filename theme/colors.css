@@ -8,13 +8,13 @@ body {
     --primary600: #0E2B44;
 
     --secondary100: #F0F9F6;
-    --secondary100: #C5E8DD;
-    --secondary100: #99D6C4;
-    --secondary100: #6DC5AB;
-    --secondary100: #43AA8B;
-    --secondary100: #34836C;
-    --secondary100: #235849;
-    --secondary100: #112C24;
+    --secondary200: #C5E8DD;
+    --secondary300: #99D6C4;
+    --secondary400: #6DC5AB;
+    --secondary500: #43AA8B;
+    --secondary600: #34836C;
+    --secondary700: #235849;
+    --secondary800: #112C24;
 
     --accent500: #FF6F59;
     --accent600: #FF3D1F;

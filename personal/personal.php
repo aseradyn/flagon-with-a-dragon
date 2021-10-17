@@ -41,12 +41,20 @@
 
 <h1>A Big Pile of Nonsense</h1>
 
-<h2>Web Development</h2>
+<div class="personal-layout">
 
-<?php 
+    <div id="left-column">
+        <h2>Web Development</h2>
 
-    foreach ($webDevelopmentPages as $page) {
-        render($page);
-    }
+        <?php 
 
-?>
+            foreach ($webDevelopmentPages as $page) {
+                render($page);
+            }
+
+        ?>
+    </div id="left-column">
+
+
+
+</div id="personal-layout">

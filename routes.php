@@ -14,5 +14,13 @@
         "/links-in-php-and-html" => "personal/content/links-in-php-and-html.md",
         "/simple-php-router" => "personal/content/simple-php-router.md"
     );
+
+    $personalMDFiles = array(
+        "/blog-with-markdown" => "blog-with-markdown.md",
+        "/prettier-paths-with-htaccess" => "prettier-paths-with-htaccess.md",
+        "/highlight-menu-location" => "highlight-menu-location.md",
+        "/links-in-php-and-html" => "links-in-php-and-html.md",
+        "/simple-php-router" => "simple-php-router.md"
+    )
     
 ?>

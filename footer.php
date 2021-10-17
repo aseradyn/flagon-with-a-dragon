@@ -19,7 +19,7 @@
     #footer-container a, 
     #footer-container a:active, 
     #footer-container a:visited {
-            color: var(--secondary200);
+            color: var(--secondary600);
         }
     .dark-mode #footer-container a:any-link {
         color: var(--secondary300);
