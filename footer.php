@@ -10,7 +10,10 @@
         font-size: 0.8em;
         display: grid;
         grid-template-columns: auto auto;
-        color: <?php echo $useDarkMode ? "inherit" : "white"?>;
+        color: white;
+    }
+    #footer-container {
+        color: inherit;
     }
     .dark-mode #footer-container {
         border-top-color: var(--primary500);
