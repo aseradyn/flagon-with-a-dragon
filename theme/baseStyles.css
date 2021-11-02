@@ -45,6 +45,11 @@ h2 {
     margin-top: 30px;
 }
 
+hr {
+    width: var(--single-column-width);
+    border: 0.5px solid var(--secondary500);
+}
+
 .my-container {
     width: 100%;
     display: grid;

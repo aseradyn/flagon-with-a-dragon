@@ -12,8 +12,9 @@
     }
     .subject-group {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, calc(50% - 10px));
         align-items: stretch;
+        justify-items: center;
         gap: 20px;
         padding: 20px;
 
@@ -51,7 +52,7 @@
     }
 </style>
 
-<div class="my-container" customStyles={MyContainerStyleProps}>
+<div class="my-container">
     <span class="home-welcome">
         Welcome!
     </span> I'm so glad you're here!
@@ -78,7 +79,7 @@
                     Web development tips?
                     <p>Including:</p>
                     <ul>
-                        <li>Simple things to build with PHP</li>
+                        <li>Simple things to build with PHP, like blogs</li>
                         <li>A little javascript</li>
                         <li>Odes to CSS properties</li>
                     </ul>
@@ -109,4 +110,15 @@
             -->
         </div>
     </div>
+
+<hr style="margin-bottom: 20px; margin-top: 20px;"/>
+<div style="display: grid; gap: 20px; grid-template-columns: auto auto">
+    <div>
+        Recent craftings: <a href="https://www.instagram.com/jill.makes.stuff/">jill.makes.stuff</a>
+    </div>
+    <div>
+        Photos of my dog: <a href="https://www.instagram.com/merry.miss.maisie/">merry.miss.maisie</a>
+    </div>
+</div>
+<hr style="margin-top: 20px" />
 </div>
