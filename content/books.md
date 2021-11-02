@@ -30,4 +30,10 @@ I never knew I wanted to learn about pre-industrial cooking fuel, cleaning techn
 
 _1491_ by Charles C. Mann
 
-No way around it, this is a dense tome. But it provides a glimpse into a world I never learned about in school - the Americas before Colombus. He walks you through the evidence - archaeological, historical, and more - to illuminate two continents absolutely brim-full of people living in sophisticated civilizations, managing their lands, waging war, and building cities. I have found this book to be a solid framework for understanding a lot of the archaeology and analysis that has been published in the popular press over the last decade. I peronsonally never found the book hard to stick with - I devoured it.
+No way around it, this is a dense tome. But it provides a glimpse into a world I never learned about in school - the Americas before Colombus. He walks you through the evidence - archaeological, historical, and more - to illuminate two continents absolutely brim-full of people living in sophisticated civilizations, managing their lands, waging war, and building cities. I have found this book to be a solid framework for understanding a lot of the archaeology and analysis that has been published in the popular press over the last decade.
+
+---
+
+_1493_ by Charles C. Mann
+
+This book provides a fascinating look at how quickly and drastically the world changed as the Americas were connected in to the trade with Europe, Africa, and Asia. Plants, animals, people, and ideas flowed around the globe, changing cuisines, technologies, and societies in ways that we hardly see now because we are living in the results. From silver from Peru tanking the value of global currencies to rubber trees from the Amazon transforming forests in China to American potatoes helping peasants survive the endless European wars, there's kind of a lot to talk about.
