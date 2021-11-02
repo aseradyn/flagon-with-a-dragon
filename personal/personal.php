@@ -1,5 +1,4 @@
 <style>
-
     .personal-layout {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -9,11 +8,9 @@
             grid-template-columns: auto;
         }
     }
-
     .card {
         max-width: 40em;
     }
-
     .topic-title {
         font-weight: 700;
     }
@@ -21,20 +18,7 @@
 
 <?php
 
-    function render(array $page) {
-
-        $title = $page["title"];
-        $description = $page["description"];
-        $link = $page["link"];
-
-        echo "  <p class='card'>
-                <span class='topic-title'>$title</span>
-                <br />$description
-                <br /><a href='$link' title='Read $title'>Read it</a>
-                </p>
-            ";
-    }
-
+    include_once "../components/article-card.php";
     include "personal-pages.php";
 
 ?>
@@ -44,17 +28,13 @@
 <div class="personal-layout">
 
     <div id="left-column">
-        <h2>Web Development</h2>
+        <h2>Photography</h2>
 
-        <?php 
-
-            foreach ($webDevelopmentPages as $page) {
-                render($page);
+        <?php
+            foreach ($photoPages as $page) {
+                ArticleCard($page);
             }
-
         ?>
     </div id="left-column">
-
-
 
 </div id="personal-layout">

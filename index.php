@@ -6,27 +6,33 @@ function loadPage($page) {
     include "footer.php";
 }
 
-function loadArticle($fileName) {
-    include "header.php";
+function loadArticle($fileName, $category) {
 
-    $html = processMarkdown($fileName);
-    echo "<article class='card'>$html</article>";
+    switch ($category) {
+        case "personal":
+            $backLink = "/personal";
+            $folderRoot = "content/";
+            break;
+        case "webDev":
+            $backLink = "/web-dev";
+            $folderRoot = "web-dev/";
+            break;
+        default: 
+            $backLink = "/"; // site root
+    }
 
-    include "footer.php";
-}
-
-function loadPersonalArticle($fileName) {
     include "header.php";
 
     echo "<div class='article-back-link'>";
     Icon("arrow_back");
-    echo "<a href='/personal' title='Go to list of topics'>Back to the list</a>";
+    echo "<a href='$backLink' title='Go to list of topics'>Back to the list</a>";
     echo "</div>";
 
-    $html = processMarkdown("personal/content/".$fileName);
+    include_once "utilities/markdown/index.php";
+    $html = processMarkdown($folderRoot.$fileName);
     echo "<article class='card'>$html</article>";
 
-    echo "<a href='/personal' title='Go to list of topics'><p>More like this, please!</p></a>";
+    echo "<a href='$backLink' title='Go to list of topics'><p>More like this, please!</p></a>";
 
     include "footer.php";
 }
@@ -39,10 +45,10 @@ include "routes.php";
 
 if (isset($pageRoutes[$request])) {
     loadPage($pageRoutes[$request]);
-// } else if (isset($markdownFiles[$request])) {
-//     loadArticle($markdownFiles[$request]);
 } else if (isset($personalMDFiles[$request])) {
-    loadPersonalArticle($personalMDFiles[$request]);
+    loadArticle($personalMDFiles[$request], "personal");
+} else if (isset($webDevMDFiles[$request])) {
+    loadArticle($webDevMDFiles[$request], "webDev");
 } else {
     http_response_code(404);
     include('404.php');

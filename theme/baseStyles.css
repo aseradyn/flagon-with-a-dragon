@@ -19,6 +19,8 @@ body {
     margin: 0px;
     font-family: Inter, Arial, sans-serif;
     font-size: 14px;
+
+    --single-column-width: 60em;
 }
 body.dark-mode {
     color: var(--gray200);
@@ -58,11 +60,18 @@ h2 {
 .page-content {
     padding: 20px;
 }
+.single-column-layout {
+    max-width: var(--single-column-width);
+    margin-left: auto;
+    margin-right: auto;
+}
 .card {
     padding: 10px;
     background-color: var(--primary100);
     border: 1px solid var(--primary300);
-    max-width: 60em;
+    max-width: var(--single-column-width);
+    margin-left: auto;
+    margin-right: auto;
 }
 .dark-mode .card {
     background-color: inherit;
@@ -89,4 +98,13 @@ li {
 }
 .dark-mode .material-icons {
     color: var(--primary300);
+}
+
+img {
+    border: 10px solid white;
+    outline: 1px solid var(--primary300);
+    max-width: calc(100% - 20px);
+}
+.dark-mode img {
+    border-color: var(--gray900);
 }

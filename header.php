@@ -6,17 +6,6 @@
     https://github.com/aseradyn/flagon-with-a-dragon
 -->
 
-<?php 
-    // Utilities
-    include_once "utilities/markdown/index.php";
-
-    // Components
-    include_once 'components/icon.php';
-    include_once "components/breadcrumbs.php";
-    include_once "components/article-basic.php";
-
-?>
-
 <html>
 
 <head>
@@ -25,7 +14,10 @@
 
 <script>
 
-    <?php include_once 'utilities/cookies.js'; ?>
+    <?php 
+        include_once 'utilities/cookies.js'; 
+        include_once 'components/icon.php';
+    ?>
 
     const detectDarkMode = () => {
         const _darkModeCookie = getCookie("useDarkMode");

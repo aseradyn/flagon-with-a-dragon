@@ -1,3 +1,5 @@
+<?php include_once "components/icon.php" ?>
+
 <style>
     .home-welcome {
         color: var(--accent700); 
@@ -58,7 +60,7 @@
         <div class="subject-group">
             <div class="card subject-card">
                 <div class="subject-description">
-                    My <b>professional</b> experience?
+                    My professional experience?
                     <p>Including:</p>
                     <ul>
                         <li>User experience and interface design</li>
@@ -73,6 +75,23 @@
             </div>
             <div class="card subject-card">
                 <div class="subject-description">
+                    Web development tips?
+                    <p>Including:</p>
+                    <ul>
+                        <li>Simple things to build with PHP</li>
+                        <li>A little javascript</li>
+                        <li>Odes to CSS properties</li>
+                    </ul>
+                </div>
+                <div class="subject-link">
+                    <?php Icon('ads_click') ?>
+                    <a href="/web-development" title="Go to Web Development">Let's build!</a>
+                </div>
+            </div>
+            <!-- gardening = "Let's dig in!" -->
+            <!--
+            <div class="card subject-card">
+                <div class="subject-description">
                     My personal life and endless <b>hobbies</b>? 
                     <p>Especially:</p>
                     <ul>
@@ -83,10 +102,11 @@
                     </ul>
                 </div>
                 <div class="subject-link">
-                    <?php Icon('airport_shuttle') ?>
+                    <?php //Icon('airport_shuttle') ?>
                     <a href="/personal" title="Go to my non-professional stuff">Follow me down the rabbit hole</a>
                 </div>
             </div>
+            -->
         </div>
     </div>
 </div>

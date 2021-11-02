@@ -2,8 +2,6 @@
 
 include "header.php";
 
-Breadcrumbs();
-
 ?>
 <h1>404</h1>
 <p>

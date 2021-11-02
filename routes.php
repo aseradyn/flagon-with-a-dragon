@@ -4,23 +4,20 @@
         "" => "home.php",
         "/" => "home.php",
         "/personal" => "personal/personal.php",
-        "/professional" => "professional/professional.php"
-    );
-
-    $markdownFiles = array(
-        "/blog-with-markdown" => "personal/content/blog-with-markdown.md",
-        "/prettier-paths-with-htaccess" => "personal/content/prettier-paths-with-htaccess.md",
-        "/highlight-menu-location" => "personal/content/highlight-menu-location.md",
-        "/links-in-php-and-html" => "personal/content/links-in-php-and-html.md",
-        "/simple-php-router" => "personal/content/simple-php-router.md"
+        "/professional" => "professional/professional.php",
+        "/web-development" => "web-dev/web-development.php",
     );
 
     $personalMDFiles = array(
+        "/photo-tips-for-coastal-tx" => "photo-tips-for-coastal-tx.md"
+    );
+
+    $webDevMDFiles = array(
         "/blog-with-markdown" => "blog-with-markdown.md",
         "/prettier-paths-with-htaccess" => "prettier-paths-with-htaccess.md",
         "/highlight-menu-location" => "highlight-menu-location.md",
         "/links-in-php-and-html" => "links-in-php-and-html.md",
-        "/simple-php-router" => "simple-php-router.md"
-    )
+        "/simple-php-router" => "simple-php-router.md",
+    );
     
 ?>

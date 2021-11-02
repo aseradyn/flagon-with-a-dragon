@@ -9,10 +9,12 @@
             grid-template-columns: auto;
         }
     }
+    .tldr {
+        color: var(--accent700);
+    }
 </style>
 
 <div class="page-content">
-    <?php Breadcrumbs() ?>
     <div class="card" style="margin-left: auto; margin-right: auto">
         <h1>I Build Tools to Make Life Easier</h1>
         <p>
@@ -25,7 +27,7 @@
     <div class="professional-grid">
         <div class="card">
             <h2>User Experience</h2>
-            <p>
+            <p class="tldr">
                 TL;DR : I care about making it work well more than making it pretty.
             </p>
             <p>My areas of focus in UX are:</p>
@@ -44,7 +46,7 @@
         </div>
         <div class="card">
             <h2>Web Development</h2>
-            <p>
+            <p class="tldr">
                 TL;DR : CSS, React, Typescript, C# MVC, SQL, and a little PHP.
             </p>
                 <ul>
@@ -61,7 +63,7 @@
                         MS SQL Management Studio
                     </li>
                     <li>
-                        Tinkering with PHP for personal projects
+                        Tinkering with PHP for personal projects, including this site.
                     </li>
                 </ul>
             
