@@ -24,7 +24,7 @@ body {
 }
 @media screen and (max-width: 800px) {
     body {
-        --single-column-width: calc(100% - 30px);
+        --single-column-width: calc(100vw - 30px);
     }
 }
 html.dark-mode body {
@@ -49,18 +49,19 @@ h2 {
     font-variant: small-caps;
     margin-top: 30px;
 }
+pre, code {
+    white-space: pre-line;
+}
 
 hr {
     width: var(--single-column-width);
     border: 0.5px solid var(--secondary500);
 }
-
 .my-container {
     width: 100%;
     display: grid;
     justify-items: center;
     padding-top: 20px;
-    width: 100%;
 }
 .section {
     margin-top: 50px;
@@ -79,7 +80,6 @@ hr {
     padding: 10px;
     background-color: var(--primary100);
     border: 1px solid var(--primary300);
-    max-width: var(--single-column-width);
     margin-left: auto;
     margin-right: auto;
 }

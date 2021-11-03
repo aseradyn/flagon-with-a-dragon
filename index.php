@@ -14,7 +14,7 @@ function loadArticle($fileName, $category) {
             $folderRoot = "content/";
             break;
         case "webDev":
-            $backLink = "/web-dev";
+            $backLink = "/web-development";
             $folderRoot = "web-dev/";
             break;
         default: 
@@ -23,6 +23,7 @@ function loadArticle($fileName, $category) {
 
     include "header.php";
 
+    echo "<div class='single-column-layout'>";
     echo "<div class='article-back-link'>";
     Icon("arrow_back");
     echo "<a href='$backLink' title='Go to list of topics'>Back to the list</a>";
@@ -33,6 +34,7 @@ function loadArticle($fileName, $category) {
     echo "<article class='card'>$html</article>";
 
     echo "<a href='$backLink' title='Go to list of topics'><p>More like this, please!</p></a>";
+    echo "</div>";
 
     include "footer.php";
 }
