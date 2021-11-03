@@ -8,7 +8,7 @@
 
 <?php 
     $useDarkMode = false;
-    if(!isset($_COOKIE["useDarkMode"])) {
+    if(isset($_COOKIE["useDarkMode"])) {
         if ($_COOKIE["useDarkMode"] == "true") {
             $useDarkMode = true;
         }
@@ -23,17 +23,11 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="/theme/baseStyles.css" rel="stylesheet">
 
-    <?php 
-        include_once 'components/icon.php';
-
-        
-    ?>
+    <?php include_once 'components/icon.php'; ?>
 
 <script>
 
-    <?php 
-        include_once 'utilities/cookies.js';
-    ?>
+    <?php include_once 'utilities/cookies.js'; ?>
 
     const detectDarkMode = () => {
         const _darkModeCookie = getCookie("useDarkMode");

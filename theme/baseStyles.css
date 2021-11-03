@@ -27,7 +27,7 @@ body {
         --single-column-width: calc(100% - 30px);
     }
 }
-body.dark-mode {
+html.dark-mode body {
     color: var(--gray200);
     background-color: var(--gray700);
 }
