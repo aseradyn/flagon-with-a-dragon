@@ -6,7 +6,16 @@
     https://github.com/aseradyn/flagon-with-a-dragon
 -->
 
-<html>
+<?php 
+    $useDarkMode = false;
+    if(!isset($_COOKIE["useDarkMode"])) {
+        if ($_COOKIE["useDarkMode"] == "true") {
+            $useDarkMode = true;
+        }
+    }
+?>
+
+<html <?php if ($useDarkMode) { echo "class='dark-mode'"; } ?>>
 
 <head>
     <title>Jill Menning</title>
@@ -17,12 +26,7 @@
     <?php 
         include_once 'components/icon.php';
 
-        $useDarkMode = false;
-        if(!isset($_COOKIE["useDarkMode"])) {
-            if ($_COOKIE["useDarkMode"] == "true") {
-                $useDarkMode = true;
-            }
-        }
+        
     ?>
 
 <script>
@@ -33,15 +37,10 @@
 
     const detectDarkMode = () => {
         const _darkModeCookie = getCookie("useDarkMode");
-        // if they have a dark mode cookie, turn off the lights
         if (_darkModeCookie === "true") {
-            // apply the dark mode styles
-            document.querySelector('body').classList.add('dark-mode');
             // highlight the right icon in the mode control
             document.querySelector('#use-dark-mode').classList.add('selected');
         } else {
-            // use light mode
-            // highlight the right icon in the mode control
             document.querySelector('#use-light-mode').classList.add('selected');
         }
     }
@@ -51,13 +50,13 @@
         // set the cookies and toggle the body class
         if (value == true) {
             document.cookie = "useDarkMode=true;path=/";
-            document.querySelector('body').classList.add('dark-mode');
+            document.querySelector('html').classList.add('dark-mode');
             document.querySelector('#use-dark-mode').classList.add('selected');
             document.querySelector('#use-light-mode').classList.remove('selected');
         }
         if (value == false) {
             document.cookie = "useDarkMode=false;path=/";
-            document.querySelector('body').classList.remove('dark-mode');
+            document.querySelector('html').classList.remove('dark-mode');
             document.querySelector('#use-dark-mode').classList.remove('selected');
             document.querySelector('#use-light-mode').classList.add('selected');
         }
@@ -67,7 +66,7 @@
 
 </head>
 
-<body <?php if ($useDarkMode) { echo "class='dark-mode'"; } ?> onload="detectDarkMode()" >
+<body onload="detectDarkMode()" >
 
 <style>
     #page {
