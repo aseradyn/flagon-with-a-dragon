@@ -1,5 +1,5 @@
 <!-- 
-    Hand-crafted artisinal code right here, lads!
+    Hand-crafted artisinal code right here, folks!
 
 
     If you want to see how it is built, it's in a public repo:
