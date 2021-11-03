@@ -14,17 +14,27 @@
         display: grid;
         grid-template-columns: repeat(2, calc(50% - 10px));
         align-items: stretch;
-        justify-items: center;
+        justify-items: stretch;
         gap: 20px;
         padding: 20px;
 
         @media only screen and (max-width: 950px) {
-            grid-template-columns: auto;
+            grid-template-columns: 1fr;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        .subject-group {
+            grid-template-columns: 1fr;
         }
     }
     .subject-card {
         display: grid;
         grid-template-rows: auto auto;
+    }
+    @media screen and (max-width: 500px) {
+        .subject-card {
+            width: 100%;
+        }
     }
     .subject-description {
         align-self: start;
@@ -112,11 +122,11 @@
     </div>
 
 <hr style="margin-bottom: 20px; margin-top: 20px;"/>
-<div style="display: grid; gap: 20px; grid-template-columns: auto auto">
-    <div>
+<div style="display: grid; gap: 20px; grid-template-columns: auto auto; justify-items: center;">
+    <div style="text-align: center;">
         Recent craftings: <a href="https://www.instagram.com/jill.makes.stuff/">jill.makes.stuff</a>
     </div>
-    <div>
+    <div style="text-align: center">
         Photos of my dog: <a href="https://www.instagram.com/merry.miss.maisie/">merry.miss.maisie</a>
     </div>
 </div>

@@ -22,6 +22,11 @@ body {
 
     --single-column-width: 60em;
 }
+@media screen and (max-width: 800px) {
+    body {
+        --single-column-width: calc(100% - 30px);
+    }
+}
 body.dark-mode {
     color: var(--gray200);
     background-color: var(--gray700);

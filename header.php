@@ -9,6 +9,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="/theme/baseStyles.css" rel="stylesheet">
 
@@ -88,6 +89,11 @@
         grid-template-columns: 12em auto 10em;
         align-items: center;
     }
+    @media screen and (max-width: 500px) {
+        #header-layout {
+            grid-template-columns: 12em 1fr;
+        }
+    }
     #header-layout a {
         text-decoration: none;
         color: var(--primary500);
@@ -101,7 +107,9 @@
     }
     #header-layout .quip {
         font-size: 0.9em;
-        @media only screen and (max-width: 650px) {
+    }
+    @media screen and (max-width: 500px) {
+        #header-layout .quip-wrapper {
             display: none;
         }
     }
@@ -139,6 +147,12 @@
     #page-content {
         padding: 20px;
     }
+    @media screen and (max-width: 500px) {
+        #page-content {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
 
 </style>
 
@@ -151,8 +165,8 @@
                         Jill.Menning
                     </div>
                 </a>
-                <span className="quip-wrapper">
-                    <div className="quip">
+                <span class="quip-wrapper">
+                    <div class="quip">
                         Serial hobbyist. Plotter and schemer.
                     </div>
                 </span>
