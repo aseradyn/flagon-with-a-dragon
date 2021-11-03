@@ -14,18 +14,27 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="/theme/baseStyles.css" rel="stylesheet">
 
+    <?php 
+        include_once 'components/icon.php';
+
+        $useDarkMode = false;
+        if(!isset($_COOKIE["useDarkMode"])) {
+            if ($_COOKIE["useDarkMode"] == "true") {
+                $useDarkMode = true;
+            }
+        }
+    ?>
+
 <script>
 
     <?php 
-        include_once 'utilities/cookies.js'; 
-        include_once 'components/icon.php';
+        include_once 'utilities/cookies.js';
     ?>
 
     const detectDarkMode = () => {
         const _darkModeCookie = getCookie("useDarkMode");
-        const _preferDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        // if they have a dark mode cookie or their OS is set to dark mode, turn off the lights
-        if (_darkModeCookie === "true" || _preferDarkMode) {
+        // if they have a dark mode cookie, turn off the lights
+        if (_darkModeCookie === "true") {
             // apply the dark mode styles
             document.querySelector('body').classList.add('dark-mode');
             // highlight the right icon in the mode control
@@ -33,13 +42,11 @@
         } else {
             // use light mode
             // highlight the right icon in the mode control
-            const lightClasses = document.querySelector('#use-light-mode').classList;
             document.querySelector('#use-light-mode').classList.add('selected');
         }
     }
 
     // value = boolean; true = turn on dark mode; false = turn on light mode
-    // TODO: Is it worth coming up with a control to delete the cookie?
     const setDarkMode = (value) => {
         // set the cookies and toggle the body class
         if (value == true) {
@@ -60,7 +67,7 @@
 
 </head>
 
-<body onload="detectDarkMode()">
+<body <?php if ($useDarkMode) { echo "class='dark-mode'"; } ?> onload="detectDarkMode()" >
 
 <style>
     #page {
