@@ -58,6 +58,8 @@
 
 </script>
 
+<?php include "favicon/favicon.php" ?>
+
 </head>
 
 <body onload="detectDarkMode()" >
@@ -87,12 +89,12 @@
     #header-layout {
         padding: 5px 15px;
         display: grid;
-        grid-template-columns: 12em auto 10em;
+        grid-template-columns: 3.5em 12em auto 10em;
         align-items: center;
     }
     @media screen and (max-width: 500px) {
         #header-layout {
-            grid-template-columns: 12em 1fr;
+            grid-template-columns: 3.5em 12em 1fr;
         }
     }
     #header-layout a {
@@ -101,6 +103,16 @@
     }
     .dark-mode #header-layout a {
         color: var(--primary300);
+    }
+
+    #header-layout .logo {
+        filter: var(--primary500-filter);
+        outline: none;
+        border: none;
+        width: 3.5em;
+    }
+    .dark-mode #header-layout .logo {
+        filter: var(--primary300-filter);
     }
 
     #header-layout .quip-wrapper {
@@ -161,6 +173,9 @@
     <div id="top-wrapper">
         <div id="header-bar">
             <div id="header-layout">
+                <a href="/">
+                    <img src="3stars.svg" class="logo" />
+                </a>
                 <a href="/">
                     <div style="justify-self: start; font-family: 'SteelworksVintageDemo'; font-size: 2em">
                         Jill.Menning

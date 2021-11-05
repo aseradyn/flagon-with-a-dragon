@@ -3,8 +3,11 @@ body {
     --primary200: #ABD0ED;
     --primary20080: #ABD0ED80;
     --primary300: #68abde;
+    --primary300-filter: invert(62%) sepia(58%) saturate(379%) hue-rotate(165deg) brightness(93%) contrast(87%);
     --primary400: #236DA9;
+    --primary400-filter: invert(34%) sepia(85%) saturate(676%) hue-rotate(170deg) brightness(88%) contrast(86%);
     --primary500: #216497;
+    --primary500-filter: invert(28%) sepia(86%) saturate(465%) hue-rotate(162deg) brightness(103%) contrast(91%);
     --primary600: #0E2B44;
 
     --secondary100: #F0F9F6;
