@@ -10,8 +10,8 @@ function loadArticle($fileName, $category) {
 
     switch ($category) {
         case "personal":
-            $backLink = "/personal";
-            $folderRoot = "content/";
+            $backLink = "/personal";    // this is the route
+            $folderRoot = "content/";   // this is the folder where the files are
             break;
         case "webDev":
             $backLink = "/web-development";

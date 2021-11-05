@@ -122,6 +122,7 @@
     </div>
 
 <hr style="margin-bottom: 20px; margin-top: 20px;"/>
+
 <div style="display: grid; gap: 20px; grid-template-columns: auto auto; justify-items: center;">
     <div style="text-align: center;">
         Recent craftings: <a href="https://www.instagram.com/jill.makes.stuff/">jill.makes.stuff</a>
