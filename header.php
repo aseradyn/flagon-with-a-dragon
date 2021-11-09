@@ -174,7 +174,7 @@
         <div id="header-bar">
             <div id="header-layout">
                 <a href="/">
-                    <img src="3stars.svg" class="logo" />
+                    <img src="/3stars.svg" class="logo" />
                 </a>
                 <a href="/">
                     <div style="justify-self: start; font-family: 'SteelworksVintageDemo'; font-size: 2em">
