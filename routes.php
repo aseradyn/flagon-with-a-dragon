@@ -18,6 +18,7 @@
         "/highlight-menu-location" => "highlight-menu-location.md",
         "/links-in-php-and-html" => "links-in-php-and-html.md",
         "/simple-php-router" => "simple-php-router.md",
+        "/display-image-from-blob" => "display-image-from-blob.md",
     );
     
 ?>
