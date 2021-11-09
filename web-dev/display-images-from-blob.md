@@ -1,9 +1,11 @@
 Displaying Images from Blob Storage
 ===================================
 
-For an app I'm working on, we are allowing users to upload all types of files into storage and then retrieve them again. We have a page where they can see a "preview" of the file along with its details. For things like documents, that means embedding a viewer of some kind, but images are handled natively by the browser, so we figured we could just grab them out of blob and dump them into the page. Right?
+For an app I'm working on, we are allowing users to upload all types of files into storage and then retrieve them again. We have a page where they can see a "preview" of the file along with its details.
 
-Sort of.
+Since the files may contain confidential information, we do not allow public access to our blob storage. Instead, we have an authenticated API endpoint that returns the contents of a file, which we can then download or display.
+
+For things like documents, that means embedding a viewer of some kind, but images are handled natively by the browser, so we figured we could just grab them out of blob and dump them into the page. Right? Sort of.
 
 This does mostly work:
 
@@ -18,7 +20,7 @@ return (
 )
 ```
 
-But if you right-click on the image to save it or open it in a new tab, there's a problem: it's treated as text. It's a weird situation where the browser understands the file well enough to display it, but not well enough to let users work with it. But if you download the file (Chrome saves it as .txt) and then change the file extension... then it's a proper image again.
+But if you right-click on the image to save it or open it in a new tab, there's a problem: it's treated as text. It's a weird situation where the browser understands the file well enough to display it, but not well enough to let users work with it. But if you download the file (Chrome saves it as .txt) and then change the file extension to the right file type (say, .png), then it's a proper image again.
 
 We could have disabled the right-click menu on the image, but... yuck.
 
@@ -62,4 +64,4 @@ return (
 )
 ```
 
-Short and sweet!
+Short and sweet! Remember to put up guardrails so you're only trying to do this for image files. Happy coding!
