@@ -8,6 +8,11 @@
 
 $webDevelopmentPages = array(
     array(
+        "title" => "Displaying Images from Blob Storage",
+        "description" => "A rundown on how we display images from blob storage without exposing our blob publicly.",
+        "link" => "/display-images-from-blob"
+    ),
+    array(
         "title" => "Creating a Simple Blog without a Database",
         "description" => "In which I walk you through the setup for a very simple, no-frills blog running on a PHP server with no database, no API, and no messing about with CORS.",
         "link" => "/blog-with-markdown"
