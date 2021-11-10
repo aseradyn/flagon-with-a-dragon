@@ -1,3 +1,14 @@
+<style>
+    .article-card {
+        display: grid;
+        gap: 1rem;
+        grid-template-rows: 1fr 3fr 1fr;
+    }
+    .topic-title {
+        font-weight: bold;
+    }
+</style>
+
 <?php
 
 function ArticleCard(array $page) {
@@ -6,11 +17,11 @@ function ArticleCard(array $page) {
     $description = $page["description"];
     $link = $page["link"];
 
-    echo "  <p class='card'>
+    echo "  <div class='card article-card'>
             <span class='topic-title'>$title</span>
-            <br />$description
-            <br /><a href='$link' title='Read $title'>Read it</a>
-            </p>
+            <span class='topic-description'>$description</span>
+            <span class='topic-link'><a href='$link' title='Read $title'>Read it</a></span>
+            </div>
         ";
 }
 
