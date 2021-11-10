@@ -3,7 +3,7 @@
         margin-top: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 20px;
+        gap: 2rem;
 
         @media (max-width: 800px) {
             grid-template-columns: auto;
@@ -15,20 +15,20 @@
 </style>
 
 <div class="page-content">
-    <div class="card" style="margin-left: auto; margin-right: auto">
-        <h1>I Build Tools to Make Life Easier</h1>
-        <p>
-            My passion is creating tools that are genuinely useful. Sometimes that's 
-            a suite of software the requires a team of professionals to build out, and 
-            sometimes it's a set of instructions knocked out by a single person in an
-            afternoon.
-        </p>
-    </div>
+    <div class="single-column-layout">
     <div class="professional-grid">
+        <div class="card" style="grid-column: span 2; text-align: center;">
+            <h1>I Build Tools that Make Work Easier</h1>
+            <p>
+                <i>I love creating tools that are genuinely useful.</i> 
+            </p>
+            <p style="font-style: italic;">I believe in the power of dumb questions and bad suggestions.</p>
+            <p style="font-style: italic;">I also bring the sarcasm and a great laugh.</p>
+        </div>
         <div class="card">
             <h2>User Experience</h2>
             <p class="tldr">
-                TL;DR : I care about making it work well more than making it pretty.
+                TL;DR: Function first, then pretty.
             </p>
             <p>My areas of focus in UX are:</p>
             <ul>
@@ -47,7 +47,7 @@
         <div class="card">
             <h2>Web Development</h2>
             <p class="tldr">
-                TL;DR : CSS, React, Typescript, C# MVC, SQL, and a little PHP.
+                TL;DR: A little of a lot, heavy in the front-end.
             </p>
                 <ul>
                     <li>Extensive experience with HTML and CSS - I 💙 CSS!</li>
@@ -83,7 +83,7 @@
             <ul>
                     <li>documentation to help onboard new team members</li>
                     <li>articles to teach new skills to my fellow developers</li>
-                    <li>record important information in an accessible way</li>
+                    <li>records of important information</li>
                     <li>best practices and style guidelines</li>
                     <li>error messages, emails, and on-screen text for our software</li>
                 </ul>
@@ -106,6 +106,7 @@
                 <li>Building, rebuilding, and tinkering with my personal web site 😇</li>
             </ul>
         </div>
+        
     </div>
-            
+</div>   
 </div>
