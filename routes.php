@@ -5,6 +5,7 @@
         "/" => "index.php",
         "/info" => "info/index.php",
         "/webdev" => "webdev/index.php",
+        "/places" => "places/grand-canyon.php"
     );
 
     $personalMDFiles = array(
