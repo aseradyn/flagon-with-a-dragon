@@ -2,8 +2,7 @@
 
 function loadPage($page) {
     include "header.php";
-    include($page);
-    include "footer.php";
+    include("routes/".$page);
 }
 
 function loadArticle($fileName, $category) {
@@ -21,22 +20,25 @@ function loadArticle($fileName, $category) {
             $backLink = "/"; // site root
     }
 
-    include "header.php";
-
-    echo "<div class='single-column-layout'>";
-    echo "<div class='article-back-link'>";
-    Icon("arrow_back");
-    echo "<a href='$backLink' title='Go to list of topics'>Back to the list</a>";
-    echo "</div>";
-
     include_once "utilities/markdown/index.php";
     $html = processMarkdown($folderRoot.$fileName);
-    echo "<article class='card'>$html</article>";
 
-    echo "<a href='$backLink' title='Go to list of topics'><p>More like this, please!</p></a>";
-    echo "</div>";
+    include "header.php";
+    ?>
 
-    include "footer.php";
+    <div id="page-content">
+        <div class='single-column-layout'>
+            <div class='article-back-link'>
+                <?php Icon("arrow_back"); ?>
+                <a href='<?php echo $backLink ?>' title='Go to list of topics'>Back to the list</a>
+            </div>
+            <article class='card'><?php echo $html ?></article>
+            <a href='<?php echo $backLink ?>' title='Go to list of topics'>
+                <p>More like this, please!</p>
+            </a>
+        </div>
+    </div>
+<?php
 }
 
 $request = $_SERVER['REQUEST_URI'];

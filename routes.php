@@ -1,11 +1,10 @@
 <?php
 
     $pageRoutes = array(
-        "" => "home.php",
-        "/" => "home.php",
-        "/personal" => "personal/personal.php",
-        "/professional" => "professional/professional.php",
-        "/web-development" => "web-dev/web-development.php",
+        "" => "index.php",
+        "/" => "index.php",
+        "/info" => "info/index.php",
+        "/webdev" => "webdev/index.php",
     );
 
     $personalMDFiles = array(

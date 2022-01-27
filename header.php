@@ -6,16 +6,24 @@
     https://github.com/aseradyn/flagon-with-a-dragon
 -->
 
-<?php 
-    $useDarkMode = false;
-    if(isset($_COOKIE["useDarkMode"])) {
-        if ($_COOKIE["useDarkMode"] == "true") {
-            $useDarkMode = true;
-        }
+<?php
+
+function isCurrentPath($pathString, $onlyExact = false) {
+    $pathName = $_SERVER['REQUEST_URI'];
+    if ($pathString = $pathName) {
+        echo 'class="active"';
+        return true;
+    } else if (!$onlyExact && strrpos($pathName, $pathString)) {
+        echo 'class="active"';
+        return true;
+    } else {
+        return false;
     }
+}
+
 ?>
 
-<html <?php if ($useDarkMode) { echo "class='dark-mode'"; } ?>>
+<html>
 
 <head>
     <title>Jill Menning</title>
@@ -25,137 +33,47 @@
 
     <?php include_once 'components/icon.php'; ?>
 
-<script>
-
-    <?php include_once 'utilities/cookies.js'; ?>
-
-    const detectDarkMode = () => {
-        const _darkModeCookie = getCookie("useDarkMode");
-        if (_darkModeCookie === "true") {
-            // highlight the right icon in the mode control
-            document.querySelector('#use-dark-mode').classList.add('selected');
-        } else {
-            document.querySelector('#use-light-mode').classList.add('selected');
-        }
-    }
-
-    // value = boolean; true = turn on dark mode; false = turn on light mode
-    const setDarkMode = (value) => {
-        // set the cookies and toggle the body class
-        if (value == true) {
-            document.cookie = "useDarkMode=true;path=/";
-            document.querySelector('html').classList.add('dark-mode');
-            document.querySelector('#use-dark-mode').classList.add('selected');
-            document.querySelector('#use-light-mode').classList.remove('selected');
-        }
-        if (value == false) {
-            document.cookie = "useDarkMode=false;path=/";
-            document.querySelector('html').classList.remove('dark-mode');
-            document.querySelector('#use-dark-mode').classList.remove('selected');
-            document.querySelector('#use-light-mode').classList.add('selected');
-        }
-    }
-
-</script>
-
 <?php include "favicon/favicon.php" ?>
 
 </head>
 
-<body onload="detectDarkMode()" >
+<body>
+
+<header id="pageHeader">
+	
+
+	<nav id="siteNav">
+		<svg viewBox="0 0 2 3" aria-hidden="true">
+			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
+		</svg>
+		<ul>
+			<li <?php isCurrentPath("/", true) ?>>
+				<a href="/">Home</a>
+			</li>
+			<li <?php isCurrentPath("/info")?>>
+				<a href="/info">Info</a>
+			</li>
+			<li <?php isCurrentPath("/webdev")?>>
+				<a href="/webdev">Web Dev</a>
+			</li>
+			<li <?php isCurrentPath("/places")?>>
+				<a href="/places">Places</a>
+			</li>
+			<li <?php isCurrentPath("/hobbies")?>>
+				<a href="/hobbies/baskets">Hobbies</a>
+			</li>
+		</ul>
+		<svg viewBox="0 0 2 3" aria-hidden="true">
+			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
+		</svg>
+	</nav>
+</header>
 
 <style>
     #page {
         min-height: 100vh;
         display: grid;
         grid-template-rows: auto 5em;
-    }
-    #header-bar {
-        position: sticky;
-        top: 0px;
-        border-bottom: 1px solid var(--primary200);
-        background-color: var(--primary100);
-        color: var(--primary400);
-        padding: 5px;
-        box-shadow: 0px 5px 10px var(--primary500);
-    }
-    .dark-mode #header-bar {
-        border-bottom-color: var(--primary400);
-        background-color: var(--gray700);
-        color: var(--primary300);
-        box-shadow: 0px 5px 10px var(--primary400);
-    }
-
-    #header-layout {
-        padding: 5px 15px;
-        display: grid;
-        grid-template-columns: 3.5em 12em auto 10em;
-        align-items: center;
-    }
-    @media screen and (max-width: 500px) {
-        #header-layout {
-            grid-template-columns: 3.5em 12em 1fr;
-        }
-    }
-    #header-layout a {
-        text-decoration: none;
-        color: var(--primary500);
-    }
-    .dark-mode #header-layout a {
-        color: var(--primary300);
-    }
-
-    #header-layout .logo {
-        filter: var(--primary500-filter);
-        outline: none;
-        border: none;
-        width: 3.5em;
-    }
-    .dark-mode #header-layout .logo {
-        filter: var(--primary300-filter);
-    }
-
-    #header-layout .quip-wrapper {
-        justify-self: end;
-    }
-    #header-layout .quip {
-        font-size: 0.9em;
-    }
-    @media screen and (max-width: 500px) {
-        #header-layout .quip-wrapper {
-            display: none;
-        }
-    }
-    #color-mode-control {
-        justify-self: end;
-        cursor: pointer;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10px;
-    }
-
-    #color-mode-control > a > span {
-        color: var(--primary500);
-        border: 1px solid var(--primary100);
-        border-radius: 20px;
-        padding: 5px;
-    }
-    .dark-mode #color-mode-control > a > span {
-        color: var(--primary300);
-        border-color: var(--gray700);
-    }
-
-    #color-mode-control > a > span:hover {
-        background-color: var(--primary20080);
-    }
-    .dark-mode #color-mode-control > a > span:hover {
-        background-color: rgb(255, 255, 255, 0.1);
-    }
-    #color-mode-control > a.selected > span {
-        border: 1px solid var(--primary500);
-    }
-    #color-mode-control > a.selected > span {
-        border-color: var(--primary300);
     }
     #page-content {
         padding: 20px;
@@ -166,34 +84,77 @@
             padding-right: 10px;
         }
     }
+    #pageHeader {
+		display: grid;
+		align-items: center;
+	}
+    .name-full {
+		display: none;
+	}
+	@media screen and (min-width: 50em) {
+		.name-full {
+			display: block;
+		}
+		.name-clipped {
+			display: none;
+		}
+	}
 
+    #siteNav {
+		display: flex;
+		justify-content: center;
+		--background: rgba(255, 255, 255, 0.1);
+		filter: drop-shadow(0px 0px 15px #000);
+	}
+	#siteNav svg {
+		width: 2em;
+		height: 3em;
+		display: block;
+	}
+	#siteNav path {
+		fill: var(--background);
+	}
+	#siteNav ul {
+		position: relative;
+		padding: 0;
+		margin: 0;
+		height: 3em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		list-style: none;
+		background: var(--background);
+		background-size: contain;
+	}
+	#siteNav li {
+		position: relative;
+		height: 100%;
+	}
+	#siteNav li.active::before {
+		--size: 6px;
+		content: '';
+		width: 0;
+		height: 0;
+		position: absolute;
+		top: 0;
+		left: calc(50% - var(--size));
+		border: var(--size) solid transparent;
+		border-top: var(--size) solid var(--accent-color);
+	}
+	#siteNav a {
+		display: flex;
+		height: 100%;
+		align-items: center;
+		padding: 0 1em;
+		color: var(--heading-color);
+		font-weight: 700;
+		font-size: 0.8rem;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		text-decoration: none;
+		transition: color 0.2s linear;
+	}
+	#siteNav a:hover {
+		color: var(--accent-color);
+	}
 </style>
-
-<div id="page">
-    <div id="top-wrapper">
-        <div id="header-bar">
-            <div id="header-layout">
-                <a href="/">
-                    <img src="/3stars.svg" class="logo" />
-                </a>
-                <a href="/">
-                    <div style="justify-self: start; font-family: 'SteelworksVintageDemo'; font-size: 2em">
-                        Jill.Menning
-                    </div>
-                </a>
-                <span class="quip-wrapper">
-                    <div class="quip">
-                        Serial hobbyist. Plotter and schemer.
-                    </div>
-                </span>
-                <div id="color-mode-control">
-                    <a href='javascript:setDarkMode(true)' id="use-dark-mode" alt="Enable dark mode" title="Enable dark mode">
-                        <?php Icon("dark_mode") ?>
-                    </a>
-                    <a href='javascript:setDarkMode(false)' id="use-light-mode" alt="Enable light mode" title="Enable light mode">
-                        <?php Icon("light_mode") ?>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div id="page-content">

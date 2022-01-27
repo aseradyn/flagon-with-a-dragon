@@ -13,8 +13,9 @@
 }
 
 body {
-    color: var(--gray900);
-    background-color: var(--primary200);
+    background-color: #0e2b44;
+    background-image: url("/theme/ffflurry.svg");
+    color: var(--gray100);
     padding: 0px;
     margin: 0px;
     font-family: Inter, Arial, sans-serif;
@@ -27,13 +28,14 @@ body {
         --single-column-width: calc(100vw - 30px);
     }
 }
-html.dark-mode body {
-    color: var(--gray200);
-    background-color: var(--gray700);
+
+.reading-width {
+    width: 100%;
+    max-width: var(--single-column-width);
 }
 
 a, a:hover, a:visited {
-    color: var(--secondary700);
+    color: var(--accent600);
     text-underline-position: under;
 }
 .dark-mode a:any-link {
@@ -43,11 +45,17 @@ a, a:hover, a:visited {
 h1 {
     font-size: 1.4em;
     font-variant: small-caps;
+    text-align: center;
+    margin-top: 40px;
 }
 h2 {
     font-size: 1.15em;
     font-variant: small-caps;
     margin-top: 30px;
+    text-align: center;
+}
+h3 {
+    text-align: center;
 }
 pre, code {
     white-space: pre-line;
