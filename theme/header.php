@@ -2,18 +2,20 @@
     Hand-crafted artisinal code right here, folks!
 
 
-    If you want to see how it is built, it's in a public repo:
+    If you want to see how it is built, it's in a public repo, which may be easier to examine:
     https://github.com/aseradyn/flagon-with-a-dragon
 -->
 
 <?php
 
 function isCurrentPath($pathString, $onlyExact = false) {
-    $pathName = $_SERVER['REQUEST_URI'];
-    if ($pathString = $pathName) {
+	$currentPath = $_SERVER['REQUEST_URI'];
+	$currentPath = rtrim($currentPath, '/\\'); // ignore trailing slashes
+    
+    if ($pathString == $currentPath) {
         echo 'class="active"';
         return true;
-    } else if (!$onlyExact && strrpos($pathName, $pathString)) {
+    } else if (!$onlyExact && stristr($currentPath, $pathString)) {
         echo 'class="active"';
         return true;
     } else {
@@ -40,14 +42,12 @@ function isCurrentPath($pathString, $onlyExact = false) {
 <body>
 
 <header id="pageHeader">
-	
-
 	<nav id="siteNav">
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
 		<ul>
-			<li <?php isCurrentPath("/", true) ?>>
+			<li <?php isCurrentPath("", true) ?>>
 				<a href="/">Home</a>
 			</li>
 			<li <?php isCurrentPath("/info")?>>
@@ -107,8 +107,8 @@ function isCurrentPath($pathString, $onlyExact = false) {
 		filter: drop-shadow(0px 0px 15px #000);
 	}
 	#siteNav svg {
-		width: 2em;
-		height: 3em;
+		width: calc(2em + 3px);
+		height: calc(3em + 5px);
 		display: block;
 	}
 	#siteNav path {
@@ -117,6 +117,7 @@ function isCurrentPath($pathString, $onlyExact = false) {
 	#siteNav ul {
 		position: relative;
 		padding: 0;
+		padding-top: 5px;
 		margin: 0;
 		height: 3em;
 		display: flex;
@@ -129,6 +130,7 @@ function isCurrentPath($pathString, $onlyExact = false) {
 	#siteNav li {
 		position: relative;
 		height: 100%;
+		
 	}
 	#siteNav li.active::before {
 		--size: 6px;
@@ -139,7 +141,7 @@ function isCurrentPath($pathString, $onlyExact = false) {
 		top: 0;
 		left: calc(50% - var(--size));
 		border: var(--size) solid transparent;
-		border-top: var(--size) solid var(--accent-color);
+		border-top: var(--size) solid var(--accent500);
 	}
 	#siteNav a {
 		display: flex;
