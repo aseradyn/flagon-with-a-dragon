@@ -30,16 +30,15 @@ function isCurrentPath($pathString, $onlyExact = false) {
 <head>
     <title>Jill Menning</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="/theme/baseStyles.css" rel="stylesheet">
-
-    <?php include_once 'components/icon.php'; ?>
-
-<?php include "favicon/favicon.php" ?>
 
 </head>
 
 <body>
+
+<style>
+	<?php include_once($_SERVER["DOCUMENT_ROOT"]."/theme/colors.css"); ?>
+	<?php include_once($_SERVER["DOCUMENT_ROOT"]."/theme/baseStyles.css"); ?>
+</style>
 
 <header id="pageHeader">
 	<nav id="siteNav">
