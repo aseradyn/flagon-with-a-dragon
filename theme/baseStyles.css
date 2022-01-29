@@ -15,11 +15,11 @@
 body {
     background-color: #0e2b44;
     background-image: url("/theme/ffflurry.svg");
-    color: var(--gray100);
+    color: rgb(255,255,255,0.7);
     padding: 0px;
     margin: 0px;
     font-family: Inter, Arial, sans-serif;
-    font-size: 14px;
+    
 
     --single-column-width: 60em;
 }
@@ -114,16 +114,4 @@ li {
 
 .material-icons {
     color: var(--primary400);
-}
-.dark-mode .material-icons {
-    color: var(--primary300);
-}
-
-img {
-    border: 10px solid white;
-    outline: 1px solid var(--primary300);
-    max-width: calc(100% - 20px);
-}
-.dark-mode img {
-    border-color: var(--gray900);
 }

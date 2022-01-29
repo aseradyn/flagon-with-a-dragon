@@ -3,11 +3,7 @@
     // TODO: Get resized images from Cloudinary
     // TODO: Add basic lightbox
 
-    class Photo {
-        public $path;
-        public $alt;
-        public $caption;
-    }
+    include_once($_SERVER["DOCUMENT_ROOT"]."/components/Photo.php");
 
     function PhotoList($photos) {
         ?>
@@ -16,12 +12,12 @@
 
         <?php
         foreach ($photos as $photo) {
-
+            
             $rotation = rand(-2,2);
         ?>    
 
             <div class="photoList-card" style="transform: rotate(<?php echo $rotation ?>deg)">
-                <img src="<?php echo $photo->path ?>" title="<?php echo $photo->caption ?>" alt="<?php echo $photo->alt ?>" />
+                <?php Photo($photo) ?>
             </div>
 
         <?php

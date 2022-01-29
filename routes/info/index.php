@@ -21,12 +21,17 @@
 
 	<h2>About This Site</h2>
 	<p>
-		The site is built with SvelteKit, compiled into a static site, and hosted on Digital Ocean's App Platform. SvelteKit is a new
-		thing for me, and I've been falling in love with it's developer experience.
+		I have had a web site up at this domain since at least 2005. I had it earlier than that, but lost it when my host+registrar went bankrupt. It took me a 
+		few years to get the domain back.
 	</p>
 	<p>
-		I use Cloudinary as a CDN for my photos. Because I'm cheap and don't need anything fancy,
-		I just use do a lot of copy-paste of URLs into my local objects, and use the URL arguments (from the
-		<a href="https://cloudinary.com/cookbook">Cloudinary Cookbook</a>) for the little bit of image manipulation I need.
+		The current site is built with PHP. <a href="https://github.com/aseradyn/flagon-with-a-dragon">The repo is public</a>, if you feel like poking around. I love GitHub
+		both for it's minimum-viable IDE (in case I want to make changes when I'm away from my computer) and for its integration with serverless hosting. This site is
+		hosted on Digital Ocean's App Platform (very slick) and protected by Cloudflare.
+	</p>
+	<p>
+		I use Cloudinary as a CDN for my photos. I highly recommend it. If you're cheap (like me) and can do without API access, it lets you 
+		download images in any size you need - from thumbnails to full size - at least, up to a point (there is a file size limit). I use the
+		<a href="https://cloudinary.com/cookbook">Cloudinary Cookbook</a> for that little bit of image manipulation.
 	</p>
 </div>

@@ -21,9 +21,13 @@
 	
 	<ul class="uptos">
 		<li style="list-style-type: '👩‍💻'">
+			Inspired by SvelteKit, I rewrote my router and reorganized the files on my site, as well as giving it a big facelift. I'm going to 
+			write about the router thing soon.
+		</li>
+		<li style="list-style-type: '👩‍💻'">
 			I decided I didn't like my new web site after all, and started a new-new site built with SvelteKit! I'm learning some new stuff along
-			the way, and having a great time. Of course, I inevitably ran into deployment issues when I decided to try hosting it (it's new, it's Node, it can get nasty), 
-            so I ended up revamping my PHP site instead 😊
+			the way, and having a great time. Of course, I inevitably ran into deployment issues (it's new, it's Node, it can get nasty), 
+            so I don't think it's quite right for me ... yet?
 		</li>
 		<li style="list-style-type: '🎧'">
 			I binged all 24 episodes of <a href="https://boghouse.thehannah.org/">'The Boghouse'</a>, a podcast by and about a 
