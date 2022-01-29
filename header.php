@@ -60,7 +60,7 @@ function isCurrentPath($pathString, $onlyExact = false) {
 				<a href="/places">Places</a>
 			</li>
 			<li <?php isCurrentPath("/hobbies")?>>
-				<a href="/hobbies/baskets">Hobbies</a>
+				<a href="/hobbies">Hobbies</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">

@@ -24,7 +24,7 @@ But this part of Texas does have one other redeeming feature: the clouds at dawn
 
 So, get up early, and go exploring.  Places that are ordinary and dull in broad daylight are sometimes incredibly beautiful in the pre-dawn light, and it's totally worth heading out to find them.
 
-![Smither's Lake](content/photo-tips-for-coastal-tx/2013-10-03_DawnAtSmithersLake.jpg)
+![Smither's Lake](/routes/hobbies/photography/photo-tips-for-coastal-tx/2013-10-03_DawnAtSmithersLake.jpg)
 
 Tip 2: Pay attention to how you handle your lenses
 --------------------------------------------------
@@ -48,7 +48,7 @@ One of the easiest ways to work with this type of environment is to use a longer
 
 Zooming with your feet is also an option, but only in some places, and only if you are properly protected. In many areas, you are going to face private fences (often with armed property owners), alligator-infested water covering sticky mud that will try to eat your shoes, sharp-edged grass that will leave your legs bleeding, or almost-impenetrable thorn-filled brush. Keep in mind, too, that we have both rattlesnakes and cottonmouths throughout this area, which can make off-path hiking somewhat more dangerous. Welcome to the sub-tropical zone.
 
-![40 Acre Lake at Brazos Bend State Park](content/photo-tips-for-coastal-tx/2013-10-03_40AcreLake.jpg)
+![40 Acre Lake at Brazos Bend State Park](/routes/hobbies/photography/photo-tips-for-coastal-tx/2013-10-03_40AcreLake.jpg)
 
 Tip 4: Partly Cloudy/Chance of Storms == WIN
 --------------------------------------------
@@ -59,7 +59,7 @@ Still, the best clouds, in my opinion, come on those days when we have a forecas
 
 So watch the weather forecast, and then check the satellite and radar maps. Keep in mind that blue on the radar often indicates just high humidity and/or dust, not rain.  Those are promising indicators for colorful sunrises and sunsets.
 
-![Clouds over Brazoria NWR](content/photo-tips-for-coastal-tx/2013-10-03_ToweringCloudOverBrazoriaNWR.jpg)
+![Clouds over Brazoria NWR](/routes/hobbies/photography/photo-tips-for-coastal-tx/2013-10-03_ToweringCloudOverBrazoriaNWR.jpg)
 
 Tip 5: Prepare for the deluge
 -----------------------------

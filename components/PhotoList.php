@@ -1,5 +1,8 @@
 <?php
 
+    // TODO: Get resized images from Cloudinary
+    // TODO: Add basic lightbox
+
     class Photo {
         public $path;
         public $alt;

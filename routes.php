@@ -1,24 +1,53 @@
 <?php
 
-    $pageRoutes = array(
-        "" => "index.php",
-        "/" => "index.php",
-        "/info" => "info/index.php",
-        "/webdev" => "webdev/index.php",
-        "/places" => "places/grand-canyon.php"
-    );
+    function findPHPRoutes() {
 
-    $personalMDFiles = array(
-        "/photo-tips-for-coastal-tx" => "photo-tips-for-coastal-tx.md"
-    );
+        $Directory = new RecursiveDirectoryIterator($_SERVER["DOCUMENT_ROOT"].'/routes');
+        $Iterator = new RecursiveIteratorIterator($Directory);
+        $Regex = new RegexIterator($Iterator, '/^.+\.php$/i', RecursiveRegexIterator::GET_MATCH);
 
-    $webDevMDFiles = array(
-        "/blog-with-markdown" => "blog-with-markdown.md",
-        "/prettier-paths-with-htaccess" => "prettier-paths-with-htaccess.md",
-        "/highlight-menu-location" => "highlight-menu-location.md",
-        "/links-in-php-and-html" => "links-in-php-and-html.md",
-        "/simple-php-router" => "simple-php-router.md",
-        "/display-images-from-blob" => "display-images-from-blob.md",
-    );
+        $phpRoutes = array();
+
+        foreach($Regex as $v){
+            $pathString = $v[0];                                                // blah\blah\routes/info/index.php
+            $pathString = str_replace('\\', '/', $pathString);                  // blah/blah/routes/info/index.php
+            $routesEnd = strrpos($pathString, "/routes/") + 7;                  
+            $clippedPath = substr($pathString, $routesEnd);                     // info/index.php
+            $clippedExtension = substr($clippedPath, 0, -4);                    // info/index
+            
+            $phpRoutes[$clippedExtension] = $clippedExtension;
+
+            // if it's an index file, we also want the bare path
+            $substring = substr($clippedExtension, -5);
+            if ($substring == "index") {
+                $clippedIndex = substr($clippedPath, 0, -10);                    // info
+                $phpRoutes[$clippedIndex] = $clippedExtension;
+            }
+            
+        }
+
+        return $phpRoutes;
+    }
+
+    function findMarkdownRoutes() {
+
+        $Directory = new RecursiveDirectoryIterator($_SERVER["DOCUMENT_ROOT"].'/routes');
+        $Iterator = new RecursiveIteratorIterator($Directory);
+        $Regex = new RegexIterator($Iterator, '/^.+\.md$/i', RecursiveRegexIterator::GET_MATCH);
+
+        $markdownRoutes = array();
+
+        foreach($Regex as $v){
+            $pathString = $v[0];                                                // blah\blah\routes/info/index.php
+            $pathString = str_replace('\\', '/', $pathString);                  // blah/blah/routes/info/index.php
+            $routesEnd = strrpos($pathString, "/routes/") + 7;                  
+            $clippedPath = substr($pathString, $routesEnd);                     // info/index.php
+            $clippedExtension = substr($clippedPath, 0, -3);                    // info/index
+
+            $markdownRoutes[$clippedExtension] = $clippedExtension;
+        }
+
+        return $markdownRoutes;
+    }
     
 ?>
