@@ -14,7 +14,7 @@
 
 body {
     background-color: #0e2b44;
-    background-image: url("/theme/ffflurry.svg");
+    background-image: url("/theme/images/ffflurry.svg");
     color: rgb(255,255,255,0.7);
     padding: 0px;
     margin: 0px;
@@ -37,9 +37,6 @@ body {
 a, a:hover, a:visited {
     color: var(--accent600);
     text-underline-position: under;
-}
-.dark-mode a:any-link {
-    color: var(--secondary500);
 }
 
 h1 {
@@ -90,11 +87,6 @@ hr {
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0px 2px 5px var(--primary500);
-}
-.dark-mode .card {
-    background-color: inherit;
-    border: 1px solid var(--primary400);
-    box-shadow: 0px 0px 3px var(--primary500);
 }
 .card h1,
 .card h2 {
