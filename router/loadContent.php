@@ -6,13 +6,30 @@ function loadPage($path) {
 
 function loadArticle($fileName) {
 
+    ?>
+
+    <!-- code highlighting -->
+    <style>
+        <?php include $_SERVER["DOCUMENT_ROOT"]."/theme/highlightjsTheme.css" ?>
+    </style>
+    <script src="/utilities/highlightjs/highlight.min.js"></script>
+    <script src="/utilities/highlightjs/php.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.querySelectorAll('pre code').forEach((el) => {
+                hljs.highlightElement(el);
+            });
+        });
+    </script>
+
+    <?php
     include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/php-markdown-extra/markdown.php";
     $markdown = file_get_contents($_SERVER["DOCUMENT_ROOT"]."/pages".$fileName.".md");
     $my_html = Markdown($markdown);
 
     ?>
     
-    <article class='single-column-layout'>
+    <article class='single-column-layout markdown'>
         <?php echo $my_html ?>
     </article>
     

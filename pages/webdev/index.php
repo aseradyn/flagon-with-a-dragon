@@ -43,7 +43,7 @@
         to tweak than the off-the-shelf packages. This is what I came up with.
         </p>
         <p>
-        <h3><a href="/webdev/blog-with-markdown.md">A Simple Blog based on Markdown (no database)</a></h3>
+        <h3><a href="/webdev/blog-with-markdown">A Simple Blog based on Markdown (no database)</a></h3>
 
         I have never particularly liked dealing with infrastructure, so the more I can do in code, the happier I am 😊
         This topic walks through an approach to creating a lightweight blog that gives you the simplicity and freedom to

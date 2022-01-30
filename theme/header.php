@@ -24,7 +24,7 @@ function isCurrentPath($pathString, $onlyExact = false) {
 }
 
 ?>
-
+<!DOCTYPE html>
 <html>
 
 <head>
