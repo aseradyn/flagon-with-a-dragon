@@ -23,14 +23,19 @@ function loadArticle($fileName) {
     </script>
 
     <?php
-    include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/php-markdown-extra/markdown.php";
+    include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/parsedown/index.php";
+    $Parsedown = new Parsedown();
+
     $markdown = file_get_contents($_SERVER["DOCUMENT_ROOT"]."/pages".$fileName.".md");
-    $my_html = Markdown($markdown);
+   
+
+    //$markdown = file_get_contents($_SERVER["DOCUMENT_ROOT"]."/pages".$fileName.".md");
+    // $my_html = Markdown($markdown);
 
     ?>
     
     <article class='single-column-layout markdown'>
-        <?php echo $my_html ?>
+        <?php echo $Parsedown->text($markdown) ?>
     </article>
     
     <?php

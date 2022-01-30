@@ -9,7 +9,7 @@ I do a lot - but not all - of my pages in Markdown, so I wanted something that w
 
 This method needs three pieces:
 
-* A .htaccess file to route all requests to the index.php file [^1]
+* A .htaccess file to route all requests to the index.php file (and an Apache server that supports this - most do, I think?)
 
 * One or more arrays of paths that you can use to resolve the paths
 
@@ -139,5 +139,3 @@ For example, if you need to do more to load the content - insert sub-menus or di
 If you want to process or handle another type of file, you can write a new array and add it to the router pretty quickly.
 
 Have fun!
-
-[^1]: .htaccess files only work on Apache servers. Most basic PHP sites have been traditionally hosted on Linux Apache (classic LAMP stack = Linux Apache MySQL PHP), though I understand that may be changing. Being cheap, and not much interested in managing my own infrastructure, I have not worked with IIS or Nginx. I believe you can do something similar with config files on those servers.

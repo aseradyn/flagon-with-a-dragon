@@ -12,7 +12,7 @@ Prerequisites
 
 To make this solution work, you need:
 
-* a server running PHP, with .htaccess files enabled (for rewrite rules)
+* an Apache server running PHP, with .htaccess files enabled (for rewrite rules)
 
 * [markdown.php](https://michelf.ca/projects/php-markdown/classic/).
 
