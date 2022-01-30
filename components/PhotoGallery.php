@@ -1,8 +1,5 @@
 <?php
 
-    // TODO: Get resized images from Cloudinary
-    // TODO: Add basic lightbox
-
     include_once($_SERVER["DOCUMENT_ROOT"]."/components/Photo.php");
 
     function PhotoList($photos) {
@@ -39,9 +36,7 @@
         <div id=<?php echo $key ?> class="lightbox-overlay hide" onClick=hideLightbox(<?php echo $key ?>)>
             <div class="lightbox-positioning">
                 <div class="lightbox photo-card">
-                    <div class="lightbox-image-wrapper">
                         <?php Photo($photo, "lightbox") ?>
-                    </div>
                     <div class="lightbox-caption">
                         <?php echo $photo->caption ?>
                     </div>
@@ -96,8 +91,10 @@
         justify-items: center;
     }
     .lightbox {
+        max-height: 100vh;
     }
-    .lightbox-image-wrapper {
+    .lightbox img {
+        max-height: 80vh;
     }
     .lightbox-caption {
         max-width: 800px;
