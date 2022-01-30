@@ -2,6 +2,6 @@
 
 <?php
 
-    phpinfo();
+    //phpinfo();
 
 ?>
