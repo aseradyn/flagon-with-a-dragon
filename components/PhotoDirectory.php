@@ -23,7 +23,12 @@
             <a href="<?php echo $page->link ?>">
                 <div class="photoDirectory-card-wrapper" style="transform: rotate(<?php echo $rotation ?>deg)">
                     <div>
-                       <?php echo Photo($page->photo, "thumbnail"); ?>
+                       <?php 
+                            echo Photo(
+                                    photo: $page->photo,
+                                    type: "thumbnail"
+                            ); 
+                        ?>
                     </div>
                     <div class="photoDirectory-caption"><?php echo $page->title ?></div>
                 </div>

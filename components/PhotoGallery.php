@@ -29,16 +29,20 @@
 
         <a href="/photos/singlePhoto?path=<?php echo $photo->path ?>" onClick=showLightbox(<?php echo $key ?>)>
             <div class="photoList-card" style="transform: rotate(<?php echo $rotation ?>deg)">
-                <?php Photo($photo, "thumbnail") ?>
+                <?php Photo(photo: $photo, type: "thumbnail") ?>
             </div>
         </a>
 
         <div id=<?php echo $key ?> class="lightbox-overlay hide" onClick=hideLightbox(<?php echo $key ?>)>
             <div class="lightbox-positioning">
                 <div class="lightbox photo-card">
-                        <?php Photo($photo, "lightbox") ?>
+                        <?php 
+                            Photo(photo: $photo, type: "lightbox") 
+                        ?>
                     <div class="lightbox-caption">
-                        <?php echo $photo->caption ?>
+                        <?php 
+                            echo $photo->caption 
+                        ?>
                     </div>
                 </div>
             </div>
