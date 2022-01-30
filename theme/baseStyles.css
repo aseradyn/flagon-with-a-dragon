@@ -100,6 +100,8 @@ section.inlineHeadings h3 {
     max-width: var(--single-column-width);
     margin-left: auto;
     margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 .card {
     padding: 10px;
@@ -124,6 +126,20 @@ li {
     margin-bottom: 20px;
 }
 
-.material-icons {
-    color: var(--primary400);
+.markdown img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+pre {
+    padding: 1em;
+    background-color: rgb(0,0,0,0.5);
+    overflow-x: auto;
+}
+
+pre code {
+    white-space: pre;
+}
+
