@@ -13,6 +13,13 @@ foreach($Regex as $v){
     $pathString = str_replace('\\', '/', $pathString);                  // blah/blah/pages/info/index.php
     $pagesEnd = strrpos($pathString, "/pages/") + 6;                  
     $clippedPath = substr($pathString, $pagesEnd);                     // info/index.php
+
+    // remove any arguments from the request
+    $argumentsPosition = strpos($clippedPath, "?");
+    if ($argumentsPosition) {
+        $clippedPath = substr($clippedPath, 0, $argumentsPosition);
+    }
+
     $clippedExtension = substr($clippedPath, 0, -4);                    // info/index
     
     $phpRoutes[$clippedExtension] = $clippedExtension;

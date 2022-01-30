@@ -11,7 +11,7 @@
     $pages[0]->title = "The Grand Canyon";
     $pages[0]->link = "/photos/grand-canyon";
     $pages[0]->photo = new Photo;
-    $pages[0]->photo->path="https://res.cloudinary.com/aseradyn/image/upload/v1643291888/grand-canyon/PC220219_uxhdo7.jpg";
+    $pages[0]->photo->path="v1643291888/grand-canyon/PC220219_uxhdo7.jpg";
 
     PhotoDirectory($pages);
 

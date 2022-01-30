@@ -7,6 +7,12 @@ include($_SERVER["DOCUMENT_ROOT"]."/router/loadContent.php");
 $request = $_SERVER['REQUEST_URI'];
 $request = rtrim($request, '/\\'); // ignore trailing slashes
 
+// ignore parameters
+$parametersPosition = strpos($request, "?");
+if ($parametersPosition) {
+   $request = substr($request, 0, $parametersPosition);
+}
+
 $phpRoutes = findPHPRoutes();
 $markdownRoutes = findMarkdownRoutes();
 

@@ -7,10 +7,34 @@
         public $caption = "";
     }
 
-    function Photo($photo) {
+    
 
-        echo "<div class='photo-card'>";
-        echo "<img src='$photo->path' alt='$photo->alt' title='$photo->caption' />";
+    function Photo($photo, $type="inline") {
+
+        $baseCloudinaryURL = "https://res.cloudinary.com/aseradyn/image/upload";
+
+        $maxWidth = 500;
+        
+        switch($type) {
+            case "thumbnail":
+                $maxWidth = 350;
+                break;
+            case "lightbox":
+            case "fullSize":
+                $maxWidth = 1000;
+                break; 
+            case "inline":
+            default:
+                $maxWidth = 500;
+        }
+
+        $photoClass = "photo-card";
+        if ($type == "lightbox") {
+            $photoClass = "";
+        }
+
+        echo "<div class='$photoClass'>";
+        echo "<img src='$baseCloudinaryURL/w_$maxWidth/$photo->path' alt='$photo->alt' title='$photo->caption' />";
         echo "</div>";
 
     }
