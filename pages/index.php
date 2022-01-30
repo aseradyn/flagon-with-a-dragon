@@ -40,7 +40,7 @@
                 True crime! Shenanigans!
             </li>
             <li style="list-style-type: '🌵'">
-                I visited my mother in Arizona over Christmas. I dragged her up to <a href="/photo/grand-canyon">the
+                I visited my mother in Arizona over Christmas. I dragged her up to <a href="/photos/grand-canyon">the
                     Grand Canyon</a>, which was beyond amazing,
                 and we took up a new hobby: watercolors!
             </li>
