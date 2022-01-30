@@ -22,9 +22,9 @@
 
         <ul class="uptos">
             <li style="list-style-type: '👩‍💻'">
-                Inspired by SvelteKit, I rewrote my router and reorganized the files on my site, as well as giving it a
-                big facelift. I'm going to
-                write about the router thing soon.
+                Inspired by SvelteKit, I rewrote my router and reorganized the files on my site. I updated <a href="/webdev/simple-php-router">this 
+                article</a> based on my changes. I also gave the site a big facelift and spent some time 
+                writing some new photo gallery components - so much fun!
             </li>
             <li style="list-style-type: '👩‍💻'">
                 I decided I didn't like my new web site after all, and started a new-new site built with SvelteKit! I'm

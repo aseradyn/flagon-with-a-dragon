@@ -133,13 +133,19 @@ li {
     margin-right: auto;
 }
 
+.markdown h2 {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px dashed var(--primary100);
+}
+
+.markdown .footnotes {
+    margin-top: 10em;
+}
+
 pre {
     padding: 1em;
     background-color: rgb(0,0,0,0.5);
     overflow-x: auto;
-}
-
-pre code {
-    white-space: pre;
 }
 
