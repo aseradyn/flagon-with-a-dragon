@@ -10,28 +10,33 @@
 
     $photos = array();
 
-    $photos[0] = new Photo;
-    $photos[0]->path = 'v1644028730/norway/IMG_1203_1_ayk3jn.jpg';
+    $photo = new Photo;
+    $photo->path = 'v1644028730/norway/IMG_1203_1_ayk3jn.jpg';
+    $photos[] = $photo;
 
-    $photos[1] = new Photo;
-    $photos[1]->path = 'v1644028725/norway/IMG_1079_sfhqmn.jpg';
+    $photo = new Photo;
+    $photo->path = 'v1644028725/norway/IMG_1079_sfhqmn.jpg';
+    $photos[] = $photo;
 
-    $photos[2] = new Photo;
-    $photos[2]->path = 'v1644028729/norway/IMG_1084_fv3s5z.jpg';
+    $photo = new Photo;
+    $photo->path = 'v1644028729/norway/IMG_1084_fv3s5z.jpg';
+    $photos[] = $photo;
 
-    $photos[3] = new Photo;
-    $photos[3]->path = 'v1644028729/norway/IMG_1081_ovqnfo.jpg';
+    $photo = new Photo;
+    $photo->path = 'v1644028729/norway/IMG_1081_ovqnfo.jpg';
+    $photos[] = $photo;
 
-    $photos[4] = new Photo;
-    $photos[4]->path = 'v1644028730/norway/IMG_1095_kwuoey.jpg';
+    $photo = new Photo;
+    $photo->path = 'v1644028730/norway/IMG_1095_kwuoey.jpg';
+    $photos[] = $photo;
 
-    $photos[5] = new Photo;
-    $photos[5]->path = 'v1644028730/norway/IMG_1161_bzywjy.jpg';
+    $photo = new Photo;
+    $photo->path = 'v1644028730/norway/IMG_1161_bzywjy.jpg';
+    $photos[] = $photo;
 
-    $photos[6] = new Photo;
-    $photos[6]->path = 'v1644028730/norway/IMG_1192_wtupfv.jpg';
-
-    
+    $photo = new Photo;
+    $photo->path = 'v1644028730/norway/IMG_1192_wtupfv.jpg';
+    $photos[] = $photo;
 
     PhotoList($photos);
 
