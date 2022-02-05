@@ -19,6 +19,12 @@
     $pages[1]->photo = new Photo;
     $pages[1]->photo->path="v1644026821/ouachita-mountains/2018-11-13_09.41.44_o5vw8e.jpg";
 
+    $pages[2] = new Page;
+    $pages[2]->title = "Stavanger, Norway";
+    $pages[2]->link = "/photos/norway";
+    $pages[2]->photo = new Photo;
+    $pages[2]->photo->path="v1644028730/norway/IMG_1095_kwuoey.jpg";
+
     PhotoDirectory($pages);
 
 ?>
