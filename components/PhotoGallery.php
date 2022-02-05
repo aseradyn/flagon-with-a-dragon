@@ -19,15 +19,16 @@
         <div class="photoList">
 
         <?php
+        $animationDelay = 0.5;
         foreach ($photos as $key => $photo) {
-            
+            $animationDelayStyle = "animation-delay: ".$animationDelay."s";
             $rotation = rand(-2,2);
 
         ?>    
 
         
 
-        <a href="/photos/singlePhoto?path=<?php echo $photo->path ?>" onClick=showLightbox(<?php echo $key ?>)>
+        <a href="/photos/singlePhoto?path=<?php echo $photo->path ?>" onClick=showLightbox(<?php echo $key ?>) class="animate pop" style="<?php echo $animationDelayStyle ?>">
             <div class="photoList-card" style="transform: rotate(<?php echo $rotation ?>deg)">
                 <?php Photo(photo: $photo, type: "thumbnail") ?>
             </div>
@@ -49,6 +50,7 @@
         </div>
 
         <?php
+        $animationDelay = $animationDelay + 0.1;
         }
 
         ?>
@@ -105,4 +107,6 @@
         padding: 10px;
         color: black;
     }
+
+    <?php include_once($_SERVER["DOCUMENT_ROOT"]."/theme/animation.css"); ?>
 </style>

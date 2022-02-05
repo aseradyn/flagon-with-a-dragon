@@ -16,12 +16,17 @@
         <div class="photoDirectory">
 
         <?php
+
+        $animationDelay = 0.5;
+
         foreach ($pages as $page) {
 
+            $animationDelayStyle = "animation-delay: ".$animationDelay."s";
             $rotation = rand(-2,2);
+
         ?>    
             <a href="<?php echo $page->link ?>">
-                <div class="photoDirectory-card-wrapper" style="transform: rotate(<?php echo $rotation ?>deg)">
+                <div class="photoDirectory-card-wrapper animate pop" style="transform: rotate(<?php echo $rotation ?>deg); <?php echo $animationDelayStyle ?>">
                     <div>
                        <?php 
                             echo Photo(
@@ -35,7 +40,9 @@
             </a>
 
             <?php
+            $animationDelay = $animationDelay + 0.1;
         }
+
 
         ?>
         
@@ -83,4 +90,7 @@
         color: white;
         text-decoration: none;
     }
+
+    <?php include_once($_SERVER["DOCUMENT_ROOT"]."/theme/animation.css"); ?>
+
 </style>
