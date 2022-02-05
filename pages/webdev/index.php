@@ -3,7 +3,7 @@
         <h1>👩‍💻 Web Development</h1>
         <p>
             Professionally, I work primarily with React and C#, with an emphasis on front-end code (I 💙 CSS). I have
-            worked with PHP for decades for personal projects, and am learning Svelte/SvelteKit.
+            worked with PHP for decades for personal projects, and have started learning Svelte/SvelteKit.
         </p>
     </section>
     <section class="inlineHeadings">

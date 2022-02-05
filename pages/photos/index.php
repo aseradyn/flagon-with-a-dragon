@@ -13,6 +13,12 @@
     $pages[0]->photo = new Photo;
     $pages[0]->photo->path="v1643291888/grand-canyon/PC220219_uxhdo7.jpg";
 
+    $pages[1] = new Page;
+    $pages[1]->title = "Ouachita Mountains";
+    $pages[1]->link = "/photos/ouachita-mountains";
+    $pages[1]->photo = new Photo;
+    $pages[1]->photo->path="v1644026821/ouachita-mountains/2018-11-13_09.41.44_o5vw8e.jpg";
+
     PhotoDirectory($pages);
 
 ?>
