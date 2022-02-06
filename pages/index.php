@@ -14,7 +14,7 @@
 
     </section>
 
-    <section style="margin-top: 20px;">
+    <section>
 
         <h2>
             Here's what I've been up to lately:
@@ -58,6 +58,16 @@
         </ul>
 
     </section>
+
+    <section>
+        <h2>
+            And now, your quote of the day:
+        </h2>
+    <?php 
+        include $_SERVER["DOCUMENT_ROOT"]."/components/QuoteOfTheDay.php";
+        ShowTodaysQuote();
+    ?>
+    </section>
 </div>
 
 <style>
@@ -80,4 +90,14 @@
 .uptos>li::marker {
     font-size: 1.3em;
 }
+
+section {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+section:first-of-type {
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
 </style>
+

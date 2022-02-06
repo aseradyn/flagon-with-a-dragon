@@ -19,6 +19,7 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: Inter, Arial, sans-serif;
+    line-height: 1.4;
     
     --baseFont: var(--primary100);
     --single-column-width: 60em;
