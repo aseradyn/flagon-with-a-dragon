@@ -26,7 +26,9 @@ function ShowTodaysQuote() {
     $today = date("Y-m-d");
 
     $todayQuoteIndex = $lastQuoteNumber - 1;            // if the quote has already been incremented today (-1 for 0-based array)
-    if ($today != $lastDate) {                          // otherwise
+    if ($lastQuoteNumber > $quotesCount ) {             // if the quotes list has shrunk
+        $todayQuoteIndex = 0;
+    } else if ($today != $lastDate) {                   // otherwise
         if ($lastQuoteNumber < $quotesCount) {          // if we're not yet on the last quote
             $todayQuoteIndex = $todayQuoteIndex + 1;    // go up one
         } else {                                        // it was the last in the list
@@ -53,8 +55,12 @@ function ShowTodaysQuote() {
     </div>
 
     <?php
-}
 
+    // this might work some day?
+    // $url = "https://get-last-quote.aseradyn.workers.dev";
+    // echo file_get_contents($url);
+
+}
 
 ?>
 
