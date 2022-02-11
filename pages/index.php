@@ -22,6 +22,10 @@
 
         <ul class="uptos">
             <li style="list-style-type: '👩‍💻'">
+                Fooling around with Cloudflare Workers. They didn't end up working out for my use case, but the experience gives me a much
+                better grasp of what they <em>are</em> good for.
+            </li>
+            <li style="list-style-type: '👩‍💻'">
                 Inspired by SvelteKit, I rewrote my router and reorganized the files on my site. I updated <a href="/webdev/simple-php-router">this 
                 article</a> based on my changes. I also gave the site a big facelift and spent some time 
                 writing some new photo gallery components - so much fun!
@@ -49,11 +53,6 @@
                 started up a new spinning group, and we had our first meeting. I'm super excited!
                 It's a great mix of experience levels and interests, and we should all have a fabulous time learning
                 from each other.
-            </li>
-            <li style="list-style-type: '👸'">
-                Had a fabulous day at the Texas Renaissance Festival with a friend. I got to wear my big swishy skirt,
-                we ate overpriced (but delicious) pretzels and jerkey,
-                and the weather was practically perfect.
             </li>
         </ul>
 
