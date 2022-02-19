@@ -2,21 +2,32 @@
     <section>
         <h1>👩‍💻 Web Development</h1>
         <p>
-            Professionally, I work primarily with React and C#, with an emphasis on front-end code (I 💙 CSS). I have
-            worked with PHP for decades for personal projects, and have started learning Svelte/SvelteKit.
+            Professionally, I work primarily with React and C#, with an emphasis on front-end code (I 💙 CSS). I dabble with other tech, 
+            especially PHP.
         </p>
     </section>
-    <section class="inlineHeadings">
-        <p>
-        <h3><a href="/webdev/thing-of-the-day">A Thing-of-the-Day Function</a></h3>
-        I wanted a way to show a quote of the day that would be the same for everyone and that would reliably
-        change over on schedule, without needing a database.
+    <section class="article-list">
+        <h3><a href="/webdev/json-from-worker-in-php">Reading JSON from Workers in PHP</a></h3>
+        <p>    
+            Super quick: getting a remote JSON value and converting it to an object.
+        </p>        
+        
+        <h3><a href="/webdev/return-KV-from-worker">Returning KV values from Cloudflare Workers</a></h3>
+        <p> 
+            A quick look at how to take advantage of simple KV storage on Cloudflare.
         </p>
-        <h3><a href="/webdev/simple-php-router">A Simple PHP Router</a></h3>
 
-        I decided to experiment and see if I could figure out how to build a router that matched the way I want to work
-        (handling multiple page types, no database, minimal manual file updates), while remaining lighter and easier
-        to tweak than the off-the-shelf packages. This is what I came up with.
+        <p>
+            <h3><a href="/webdev/thing-of-the-day">A Thing-of-the-Day Function</a></h3>
+            I wanted a way to show a quote of the day that would be the same for everyone and that would reliably
+            change over on schedule, without needing a database.
+        </p>
+        <p>
+            <h3><a href="/webdev/simple-php-router">A Simple PHP Router</a></h3>
+
+            I decided to experiment and see if I could figure out how to build a router that matched the way I want to work
+            (handling multiple page types, no database, minimal manual file updates), while remaining lighter and easier
+            to tweak than the off-the-shelf packages. This is what I came up with.
         </p>
         <p>
         <h3><a href="/webdev/blog-with-markdown">A Simple Blog based on PHP and Markdown (no database)</a></h3>
