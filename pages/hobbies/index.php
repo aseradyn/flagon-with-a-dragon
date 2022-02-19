@@ -2,14 +2,18 @@
 
     <h1>Hobbies</h1>
 
-    <section class="inlineHeadings">
-        <h2>Photography</h2>
-        <p>
-            <h3>
+    <section class="article-list">
+        <h3>🎨 
+            <a href="hobbies/watercolor">A collection of watercolor doodles</a>
+        </h3>
+        <p>Not much to show off about, but I'm having fun!</p>
+        
+            <h3>📷 
                 <a href="hobbies/photography/photo-tips-for-coastal-tx">
                     Photo tips for Coastal Texas
                 </a>
             </h3>
+            <p>
             Photography along the warm, humid Gulf coast is quite a lot different from the middle of the country, or even
             most other coastal areas.
             It's flatter and muddier, so the geology isn't helping much. It wants to be an overgrown forest, so a lot of it
