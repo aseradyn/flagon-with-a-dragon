@@ -1,5 +1,5 @@
 body {
-    --primary100: #DDECF8;
+    /* --primary100: #DDECF8;
     --primary200: #ABD0ED;
     --primary20080: #ABD0ED80;
     --primary300: #68abde;
@@ -8,7 +8,18 @@ body {
     --primary400-filter: invert(34%) sepia(85%) saturate(676%) hue-rotate(170deg) brightness(88%) contrast(86%);
     --primary500: #216497;
     --primary500-filter: invert(28%) sepia(86%) saturate(465%) hue-rotate(162deg) brightness(103%) contrast(91%);
-    --primary600: #0E2B44;
+    --primary600: #0E2B44; */
+
+    --primary100: #DDECF8;
+    --primary200: #ABD0ED;
+    --primary20080: #ABD0ED80;
+    --primary300: #68abde;
+    --primary300-filter: invert(62%) sepia(58%) saturate(379%) hue-rotate(165deg) brightness(93%) contrast(87%);
+    --primary400: #236DA9;
+    --primary400-filter: invert(34%) sepia(85%) saturate(676%) hue-rotate(170deg) brightness(88%) contrast(86%);
+    --primary500: #046977;
+    --primary500-filter: invert(28%) sepia(86%) saturate(465%) hue-rotate(162deg) brightness(103%) contrast(91%);
+    --primary600: #024750;
 
     --secondary100: #F0F9F6;
     --secondary200: #C5E8DD;
@@ -19,9 +30,9 @@ body {
     --secondary700: #235849;
     --secondary800: #112C24;
 
-    --accent500: #ff3e00;
-    --accent600: #ff3e00;
-    --accent700: #E01E00;
+    --accent500: #F0F3BD;
+    --accent600: #ECEFA9;
+    --accent700: #BC2C1A;
 
     --gray100: #F3F4F6;
     --gray200: #D0D4DC;
