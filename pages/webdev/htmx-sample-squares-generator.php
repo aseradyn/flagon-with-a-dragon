@@ -2,7 +2,8 @@
     <h1>Superbowl Squares Generator</h1>
     <p>
         This tool was built as a way to experiment around with <a href="https://htmx.org/">htmx</a>. The htmx library (39 kB) is 
-        the only javascript involved, and notice that there is no page reload to handle the form posting.
+        the only javascript involved, and notice that there is no page reload to handle the form posting. Check out the code that makes this
+        work in <a href="https://github.com/aseradyn/flagon-with-a-dragon/pull/12">this PR</a>.
     </p>
     <hr />
     <p>
