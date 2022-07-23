@@ -1,6 +1,10 @@
 <?php
 
-$numberOfSquares = $_POST["count"];
+$numberOfSquares = 1;
+$count = $_POST["count"];
+if (is_numeric($count) && $count > 1 && $count < 1000) {
+    $numberOfSquares = $count;
+}
 
 $startingArray = [0,1,2,3,4,5,6,7,8,9];
 
