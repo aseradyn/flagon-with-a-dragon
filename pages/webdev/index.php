@@ -7,6 +7,12 @@
         </p>
     </section>
     <section class="article-list">
+        <h3><a href="/webdev/htmx-sample-squares-generator">Superbowl Squares Generator</a></h3>
+        <p>
+            A quick and dirty Superbowl Squares Generator as proof-of-concept for using htmx to add a little AJAX to a 
+            static site.
+        </p>
+                
         <h3><a href="/webdev/json-from-worker-in-php">Reading JSON from Workers in PHP</a></h3>
         <p>    
             Super quick: getting a remote JSON value and converting it to an object.

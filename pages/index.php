@@ -22,6 +22,11 @@
 
         <ul class="uptos">
             <li>
+                I spent some time fooling around with <a href="https://htmx.org/">htmx</a>. I'm really impressed with how simple it is to use, 
+                to add just a little AJAX without a heavy framework. I built a quick-and-dirty <a href="/webdev/htmx-sample-squares-generator">Superbowl Squares Generator</a> 
+                to test the concept.
+            </li>
+            <li>
                 After nine months, a project I've been working on (HCSS Drive) is leaving the nest. It'll be assigned to 
                 a new team for maintenance and future updates, and I'll be off onto new challenges. Integrations! 
                 Custom reporting! Exciting times ahead.
