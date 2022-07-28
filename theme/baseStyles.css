@@ -117,27 +117,17 @@ section.article-list p {
     padding-left: 1em;
     padding-right: 1em;
 }
-.card {
-    padding: 10px;
-    background-color: var(--primary100);
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0px 2px 5px var(--primary500);
-}
-.card h1,
-.card h2 {
-    margin-top: 0px;
+
+article {
+    margin-top: 1em;
+    padding: 1em;
+    padding-top: 0.001rem;
+    background-color: rgb(255,255,255,0.4);
+    border-radius: 5px;
 }
 
 li {
     margin-bottom: 10px;
-}
-
-.article-back-link {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 2em auto;
-    margin-bottom: 20px;
 }
 
 .markdown img {
@@ -150,7 +140,7 @@ li {
 .markdown h2 {
     margin-top: 40px;
     padding-top: 40px;
-    border-top: 1px dashed var(--primary100);
+    border-top: 1px dashed var(--primary400);
 }
 
 .markdown .footnotes {

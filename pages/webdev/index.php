@@ -7,6 +7,11 @@
         </p>
     </section>
     <section class="article-list">
+        <h3><a href="/webdev/php-is-good-actually">PHP is good, actually</a></h3>
+        <p>
+            I take a bit of crap at work for being the person who defends PHP. Today, I feel like explaining why.
+        </p>
+
         <h3><a href="/webdev/htmx-sample-squares-generator">Superbowl Squares Generator</a></h3>
         <p>
             A quick and dirty Superbowl Squares Generator as proof-of-concept for using htmx to add a little AJAX to a 

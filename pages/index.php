@@ -22,6 +22,10 @@
 
         <ul class="uptos">
             <li>
+                I wrote a page about why, even in 2022 when we have React and Svelte and all these other front-end frameworks, I keep defending 
+                (and using) PHP. <a href="/webdev/php-is-good-actually">PHP is Good, Actually</a>
+            </li>
+            <li>
                 I spent some time fooling around with <a href="https://htmx.org/">htmx</a>. I'm really impressed with how simple it is to use, 
                 to add just a little AJAX without a heavy framework. I built a quick-and-dirty <a href="/webdev/htmx-sample-squares-generator">Superbowl Squares Generator</a> 
                 to test the concept.
@@ -41,6 +45,11 @@
                 usually designed to fold up for easy transport. This one spins decently 'out of the box', but I needed to do some 
                 tweaking and make a couple of small modifications to get it to spin the way I like it.
             </li>
+            
+        </ul>
+        <details>
+            <summary>Previous</summary>
+            <ul class="uptos">
             <li>
                 I learned to use Bicep files to deploy resources on Azure, including setting things like access policies 
                 and scaling rules. There were a few false steps (I took production down for about 20 minutes - oops) but 
@@ -51,12 +60,6 @@
                 I've been refurbishing a vintage treadle sewing machine. Lots to learn about leather drive belts, bobbin shuttles, and 
                 cleaning old grunge off fancy paint.
             </li>
-            
-            
-        </ul>
-        <details>
-            <summary>Previous</summary>
-            <ul class="uptos">
             <li>
                 Inspired by SvelteKit, I rewrote my router and reorganized the files on my site. I updated <a href="/webdev/simple-php-router">this 
                 article</a> based on my changes. I also gave the site a big facelift and spent some time 
