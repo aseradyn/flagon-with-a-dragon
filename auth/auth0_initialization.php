@@ -10,7 +10,7 @@ $configuration = new SdkConfiguration(
     domain: 'dev-fisjgu7p.us.auth0.com',
     clientId: getenv("CLIENT_ID"),
     clientSecret: getenv("CLIENT_SECRET"),
-    redirectUri: 'http://' . $_SERVER['HTTP_HOST'] . "/callback",
+    redirectUri: 'https://' . $_SERVER['HTTP_HOST'] . "/auth/callback",
     cookieSecret: getenv("COOKIE_SECRET")
 );
 
