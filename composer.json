@@ -1,5 +1,8 @@
 {
     "require": {
-      "php": "^8.0.0"
+      "php": "^8.0.0",
+        "symfony/http-client": "^6.1",
+        "nyholm/psr7": "^1.5",
+        "auth0/auth0-php": "^8.2"
     }
   }

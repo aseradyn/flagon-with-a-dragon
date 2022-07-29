@@ -16,7 +16,7 @@ if ($parametersPosition) {
 $phpRoutes = findPHPRoutes();
 $markdownRoutes = findMarkdownRoutes();
 
-if ($request == "") {
+if ($request == "" || $request == "/") {
     loadPage("index");
 } else if (isset($phpRoutes[$request])) {
    include($_SERVER["DOCUMENT_ROOT"]."/pages/".$phpRoutes[$request].".php");
@@ -24,6 +24,7 @@ if ($request == "") {
    loadArticle($markdownRoutes[$request]);
 } else {
    http_response_code(404);
+   echo "Tried to find: " . $request;
    include('404.php');
 }
 
