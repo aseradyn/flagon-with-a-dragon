@@ -27,6 +27,12 @@
 
     PhotoDirectory($pages);
 
+    include_once($_SERVER["DOCUMENT_ROOT"]."/photos/getPhotos.php");
+
+    $photoList = getPhotos("Norway");
+
+    print_r($photoList);
+
 ?>
 
 
