@@ -9,7 +9,7 @@ function findMarkdownRoutes() {
     $markdownRoutes = array();
 
     foreach($Regex as $v){
-        $pathString = $v[0];                                                // blah\blah\pages/info/index.php
+        $pathString = strtolower($v[0]);                                    // blah\blah\pages/info/index.php
         $pathString = str_replace('\\', '/', $pathString);                  // blah/blah/pages/info/index.php
         $pagesEnd = strrpos($pathString, "/pages/") + 6;                  
         $clippedPath = substr($pathString, $pagesEnd);                     // info/index.php

@@ -1,11 +1,12 @@
 <?php 
 
 function loadPage($path) {
+    include($_SERVER["DOCUMENT_ROOT"]."/theme/header.php");
     include($_SERVER["DOCUMENT_ROOT"]."/pages/".$path.".php");
 }
 
 function loadArticle($fileName) {
-
+    include($_SERVER["DOCUMENT_ROOT"]."/theme/header.php");
     ?>
 
     <!-- code highlighting -->
