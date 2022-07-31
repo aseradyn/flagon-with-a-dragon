@@ -31,7 +31,18 @@
 
     $photoList = getPhotos("Norway");
 
-    print_r($photoList);
+    foreach ($photoList as $photo) {
+
+        // check that it's a valid PhotoResult record
+        $isValid = $photo instanceof PhotoResult;
+        if (!$isValid) {
+            // skip if invalid
+            continue;
+        }
+
+        echo $photo->name . "<br />";
+
+    }
 
 ?>
 
