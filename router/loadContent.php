@@ -33,10 +33,11 @@ function loadArticle($fileName) {
     // $my_html = Markdown($markdown);
 
     ?>
-    
-    <article class='single-column-layout markdown'>
-        <?php echo $Parsedown->text($markdown) ?>
-    </article>
+    <div class="single-column-layout markdown">
+        <article>
+            <?php echo $Parsedown->text($markdown) ?>
+        </article>
+    </div>
     
     <?php
 }

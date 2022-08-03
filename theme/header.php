@@ -41,10 +41,8 @@ function isCurrentPath($pathString, $onlyExact = false) {
 </style>
 
 <header id="pageHeader">
+	<div class="name-full"><a href="/">jill.menning</a></div>
 	<nav id="siteNav">
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
-		</svg>
 		<ul>
 			<li <?php isCurrentPath("", true) ?>>
 				<a href="/">Home</a>
@@ -62,9 +60,6 @@ function isCurrentPath($pathString, $onlyExact = false) {
 				<a href="/hobbies">Hobbies</a>
 			</li>
 		</ul>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-		</svg>
 	</nav>
 </header>
 
@@ -73,6 +68,7 @@ function isCurrentPath($pathString, $onlyExact = false) {
         min-height: 100vh;
         display: grid;
         grid-template-rows: auto 5em;
+		align-content: start;
     }
     #page-content {
         padding: 20px;
@@ -85,45 +81,39 @@ function isCurrentPath($pathString, $onlyExact = false) {
     }
     #pageHeader {
 		display: grid;
-		align-items: center;
+		grid-template-rows: auto auto;
+		column-gap: 30px;
+		background-color: rgb(206,231,235, 0.7);
+		margin-bottom: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
     .name-full {
-		display: none;
+		font-family: Merienda, Inter, sans-serif;
+		justify-self: center;
+		font-weight: bold;
+		padding-top: 10px;
+		font-size: 1.15em;
 	}
-	@media screen and (min-width: 50em) {
-		.name-full {
-			display: block;
-		}
-		.name-clipped {
-			display: none;
-		}
+	.name-full > a {
+		text-decoration: none;
 	}
 
     #siteNav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(255, 255, 255, 0.1);
-		filter: drop-shadow(0px 0px 15px #000);
-	}
-	#siteNav svg {
-		width: calc(2em + 3px);
-		height: calc(3em + 5px);
-		display: block;
-	}
-	#siteNav path {
-		fill: var(--background);
+		justify-self: center;
 	}
 	#siteNav ul {
 		position: relative;
 		padding: 0;
 		padding-top: 5px;
 		margin: 0;
-		height: 3em;
+		margin-top: 1em;
+		height: 2em;
 		display: flex;
 		justify-content: center;
-		align-items: center;
 		list-style: none;
-		background: var(--background);
 		background-size: contain;
 	}
 	#siteNav li {
@@ -131,22 +121,14 @@ function isCurrentPath($pathString, $onlyExact = false) {
 		height: 100%;
 		
 	}
-	#siteNav li.active::before {
-		--size: 6px;
-		content: '';
-		width: 0;
-		height: 0;
-		position: absolute;
-		top: 0;
-		left: calc(50% - var(--size));
-		border: var(--size) solid transparent;
-		border-top: var(--size) solid var(--accent500);
+	#siteNav li.active {
+		border-bottom: 2px double #E84855;
 	}
 	#siteNav a {
 		display: flex;
 		height: 100%;
 		align-items: center;
-		padding: 0 1em;
+		padding: 0 2em;
 		color: var(--heading-color);
 		font-weight: 700;
 		font-size: 0.8rem;
@@ -156,6 +138,6 @@ function isCurrentPath($pathString, $onlyExact = false) {
 		transition: color 0.2s linear;
 	}
 	#siteNav a:hover {
-		color: var(--accent-color);
+		color: #E84855;
 	}
 </style>

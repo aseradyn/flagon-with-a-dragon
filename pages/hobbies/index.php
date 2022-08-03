@@ -1,8 +1,12 @@
 <div class="single-column-layout">
 
-    <h1>Hobbies</h1>
+    
 
     <section class="article-list">
+        <header>
+            <h1>Hobbies</h1>
+            <p>Other things I like to play around with</p>
+        </header>
         <h3>🎨 
             <a href="hobbies/watercolor">A collection of watercolor doodles</a>
         </h3>
