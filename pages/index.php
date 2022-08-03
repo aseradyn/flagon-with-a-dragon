@@ -1,24 +1,30 @@
-<div class="single-column-layout">
-    <section>
-        <h1>
-            <div class="welcome">
-                Welcome!
-            </div>
+<div class="layout">
 
-            I'm so glad you're here!
-        </h1>
+    <section style="grid-area: welcome">
+        <header>
+            <h1>
+                <div class="welcome">
+                    Welcome!
+                </div>
 
-        <p style="text-align: center; padding-bottom: 20px;">
-            I am your host, Jill Menning, serial hobbyist, notorious plotter and schemer.
-        </p>
-
+                
+            </h1>
+            <p style="text-align: center">I'm so glad you're here!</p>
+        </header>
+        <div style="text-align: center; padding-bottom: 10px;">
+            
+            <p>
+                I am your host, Jill Menning, serial hobbyist, notorious plotter and schemer.
+            </p>
+        </div>
     </section>
 
-    <section>
-
-        <h2>
-            Here's what I've been up to lately:
-        </h2>
+    <section style="grid-area: main">
+        <header>
+            <h2>
+                Here's what I've been up to lately:
+            </h2>
+        </header>
 
         <ul class="uptos">
             <li>
@@ -48,7 +54,7 @@
             
         </ul>
         <details>
-            <summary>Previous</summary>
+            <summary style="color: #9F0E41; cursor: pointer">More</summary>
             <ul class="uptos">
             <li>
                 I learned to use Bicep files to deploy resources on Azure, including setting things like access policies 
@@ -94,23 +100,53 @@
 
     </section>
 
-    <section>
-        <h2>
-            And now, your quote of the day:
-        </h2>
-    <?php 
-        include $_SERVER["DOCUMENT_ROOT"]."/components/QuoteOfTheDay.php";
-        ShowTodaysQuote();
-    ?>
-    </section>
+
+        
+        <section style="grid-area: secondary">
+            <h2>
+                And now, your quote of the day:
+            </h2>
+            <?php 
+                include $_SERVER["DOCUMENT_ROOT"]."/components/QuoteOfTheDay.php";
+                ShowTodaysQuote();
+            ?>
+        </section>
+    </div>
 </div>
+    
+
+    
+
 
 <style>
+
+.layout {
+    display: grid;
+    grid-template-columns: minmax(30em, var(--single-column-width)) 20em;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:    "main welcome"
+                            "main secondary";
+    column-gap: 30px;
+    row-gap: 30px;
+    padding: 30px;
+    align-items: start;
+    align-content: start;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .layout {
+        grid-template-columns: 1fr;
+        grid-template-areas: "welcome"
+                            "main"
+                            "secondary";
+    }
+}
 
 .welcome {
     position: relative;
     width: 100%;
-    color: var(--accent600);
+    color: #E84855;
 }
 
 .uptos {
@@ -126,13 +162,5 @@
     font-size: 1.3em;
 }
 
-section {
-    margin-top: 20px;
-    padding-bottom: 20px;
-}
-section:first-of-type {
-    margin-top: 0px;
-    padding-bottom: 0px;
-}
 </style>
 

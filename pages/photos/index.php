@@ -1,5 +1,10 @@
-<h1>Photos</h1>
-<p style="text-align: center;">Some of the coolest things I've seen when I had a camera handy</p>
+<section style="max-width: var(--single-column-width); margin-left: auto; margin-right: auto;">
+    <header>
+        <h1>Photos</h1>
+    </header>
+    <p style="text-align: center;">Some of the coolest things I've seen when I had a camera handy</p>
+</section>
+
 
 <?php
 
