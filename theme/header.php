@@ -137,6 +137,12 @@ function isCurrentPath($pathString, $onlyExact = false) {
 		text-decoration: none;
 		transition: color 0.2s linear;
 	}
+	@media screen and (max-width: 800px) {
+		#siteNav a {
+			padding: 0 0.75em;
+		}
+
+}
 	#siteNav a:hover {
 		color: #E84855;
 	}
