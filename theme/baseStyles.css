@@ -52,10 +52,6 @@ body {
     }
 }
 
-main {
-    margin-top: 40px;
-}
-
 .reading-width {
     width: 100%;
     max-width: var(--single-column-width);
@@ -167,7 +163,6 @@ section.article-list p {
     max-width: var(--single-column-width);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
     padding-left: 1em;
     padding-right: 1em;
     display: grid;

@@ -63,28 +63,26 @@ function isCurrentPath($pathString, $onlyExact = false) {
 	</nav>
 </header>
 
+<main>
+
 <style>
-    #page {
-        min-height: 100vh;
-        display: grid;
-        grid-template-rows: auto 5em;
-		align-content: start;
-    }
-    #page-content {
-        padding: 20px;
-    }
-    @media screen and (max-width: 500px) {
-        #page-content {
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-    }
+
+	body {
+		display: grid;
+		grid-template-rows: auto 1fr;
+		height: 100vh;
+	}
+
+	main {
+		overflow-y: auto;
+		padding-top: 40px;
+	}
+
     #pageHeader {
 		display: grid;
 		grid-template-rows: auto auto;
 		column-gap: 30px;
 		background-color: rgb(206,231,235, 0.7);
-		margin-bottom: 20px;
 		padding-left: 10px;
 		padding-right: 10px;
 	}

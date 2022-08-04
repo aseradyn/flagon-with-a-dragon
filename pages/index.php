@@ -100,17 +100,6 @@
 
     </section>
 
-
-        
-        <section style="grid-area: secondary">
-            <h2>
-                And now, your quote of the day:
-            </h2>
-            <?php 
-                include $_SERVER["DOCUMENT_ROOT"]."/components/QuoteOfTheDay.php";
-                ShowTodaysQuote();
-            ?>
-        </section>
     </div>
 </div>
     
@@ -128,7 +117,6 @@
                             "main secondary";
     column-gap: 30px;
     row-gap: 30px;
-    padding: 30px;
     align-items: start;
     align-content: start;
     justify-content: center;
