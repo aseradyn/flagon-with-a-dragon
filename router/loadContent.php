@@ -9,9 +9,6 @@ function loadArticle($fileName) {
     ?>
 
     <!-- code highlighting -->
-    <style>
-        <?php include $_SERVER["DOCUMENT_ROOT"]."/theme/highlightjsTheme.css" ?>
-    </style>
     <script src="/utilities/highlightjs/highlight.min.js"></script>
     <script src="/utilities/highlightjs/php.min.js"></script>
     <script>

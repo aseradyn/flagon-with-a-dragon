@@ -1,0 +1,74 @@
+body {
+    --baseFont: black;
+
+    --turquoise-values: 206, 231, 235;
+    --turquoise: rgb(var(--turquoise-values));
+    --turquoise-half: rgb(var(--turquoise-values), 0.5);
+    --coral: #E84855;
+    --dark-red: #590925;
+    --bright-red: #9F0E41;
+    --orange: #FC8755;
+
+    color: var(--baseFont);
+    background-color: var(--turquoise-half);
+    background-image: url("/theme/images/bamboo.jpg");
+}
+
+a {
+    color: var(--bright-red);
+    text-underline-position: under;
+}
+
+a:visited {
+    color: var(--dark-red);
+}
+
+a:hover {
+    color: var(--orange);
+}
+
+h1 {
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 40px;
+    font-family: Merienda, Inter, sans-serif;
+}
+
+h2 {
+    font-size: 1.15em;
+    margin-top: 30px;
+    font-family: Merienda, Inter, sans-serif;
+}
+
+h3 {
+    font-size: 1em;
+    margin-top: 30px;
+    font-family: Merienda, Inter, sans-serif;
+}
+
+h1 a:any-link,
+h2 a:any-link,
+h3 a:any-link {
+    text-decoration-thickness: 0.03em;
+}
+
+pre, code {
+    white-space: pre-line;
+}
+
+pre {
+    background-color: rgb(255,255,255,0.4);
+    padding: 1em;
+    overflow-x: auto;
+    font-size: 1.1em;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+hr {
+    width: min(var(--single-column-width), 100%);
+    border-width: 0.5px;
+    border-color: var(--coral);
+}

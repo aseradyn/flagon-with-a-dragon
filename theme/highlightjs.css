@@ -53,7 +53,7 @@
 .hljs-code,
 .hljs-formula {
   /* prettylights-syntax-comment */
-  color: var(--secondary800);
+  color: #112C24;
 }
 
 .hljs-name,

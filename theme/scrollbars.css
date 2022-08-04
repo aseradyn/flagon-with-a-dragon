@@ -1,0 +1,17 @@
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: rgb(var(--turquoise-values), 0.5); 
+    border: 1px solid var(--turquoise);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgb(var(--turquoise-values), 0.3); 
+}

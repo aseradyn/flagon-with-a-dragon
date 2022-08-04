@@ -31,14 +31,21 @@ function isCurrentPath($pathString, $onlyExact = false) {
     <title>Jill Menning</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<style>
+		<?php 
+			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/fonts.css"); 
+			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/base-elements.css");
+			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/layout.css"); 
+			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/containers.css"); 
+			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/header.css"); 
+			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/scrollbars.css");
+			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/highlightjs.css"); 
+		?>
+	</style>
+
 </head>
 
 <body>
-
-<style>
-	<?php include_once($_SERVER["DOCUMENT_ROOT"]."/theme/colors.css"); ?>
-	<?php include_once($_SERVER["DOCUMENT_ROOT"]."/theme/baseStyles.css"); ?>
-</style>
 
 <header id="pageHeader">
 	<div class="name-full"><a href="/">jill.menning</a></div>
@@ -64,84 +71,3 @@ function isCurrentPath($pathString, $onlyExact = false) {
 </header>
 
 <main>
-
-<style>
-
-	body {
-		display: grid;
-		grid-template-rows: auto 1fr;
-		height: 100vh;
-	}
-
-	main {
-		overflow-y: auto;
-		padding-top: 40px;
-	}
-
-    #pageHeader {
-		display: grid;
-		grid-template-rows: auto auto;
-		column-gap: 30px;
-		background-color: rgb(206,231,235, 0.7);
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-    .name-full {
-		font-family: Merienda, Inter, sans-serif;
-		justify-self: center;
-		font-weight: bold;
-		padding-top: 10px;
-		font-size: 1.15em;
-	}
-	.name-full > a {
-		text-decoration: none;
-	}
-
-    #siteNav {
-		display: flex;
-		justify-content: center;
-		justify-self: center;
-	}
-	#siteNav ul {
-		position: relative;
-		padding: 0;
-		padding-top: 5px;
-		margin: 0;
-		margin-top: 1em;
-		height: 2em;
-		display: flex;
-		justify-content: center;
-		list-style: none;
-		background-size: contain;
-	}
-	#siteNav li {
-		position: relative;
-		height: 100%;
-		
-	}
-	#siteNav li.active {
-		border-bottom: 2px double #E84855;
-	}
-	#siteNav a {
-		display: flex;
-		height: 100%;
-		align-items: center;
-		padding: 0 2em;
-		color: var(--heading-color);
-		font-weight: 700;
-		font-size: 0.8rem;
-		text-transform: uppercase;
-		letter-spacing: 0.1em;
-		text-decoration: none;
-		transition: color 0.2s linear;
-	}
-	@media screen and (max-width: 800px) {
-		#siteNav a {
-			padding: 0 0.75em;
-		}
-
-}
-	#siteNav a:hover {
-		color: #E84855;
-	}
-</style>

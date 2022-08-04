@@ -1,0 +1,24 @@
+/* https://rsms.me/inter/ */
+@import url('/theme/fonts/Inter/inter.css');
+
+/* https://www.fontspace.com/steelworks-vintage-font-f24016 */
+@font-face {
+    font-family: 'SteelworksVintageDemo';
+    src:    url('/theme/fonts/SteelworksVintageDemo-P5wE.otf'), 
+            url('/theme/fonts/SteelworksVintageDemo-rR98.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merienda';
+    src: url('/theme/fonts/Merienda-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Merienda';
+    src: url('/theme/fonts/Merienda-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
