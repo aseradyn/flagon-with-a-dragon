@@ -9,6 +9,11 @@ if (str_contains($request, "/tools/superbowl-squares-generator")) {
     return;
 }
 
+if (str_contains($request, "/tools/color-mode")) {
+    include($_SERVER["DOCUMENT_ROOT"]."/tools/color-mode.php");
+    return;
+}
+
 include($_SERVER["DOCUMENT_ROOT"]."/auth/auth0_initialization.php");
 
 if (str_contains($request, "/auth/login")) {

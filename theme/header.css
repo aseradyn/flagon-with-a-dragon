@@ -1,6 +1,9 @@
 #pageHeader {
     display: grid;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "top"
+    "bottom";
     column-gap: 30px;
     background-color: rgb(206,231,235, 0.7);
     padding-left: 10px;
@@ -8,6 +11,7 @@
 }
 .name-full {
     font-family: Merienda, Inter, sans-serif;
+    grid-area: top;
     justify-self: center;
     font-weight: bold;
     padding-top: 10px;
@@ -17,9 +21,16 @@
     text-decoration: none;
 }
 
+#page-widgets {
+    grid-area: top;
+    justify-self: end;
+    align-self: center;
+}
+
 #siteNav {
     display: flex;
     justify-content: center;
+    grid-area: bottom;
     justify-self: center;
 }
 #siteNav ul {
