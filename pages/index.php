@@ -28,6 +28,11 @@
 
         <ul class="uptos">
             <li>
+                I just got home from attending An Event Apart in Denver. It was a great conference for front-end developers,
+                and I highly recommend it. Even sessions that I wasn't excited about turned out to have really
+                interesting information that set the mental wheels turning. Really, really glad I went.
+            </li>
+            <li>
                 I wrote a page about why, even in 2022 when we have React and Svelte and all these other front-end frameworks, I keep defending 
                 (and using) PHP. <a href="/webdev/php-is-good-actually">PHP is Good, Actually</a>
             </li>
@@ -46,16 +51,15 @@
                 Slab foundations and expanding soils are not a good combination, but $150 in soaker hoses, timers, and accessories, and 
                 a little work with a shovel, is a good investment to keep the foundation stable.
             </li>
+        </ul>
+        <details>
+            <summary style="color: #9F0E41; cursor: pointer">More</summary>
+            <ul class="uptos">
             <li>
                 I just got a new book-style charkha! In the US, 'charkha' refers to accelerated, driven-spindle spinning wheels,
                 usually designed to fold up for easy transport. This one spins decently 'out of the box', but I needed to do some 
                 tweaking and make a couple of small modifications to get it to spin the way I like it.
             </li>
-            
-        </ul>
-        <details>
-            <summary style="color: #9F0E41; cursor: pointer">More</summary>
-            <ul class="uptos">
             <li>
                 I learned to use Bicep files to deploy resources on Azure, including setting things like access policies 
                 and scaling rules. There were a few false steps (I took production down for about 20 minutes - oops) but 
