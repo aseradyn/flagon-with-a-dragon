@@ -3,6 +3,7 @@
 $request = $_SERVER['REQUEST_URI'];
 
 // Routes that should bypass the header and router
+// /blog/ routes are handled in .htaccess
 
 if (str_contains($request, "/tools/superbowl-squares-generator")) {
     include($_SERVER["DOCUMENT_ROOT"]."/tools/superbowl-squares-generator.php");
