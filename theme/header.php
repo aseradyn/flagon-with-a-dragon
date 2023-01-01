@@ -40,6 +40,7 @@ function isCurrentPath($pathString, $onlyExact = false) {
 			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/header.css"); 
 			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/scrollbars.css");
 			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/highlightjs.css"); 
+			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/photos.css"); 
 		?>
 	</style>
 

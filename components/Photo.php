@@ -25,6 +25,7 @@
             
         };
 
+        // styles are in photos.css
         $photoClass = "photo-card";
         if ($type == "lightbox") {
             $photoClass = "";
@@ -37,16 +38,3 @@
     }
 
 ?>
-
-<style>
-    .photo-card {
-        background-color: white;
-        background-image: url("/theme/images/linen.png");
-        padding: 20px;
-        max-width: 100%;
-        box-shadow: 0px 0px 5px rgb(0,0,0,0.5);
-    }
-    .photo-card img {
-        width: 100%;
-    }
-</style>

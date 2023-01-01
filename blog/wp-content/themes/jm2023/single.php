@@ -2,7 +2,6 @@
     include($_SERVER["DOCUMENT_ROOT"]."/theme/header.php");
 ?>
 
-
 <style>
     img {
         max-width: 100%;
@@ -11,23 +10,15 @@
 
 <div class="single-column-layout">
 
-    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     
         <section>
             <header>
-                <h2>
-                <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-                </h2>
+                <h1><?php the_title(); ?></h1>
             </header>
             <?php 
-                if ( has_post_thumbnail() ) {
-                    //the_post_thumbnail( 'thumbnail', array( 'class' => 'alignleft' ) );
-                    the_post_thumbnail();
-                }
                 the_date();
-                //the_content(); 
-                the_excerpt();
-                //wp_link_pages(); 
+                the_content(); 
                 edit_post_link(); 
             ?>
         </section>
