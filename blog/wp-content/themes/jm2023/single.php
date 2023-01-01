@@ -10,6 +10,13 @@
 
 ?>
 
+
+<style>
+    img {
+        max-width: 1024px;
+    }
+    </style>
+
 <div class="single-column-layout">
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
