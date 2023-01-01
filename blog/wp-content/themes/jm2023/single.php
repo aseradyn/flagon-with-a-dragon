@@ -16,10 +16,10 @@
             <header>
                 <h1><?php the_title(); ?></h1>
             </header>
+            <p><?php the_date(); 
+                edit_post_link($text = "Edit", $before = " | "); ?></p>
             <?php 
-                the_date();
                 the_content(); 
-                edit_post_link(); 
             ?>
         </section>
 
