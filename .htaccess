@@ -1,6 +1,12 @@
 RewriteEngine On
-RewriteCond %{REQUEST_URI} !^/(blog/.*)$
+
+# Don't rewrite /blog/ or /test/ URLs
+RewriteRule ^(blog|test)($|/) - [L]
+
+# Send everything else to the root controller
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteBase /
 RewriteRule ^(.*)$ index.php
+
+# Error Pages
 ErrorDocument 404 /404.php

@@ -28,6 +28,19 @@
 
         <ul class="uptos">
             <li>
+                Love spending New Year's Eve trying to figure out why .htaccess files behave differently
+                on my shared hosting server vs my local environment. Hoping to add a blog for the new year!
+            </li>
+            <li>
+                Spending the holidays spinning yarn, shopping for furniture, and coloring. I found a great new coloring
+                book at Texas Art Supply and spending these cold evenings sitting in front of the fire filling in tiny
+                little spaces with colored pencil is a very relaxing way to unwind. Happy holidays to you all!
+            </li>
+            <li>
+                Moved my site back to shared hosting (off Digital Ocean's App Platform). Serverless was a fun 
+                experiment, but it gets expensive really fast if you want more than a static site.
+            </li>
+            <li>
                 I just got home from attending An Event Apart in Denver. It was a great conference for front-end developers,
                 and I highly recommend it. Even sessions that I wasn't excited about turned out to have really
                 interesting information that set the mental wheels turning. Really, really glad I went.
@@ -36,6 +49,10 @@
                 I wrote a page about why, even in 2022 when we have React and Svelte and all these other front-end frameworks, I keep defending 
                 (and using) PHP. <a href="/webdev/php-is-good-actually">PHP is Good, Actually</a>
             </li>
+        </ul>
+        <details>
+            <summary style="color: #9F0E41; cursor: pointer">More</summary>
+            <ul class="uptos">
             <li>
                 I spent some time fooling around with <a href="https://htmx.org/">htmx</a>. I'm really impressed with how simple it is to use, 
                 to add just a little AJAX without a heavy framework. I built a quick-and-dirty <a href="/webdev/htmx-sample-squares-generator">Superbowl Squares Generator</a> 
@@ -51,10 +68,6 @@
                 Slab foundations and expanding soils are not a good combination, but $150 in soaker hoses, timers, and accessories, and 
                 a little work with a shovel, is a good investment to keep the foundation stable.
             </li>
-        </ul>
-        <details>
-            <summary style="color: #9F0E41; cursor: pointer">More</summary>
-            <ul class="uptos">
             <li>
                 I just got a new book-style charkha! In the US, 'charkha' refers to accelerated, driven-spindle spinning wheels,
                 usually designed to fold up for easy transport. This one spins decently 'out of the box', but I needed to do some 
