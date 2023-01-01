@@ -9,6 +9,7 @@
     .post-layout {
         display: grid;
         grid-template-columns: auto 1fr;
+        gap: 10px;
     }
 </style>
 
@@ -23,16 +24,18 @@
                 </h2>
             </header>
             
-            <p><?php the_date() ?></p>
             <div class="post-layout">
                 <?php 
                     if ( has_post_thumbnail() ) {
                         the_post_thumbnail( 'thumbnail', array( 'class' => 'photo-card blog-thumbnail' ) );
                     }
                 ?>
-                <?php the_excerpt(); ?>
+                <div>
+                    <p><?php the_date() ?></p>
+                    <?php the_excerpt(); ?>
+                    <p><?php edit_post_link(); ?></p>
+                </div>
             </div>
-            <?php edit_post_link(); ?>
         </section>
 
         <?php 
