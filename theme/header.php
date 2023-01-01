@@ -67,6 +67,9 @@ function isCurrentPath($pathString, $onlyExact = false) {
 			<li <?php isCurrentPath("/hobbies")?>>
 				<a href="/hobbies">Hobbies</a>
 			</li>
+			<li <?php isCurrentPath("/blog")?>>
+				<a href="/blog">Blog</a>
+			</li>
 		</ul>
 	</nav>
 </header>

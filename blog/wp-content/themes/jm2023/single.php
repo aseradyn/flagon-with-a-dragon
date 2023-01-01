@@ -17,7 +17,7 @@
     }
     </style>
 
-<div class="single-column-layout">
+<div class="single-column-layout" style="margin-bottom: 40px;">
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     

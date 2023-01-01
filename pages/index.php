@@ -1,3 +1,4 @@
+<div class="single-column-layout">
 <div class="layout">
 
     <section style="grid-area: welcome">
@@ -27,6 +28,10 @@
         </header>
 
         <ul class="uptos">
+            <li>
+                I got the blog working! (Turns out I had a weird DNS problem - thanks Cloudflare!) Check it out up on the <a href="/blog">Blog tab</a>. Right now it's kind of off in its own 
+                little silo, and a bit rough in places, but I'll continue tweaking it to integrate more fully into the rest of the site.
+            </li>
             <li>
                 Love spending New Year's Eve trying to figure out why .htaccess files behave differently
                 on my shared hosting server vs my local environment. Hoping to add a blog for the new year!
@@ -118,6 +123,7 @@
     </section>
 
     </div>
+</div>
 </div>
     
 
