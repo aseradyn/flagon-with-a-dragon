@@ -1,29 +1,14 @@
 <?php 
     include($_SERVER["DOCUMENT_ROOT"]."/theme/header.php");
 
-    // for thumbnails
+    // for thumbnails in galleries
     function apply_class( $attr) {
         $attr['class'] .= ' photo-card';
         return $attr;
     }
-    
     add_filter( 'wp_get_attachment_image_attributes', 'apply_class', 10 );
 
-    // for main images
-    function add_img_class( $class ) {
-        return $class . ' photo-card';
-    }
-    
-    add_filter( 'get_image_tag_class', 'add_img_class' );
 ?>
-
-<style>
-    img.photo-card {
-        max-width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-</style>
 
 <div class="single-column-layout">
 

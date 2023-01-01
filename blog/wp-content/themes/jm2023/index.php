@@ -7,6 +7,7 @@
         width: 150px;
     }
     .post-layout {
+        margin-top: 10px;
         display: grid;
         grid-template-columns: auto 1fr;
         gap: 10px;
