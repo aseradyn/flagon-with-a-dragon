@@ -1,12 +1,12 @@
-<!-- RewriteEngine On
+# RewriteEngine On
 
 # Don't rewrite /blog/ or /test/ URLs
-RewriteRule ^(blog|test)($|/) - [L]
+# RewriteRule ^(blog|test)($|/) - [L]
 
 # Send everything else to the root controller
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteBase /
-RewriteRule ^(.*)$ index.php
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteBase /
+# RewriteRule ^(.*)$ index.php
 
 # Error Pages
-ErrorDocument 404 /404.php -->
+# ErrorDocument 404 /404.php
