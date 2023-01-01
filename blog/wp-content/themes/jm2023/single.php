@@ -1,10 +1,19 @@
 <?php 
     include($_SERVER["DOCUMENT_ROOT"]."/theme/header.php");
+
+    function apply_class( $attr) {
+        $attr['class'] .= ' photo-card';
+        return $attr;
+    }
+    
+    add_filter( 'wp_get_attachment_image_attributes', 'apply_class', 10 );
 ?>
 
 <style>
-    img {
-        max-width: 100%;
+    img.photo-card {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 </style>
 

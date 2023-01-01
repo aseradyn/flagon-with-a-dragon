@@ -1,17 +1,14 @@
 <?php 
     include($_SERVER["DOCUMENT_ROOT"]."/theme/header.php");
-
-    function apply_class( $attr) {
-        $attr['class'] .= ' photo-card';
-        return $attr;
-    }
-    
-    add_filter( 'wp_get_attachment_image_attributes', 'apply_class', 10 );
 ?>
 
 <style>
     .blog-thumbnail {
-        width: 75px;
+        width: 150px;
+    }
+    .post-layout {
+        display: grid;
+        grid-template-columns: auto 1fr;
     }
 </style>
 
@@ -27,16 +24,15 @@
             </header>
             
             <p><?php the_date() ?></p>
-            <?php 
-                if ( has_post_thumbnail() ) {
-                    the_post_thumbnail( 'thumbnail', array( 'class' => 'photo-card blog-thumbnail' ) );
-                    //the_post_thumbnail();
-                }
-            ?>
-            <?php 
-                the_excerpt();
-                edit_post_link(); 
-            ?>
+            <div class="post-layout">
+                <?php 
+                    if ( has_post_thumbnail() ) {
+                        the_post_thumbnail( 'thumbnail', array( 'class' => 'photo-card blog-thumbnail' ) );
+                    }
+                ?>
+                <?php the_excerpt(); ?>
+            </div>
+            <?php edit_post_link(); ?>
         </section>
 
         <?php 
