@@ -25,24 +25,20 @@ function isCurrentPath($pathString, $onlyExact = false) {
 
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Jill Menning</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<style>
-		<?php 
-			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/fonts.css"); 
-			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/base-elements.css");
-			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/layout.css"); 
-			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/containers.css"); 
-			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/header.css"); 
-			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/scrollbars.css");
-			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/highlightjs.css"); 
-			include_once($_SERVER["DOCUMENT_ROOT"]."/theme/photos.css"); 
-		?>
-	</style>
+	<link rel="stylesheet" type="text/css" href="/theme/fonts.css" />
+	<link rel="stylesheet" type="text/css" href="/theme/base-elements.css" />
+	<link rel="stylesheet" type="text/css" href="/theme/layout.css" />
+	<link rel="stylesheet" type="text/css" href="/theme/containers.css" />
+	<link rel="stylesheet" type="text/css" href="/theme/scrollbars.css" />
+	<link rel="stylesheet" type="text/css" href="/theme/highlightjs.css" />
+	<link rel="stylesheet" type="text/css" href="/theme/photos.css" />
+	<link rel="stylesheet" type="text/css" href="/theme/header.css" />
 
 </head>
 

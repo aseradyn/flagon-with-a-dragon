@@ -11,7 +11,11 @@
     }
 
     function PhotoDirectory($pages) {
+        
         ?>
+        
+        <link rel="stylesheet" type="text/css" href="/theme/animation.css" />
+        <link rel="stylesheet" type="text/css" href="/components/PhotoDirectory.css" />
 
         <div class="photoDirectory">
 
@@ -52,45 +56,3 @@
     }
 
 ?>
-
-<style>
-    .photoDirectory {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: -6px;
-        width: 90vw;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 40px;
-
-    }
-    .photoDirectory-card-wrapper {
-        width: fit-content;
-        max-width: 350px;
-        display: grid;
-    }
-
-    .photoDirectory-card-wrapper > * {
-        grid-area: 1 / -1;
-        align-self: center;
-        justify-self: center;
-    }
-    .photoDirectory-caption {
-        font-weight: bold;
-        font-size: 1.5em;
-        width: calc(100% - 40px);
-        padding: 10px;
-        background-color: rgb(0,0,0,0.5);
-        text-align: center;
-    }
-    .photoDirectory a,
-    .photoDirectory a:visited {
-        color: white;
-        text-decoration: none;
-    }
-
-    <?php include_once($_SERVER["DOCUMENT_ROOT"]."/theme/animation.css"); ?>
-
-</style>
