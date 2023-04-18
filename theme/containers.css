@@ -22,6 +22,12 @@ section {
     background-color: rgb(255,255,255, 0.7);
     border-radius: 10px;
     padding-bottom: 20px;
+    overflow-wrap: anywhere;
+}
+
+article:has(footer),
+section:has(footer) {
+    padding-bottom: 0px;
 }
 
 article > *,
@@ -40,6 +46,18 @@ section > header {
     border-top-left-radius: 10px;
     border-bottom-width: 2px;
     border-bottom-style: dashed;
+}
+
+article > footer,
+section > footer {
+    background-color: var(--turquoise-half);
+    border-top-color: var(--coral);
+    margin: 0px;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-width: 2px;
+    border-top-style: dashed;
 }
 
 section:last-of-type {
