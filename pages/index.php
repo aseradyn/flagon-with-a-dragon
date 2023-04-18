@@ -27,6 +27,11 @@
             </h2>
         </header>
 
+        <?php 
+        include_once($_SERVER["DOCUMENT_ROOT"]."/components/rss-feed-complete.php");
+        rssFeedComplete("https://social.jmenning.com/@jill.rss", 10) 
+        ?>
+
         <ul class="uptos">
             <li>
                 I got the blog working! (Turns out I had a weird DNS problem - thanks Cloudflare!) Check it out up on the <a href="/blog">Blog tab</a>. Right now it's kind of off in its own 
