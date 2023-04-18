@@ -14,6 +14,7 @@
 <style>
     img {
         max-width: 1024px;
+        height: auto;
     }
     </style>
 
