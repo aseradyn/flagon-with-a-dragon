@@ -17,19 +17,23 @@ function rssFeedComplete($url, $limit) {
                 echo "$formattedDate<br />$feed_item->description";
 
                 $media = $feed_item->children('media', True);
-                $description = $media->content->description;
-                $image = $media->content->attributes();
 
-                if ($image) {
-                    switch($image->medium) {
-                        case "image":
-                            echo "<img src=$image->url alt='$description' class='photo-card' style='width: calc(100% - 40px); margin-bottom: 20px' />";
-                            break;
-                        case "video":
-                            echo "<video class='photo-card' style='width: calc(100% - 40px); margin-bottom: 20px' controls><source src='$image->url' type='video/mp4' /></video>";
-                            break;
+                foreach($media as $item) {
+                    $description = $item->description;
+                    $image = $item->attributes();
+                    if ($image) {
+                        switch($image->medium) {
+                            case "image":
+                                echo "<img src=$image->url alt='$description' class='photo-card' style='width: calc(100% - 40px); margin-bottom: 20px' />";
+                                break;
+                            case "video":
+                                echo "<video class='photo-card' style='width: calc(100% - 40px); margin-bottom: 20px' controls><source src='$image->url' type='video/mp4' /></video>";
+                                break;
+                        }
                     }
                 }
+                
+                
                 
                 ?>
             </div>
@@ -43,6 +47,9 @@ function rssFeedComplete($url, $limit) {
 ?>
 
 <style>
+    .feed-item:first-of-type {
+        padding-top: 10px;
+    }
     .feed-item:not(:last-child) {
         border-bottom: 1px solid black;
         margin-bottom: 10px;
