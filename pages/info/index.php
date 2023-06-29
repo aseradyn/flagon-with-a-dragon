@@ -42,7 +42,7 @@
 	<p>
 		The current iteration of the site is built with PHP. <a href="https://github.com/aseradyn/flagon-with-a-dragon">The repo is public</a>, if you feel like poking around. 
 		I love GitHub both for it's minimum-viable IDE (in case I want to make changes when I'm away from my computer) and for its integration with serverless hosting. This site is
-		hosted on Digital Ocean's App Platform (very slick) and protected by Cloudflare.
+		live on A2 Hosting.
 	</p>
 	<p>
 		I use Cloudinary as a CDN for my photos. I highly recommend it. If you're cheap (like me) and can do without API access, they have a free tier. It lets you 
