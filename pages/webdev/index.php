@@ -7,6 +7,12 @@
                 on the side, especially PHP.
             </p>
         </header>
+
+         <h3><a href="/webdev/react-router-rerender">Using React Router to force a component to re-render</a></h3>
+        <p>
+            Sometimes you really do want a complete component re-render; loss of state is the point. Here's one way to do it.
+        </p>
+        
         <h3><a href="/webdev/php-is-good-actually">PHP is good, actually</a></h3>
         <p>
             I take a bit of crap at work for being the person who defends PHP. Today, I feel like explaining why.
