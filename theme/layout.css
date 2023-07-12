@@ -12,7 +12,7 @@ body {
     font-family: Inter, Arial, sans-serif;
     line-height: 1.4;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 990px) {
     body {
         --single-column-width: calc(100vw - 30px);
     }
@@ -32,4 +32,8 @@ main {
     display: grid;
     grid-template-rows: auto;
     row-gap: 30px;
+}
+
+.single-column-layout article {
+    max-width: var(--single-column-width);
 }
