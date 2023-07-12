@@ -54,6 +54,7 @@ h3 a:any-link {
 
 pre, code {
     white-space: pre-line;
+    font-size: 1.1em;
 }
 
 pre {
@@ -61,7 +62,6 @@ pre {
     border: 1px solid #cccccc;
     padding: 1em;
     overflow-x: auto;
-    font-size: 1.1em;
 }
 
 pre > code {
