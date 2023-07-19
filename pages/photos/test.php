@@ -2,15 +2,16 @@
 
 function CallSmugMug($url)
 {
+    $config = '../configurations/smugmug.php';
+    include($config);
 
     $apiBase = "https://api.smugmug.com";
     $url = $apiBase . $url;
 
-    $smugMugApiKey = getenv("SMUG_KEY");
     if (str_contains($url, "?")) {
-        $url = $url . "&APIKey=" . $smugMugApiKey;
+        $url = $url . "&APIKey=" . $SMUG_KEY;
     } else {
-        $url = $url . "?APIKey=" . $smugMugApiKey;
+        $url = $url . "?APIKey=" . $SMUG_KEY;
     }
 
     $curl = curl_init();
