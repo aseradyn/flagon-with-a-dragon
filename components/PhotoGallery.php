@@ -2,7 +2,7 @@
 
     include_once($_SERVER["DOCUMENT_ROOT"]."/components/Photo.php");
 
-    function PhotoList($photos) {
+    function PhotoList($photos, bool $local = false) {
         ?>
 
         <script>
@@ -24,13 +24,11 @@
             $animationDelayStyle = "animation-delay: ".$animationDelay."s";
             $rotation = rand(-2,2);
 
-        ?>    
-
-        
+        ?> 
 
         <a href="/photos/singlePhoto?path=<?php echo $photo->path ?>" onClick=showLightbox(<?php echo $key ?>) class="animate pop" style="<?php echo $animationDelayStyle ?>">
             <div class="photoList-card" style="transform: rotate(<?php echo $rotation ?>deg)">
-                <?php Photo(photo: $photo, type: "thumbnail") ?>
+                <?php Photo(photo: $photo, type: "thumbnail", local: $local) ?>
             </div>
         </a>
 
@@ -38,7 +36,7 @@
             <div class="lightbox-positioning">
                 <div class="lightbox photo-card">
                         <?php 
-                            Photo(photo: $photo, type: "lightbox") 
+                            Photo(photo: $photo, type: "lightbox", local: $local) 
                         ?>
                     <div class="lightbox-caption">
                         <?php 

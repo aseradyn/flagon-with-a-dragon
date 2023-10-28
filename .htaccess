@@ -3,6 +3,9 @@ RewriteEngine On
 # Don't rewrite /blog/ or /test/ URLs
 RewriteRule ^(blog|test)($|/) - [L]
 
+# Don't rewrite asset files
+RewriteRule \.(jpe?g|gif|bmp|png)$ - [L]
+
 # Send everything else to the root controller
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteBase /

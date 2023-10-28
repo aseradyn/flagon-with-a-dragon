@@ -13,7 +13,8 @@
 	 */
     function Photo(
         Photo $photo, 
-        string $type="inline"
+        string $type="inline",
+        bool $local=false
         ) {
 
         $baseCloudinaryURL = "https://res.cloudinary.com/aseradyn/image/upload";
@@ -32,7 +33,14 @@
         }
 
         echo "<div class='$photoClass'>";
-        echo "<img src='$baseCloudinaryURL/w_$maxWidth/$photo->path' alt='$photo->alt' title='$photo->caption' />";
+
+        if ($local == true) {
+            echo "<img src='$photo->path' alt='$photo->alt' title='$photo->caption' />";
+        } 
+        else {
+            echo "<img src='$baseCloudinaryURL/w_$maxWidth/$photo->path' alt='$photo->alt' title='$photo->caption' />";
+        }
+
         echo "</div>";
 
     }

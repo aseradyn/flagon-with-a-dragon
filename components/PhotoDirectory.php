@@ -1,7 +1,5 @@
 <?php
 
-    // TODO: Get resized images from Cloudinary
-
     include_once($_SERVER["DOCUMENT_ROOT"]."/components/Photo.php");
 
     class Page {

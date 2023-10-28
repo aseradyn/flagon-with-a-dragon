@@ -1,12 +1,14 @@
 <div class="single-column-layout">
 
-    
-
     <section class="article-list">
         <header>
             <h1>Hobbies</h1>
             <p>Other things I like to play around with</p>
         </header>
+        <h3>🎨 
+            <a href="hobbies/spinning/silk-reeling-workshop">Class: Six Slick Silks with Michael Cook</a>
+        </h3>
+        <p>A fantastic three-day workshop where we learned to make silk thread from cocoons</p>
         <h3>🎨 
             <a href="hobbies/watercolor">A collection of watercolor doodles</a>
         </h3>
