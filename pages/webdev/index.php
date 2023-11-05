@@ -8,6 +8,11 @@
             </p>
         </header>
 
+        <h3><a href="/webdev/portal_link_react_components">Using Portal to Share Context Between React Components Rendered to Separate DOM Nodes</a></h3>
+        <p>
+            A Good Use For Portal or, A simple way to let two React components talk across a sea of non-React HTML
+        </p>
+
          <h3><a href="/webdev/react-router-rerender">Using React Router to force a component to re-render</a></h3>
         <p>
             Sometimes you really do want a complete component re-render; loss of state is the point. Here's one way to do it.
