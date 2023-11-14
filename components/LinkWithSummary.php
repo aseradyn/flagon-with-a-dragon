@@ -7,7 +7,7 @@
       }
     </style>
     <div class="link-with-summary">
-      <h3><a href="<?php echo $href ?>"></a><?php echo $title ?></h3>
+      <h3><a href="<?php echo $href ?>"><?php echo $title ?></a></h3>
       <p><?php echo $summary ?></p>
     </div>    
 <?php
