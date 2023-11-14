@@ -1,3 +1,7 @@
+<?php
+include_once($_SERVER["DOCUMENT_ROOT"]."/components/LinkWithSummary.php");
+?>
+
 <div class="single-column-layout">
     <section class="article-list">
         <header>
@@ -7,16 +11,17 @@
                 on the side, especially PHP.
             </p>
         </header>
+        <?php
+            LinkWithSummary("Using Portal to Share Context Between React Components Rendered to Separate DOM Nodes", 
+                            "A Good Use For Portal or, A simple way to let two React components talk across a sea of non-React HTML",
+                            "/webdev/portal_link_react_components"
+                           );
 
-        <h3><a href="/webdev/portal_link_react_components">Using Portal to Share Context Between React Components Rendered to Separate DOM Nodes</a></h3>
-        <p>
-            A Good Use For Portal or, A simple way to let two React components talk across a sea of non-React HTML
-        </p>
-
-         <h3><a href="/webdev/react-router-rerender">Using React Router to force a component to re-render</a></h3>
-        <p>
-            Sometimes you really do want a complete component re-render; loss of state is the point. Here's one way to do it.
-        </p>
+            LinkWithSummary("Using React Router to force a component to re-render", 
+                            "Sometimes you really do want a complete component re-render; loss of state is the point. Here's one way to do it.",
+                            "/webdev/react-router-rerender"
+                           );
+        ?>
         
         <h3><a href="/webdev/php-is-good-actually">PHP is good, actually</a></h3>
         <p>
