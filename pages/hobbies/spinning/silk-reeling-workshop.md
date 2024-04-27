@@ -14,32 +14,31 @@ It's a great class, and if you ever have an opportunity to take it? DO IT
         title='A pot full of cocoons being reeled using what he called the "Laos village style", which is easier but results in a rougher yarn'
         alt="A steel pot half-full of water, with white cocoons completely covering the surface of the water. Extremely fine white filaments come up from the cocoons, through an eye in a copper stand"
     />
-
-<img
-src = '/images/silk-reeling-workshop/20231020_145524.jpg'
-title="Live silk moth larvae (silk worms) with mulberry leaves. On the last day, some of them started to spin their cocoons!"
-alt = "Smooth white caterpillars on a bed of light blue cloth, full of holes, and green leaves, also well munched"
-/>
-<img
-src = '/images/silk-reeling-workshop/20231020_153325.jpg'
-title='The "croissure" - or cross. The silk goes up from the bottom eye, around the top pulley, around the bottom pulley, then up through the top eye. In the middle, it is wound around and around itself, which helps wring out excess moisture and compacts the filaments together to make them stronger and rounder'
-alt = "A stand made of copper pipe with two pulleys up the side and an eye on a pair of arms - one at the top and one at the bottom. A dark towel is held up behind to show the path of the filament, kind of a big X connecting the pulleys and the eyes"
-/>
-<img
-src = '/images/silk-reeling-workshop/20231020_174756.jpg'
-title="Where reeling gets its name: winding the filament onto a silk reel. The criss-crossing of the filaments on the reel is essential; that's what prevents it from sticking together as a great mass when it dries."
-alt = "In the foreground, a wooden crank box with a Japanese-style silk reel mounted in it. In the background, various pots and tools, including a Crock Pot."
-/>
-<img
-src = '/images/silk-reeling-workshop/20231023_121551.jpg'
-title="The last step is taking the reeled, twisted, plied, and degummed skeins and winding them onto storage bobbins. This is my last skein on my skein-winder, waiting for bobbin-hood"
-alt = "A vertical skein winder, looks vaguely like a ferris wheel, with a skein of white thread connecting the arms. In the background, other junk, like old desktop computers and dog toys"
-/>
-<img
-src = '/images/silk-reeling-workshop/20231023_213328.jpg'
-title = "The finished yarns - five out of six of the Slick Silks for the workshop. The spool labeled 'No Twist' is filament straight from the cocoons. The spool labeled '3x1' is three filaments that have been twisted together using a spinning wheel, to make a single 'ply'."
-alt = 'In the foreground, five white weaving bobbins, the end of each labeled with blue washi tape, like "3x2" for 3 filaments, 2 plies. In the background, a small spool with a little thread wond on it, and a larger spool half-full of untwisted filament.'/>
-/>
+    <img
+        src='/images/silk-reeling-workshop/20231020_145524.jpg'
+        title="Live silk moth larvae (silk worms) with mulberry leaves. On the last day, some of them started to spin their cocoons!"
+        alt="Smooth white caterpillars on a bed of light blue cloth, full of holes, and green leaves, also well munched"
+    />
+    <img
+        src='/images/silk-reeling-workshop/20231020_153325.jpg'
+        title='The "croissure" - or cross. The silk goes up from the bottom eye, around the top pulley, around the bottom pulley, then up through the top eye. In the middle, it is wound around and around itself, which helps wring out excess moisture and compacts the filaments together to make them stronger and rounder'
+        alt = "A stand made of copper pipe with two pulleys up the side and an eye on a pair of arms - one at the top and one at the bottom. A dark towel is held up behind to show the path of the filament, kind of a big X connecting the pulleys and the eyes"
+    />
+    <img
+        src='/images/silk-reeling-workshop/20231020_174756.jpg'
+        title="Where reeling gets its name: winding the filament onto a silk reel. The criss-crossing of the filaments on the reel is essential; that's what prevents it from sticking together as a great mass when it dries."
+        alt = "In the foreground, a wooden crank box with a Japanese-style silk reel mounted in it. In the background, various pots and tools, including a Crock Pot."
+    />
+    <img
+        src='/images/silk-reeling-workshop/20231023_121551.jpg'
+        title="The last step is taking the reeled, twisted, plied, and degummed skeins and winding them onto storage bobbins. This is my last skein on my skein-winder, waiting for bobbin-hood"
+        alt = "A vertical skein winder, looks vaguely like a ferris wheel, with a skein of white thread connecting the arms. In the background, other junk, like old desktop computers and dog toys"
+    />
+    <img
+        src='/images/silk-reeling-workshop/20231023_213328.jpg'
+        title="The finished yarns - five out of six of the Slick Silks for the workshop. The spool labeled 'No Twist' is filament straight from the cocoons. The spool labeled '3x1' is three filaments that have been twisted together using a spinning wheel, to make a single 'ply'."
+        alt='In the foreground, five white weaving bobbins, the end of each labeled with blue washi tape, like "3x2" for 3 filaments, 2 plies. In the background, a small spool with a little thread wond on it, and a larger spool half-full of untwisted filament.'/>
+    />
 </photo-gallery>
 
 The overall process looks like this:

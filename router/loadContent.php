@@ -1,13 +1,7 @@
 <?php 
 
-include_once($_SERVER["DOCUMENT_ROOT"]."/router/loadWebComponents.php");
-
 function loadPage($path) {
     include($_SERVER["DOCUMENT_ROOT"]."/pages/".$path.".php");
-
-    $fileString = file_get_contents($_SERVER["DOCUMENT_ROOT"]."/pages/".$path.".php");
-    loadWebComponents($fileString);
-
 }
 
 function loadArticle($fileName) {
@@ -39,10 +33,5 @@ function loadArticle($fileName) {
     </div>
     
     <?php
-        
-    loadWebComponents($markdown);
-
-        
 }
-
 ?>

@@ -15,7 +15,6 @@ function getRotation() {
 const insertLightboxes = (images) => {
     images.forEach(image => {
             const imgUrl = image.getAttribute("src");
-            //const img = link.querySelector("img");
             const alt = image.getAttribute("alt") ?? "";
             const title = image.getAttribute("title") ?? "";
             const key = Math.random();
