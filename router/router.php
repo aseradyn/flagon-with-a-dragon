@@ -28,5 +28,7 @@ if ($request == "" || $request == "/") {
    include('404.php');
 }
 
+echo '<link rel="stylesheet" href="/components/photo-gallery/photo-gallery.css" />';
+echo '<script src="/components/photo-gallery/photo-gallery.js" />';
 
 ?>
