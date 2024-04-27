@@ -13,7 +13,6 @@ function getRotation() {
 }
 
 const insertLightboxes = (images) => {
-    console.log(images);
     images.forEach(image => {
             const imgUrl = image.getAttribute("src");
             //const img = link.querySelector("img");
@@ -43,16 +42,13 @@ class PhotoGallery extends HTMLElement {
         this.classList.add('photo-gallery');
         let images = this.querySelectorAll("img");
         images.forEach(image => {
-            image.classList.add('photo-card');
-            image.classList.add('animate');
-            image.classList.add('pop');
+            image.classList.add('photo-card', 'animate', 'pop');
             image.style.setProperty('transform', 'rotate(' + getRotation() + 'deg)');
         })
 
         // If this is a link directory, don't add lightboxes
         const isDirectory = this.hasAttribute('isDirectory');
         if (!isDirectory) {
-            let images = this.querySelectorAll("img");
             insertLightboxes(images);
         }
     }
