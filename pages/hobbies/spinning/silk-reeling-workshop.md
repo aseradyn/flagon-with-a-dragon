@@ -1,6 +1,8 @@
 Silk Reeling Workshop
 =====================
 
+_October 20-22, 2023_
+
 Michael Cook, who - among other things - runs the delightfully-named website [Wormspit](http://www.wormspit.com) came to Houston to teach a workshop called 'Six Slick Silks'.
 In the workshop, we learned two ways to reel silk (unwinding silk filament from dried cocoons), and got a good bit of practice winding, twisting, and plying it into different configurations.
 
