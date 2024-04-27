@@ -36,6 +36,32 @@ const convertLinksToLightboxes = (links) => {
         });
 }
 
+const insertLightboxes = (images) => {
+    console.log(images);
+    images.forEach(image => {
+            const imgUrl = image.getAttribute("src");
+            //const img = link.querySelector("img");
+            const alt = image.getAttribute("alt") ?? "";
+            const title = image.getAttribute("title") ?? "";
+            const key = Math.random();
+            const lightboxHtml = `
+                <div id="${key}" class="lightbox-overlay hide" onClick=hideLightbox(${key})>
+                    <div class="lightbox-positioning">
+                        <div class="lightbox photo-card">
+                            <img src="${imgUrl}" alt="${alt}" title="${title}" />
+                            <div class="lightbox-caption">
+                                ${title}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            `
+            image.addEventListener('click', function(e) {showLightbox(key)});
+            image.insertAdjacentHTML('afterend', lightboxHtml);
+        });
+}
+
 class PhotoGallery extends HTMLElement {
     connectedCallback() {
         this.classList.add('photo-gallery');
@@ -50,8 +76,10 @@ class PhotoGallery extends HTMLElement {
         // If this is a link directory, don't mess with the links
         const isDirectory = this.hasAttribute('isDirectory');
         if (!isDirectory) {
-            let links = this.querySelectorAll("a");
-            convertLinksToLightboxes(links);
+            //let links = this.querySelectorAll("a");
+            let images = this.querySelectorAll("img");
+            insertLightboxes(images);
+            //convertLinksToLightboxes(links);
         }
     }
 }
