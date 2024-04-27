@@ -1,11 +1,24 @@
+let listOfKeys = [];
+
 function showLightbox(key) {
-    event.preventDefault();
-    document.getElementById(key).classList.remove("hide");
+    document.getElementById(key)?.classList.remove("hide");
 }
 function hideLightbox(key) {
-    event.preventDefault();
-    document.getElementById(key).classList.add("hide");
+    document.getElementById(key)?.classList.add("hide");
 }
+function navigateNext(key) {
+    hideLightbox(key);
+    const nextKeyIndex = listOfKeys.indexOf(key.toString()) + 1;
+    const nextKey = listOfKeys[nextKeyIndex];
+    showLightbox(nextKey);
+}
+function navigatePrevious(key) {
+    hideLightbox(key);
+    const prevKeyIndex = listOfKeys.indexOf(key.toString()) - 1;
+    const prevKey = listOfKeys[prevKeyIndex];
+    showLightbox(prevKey);
+}
+
 function getRotation() {
     const value = Math.random() * (0 - 2) + 0;
     const posNeg = Math.round(Math.random()) * 2 - 1;
@@ -17,16 +30,16 @@ const insertLightboxes = (images) => {
             const imgUrl = image.getAttribute("src");
             const alt = image.getAttribute("alt") ?? "";
             const title = image.getAttribute("title") ?? "";
-            const key = Math.random();
+            const key = image.getAttribute("key");
             const lightboxHtml = `
-                <div id="${key}" class="lightbox-overlay hide" onClick=hideLightbox(${key})>
-                    <div class="lightbox-positioning">
-                        <div class="lightbox photo-card">
-                            <img src="${imgUrl}" alt="${alt}" title="${title}" />
-                            <div class="lightbox-caption">
-                                ${title}
-                            </div>
+                <div id="${key}" class="lightbox-overlay hide">
+                    <div class="lightbox">
+                        <img src="${imgUrl}" alt="${alt}" class="photo-card" />
+                        <div class="lightbox-caption">
+                            ${title}
                         </div>
+                        <button class="lightbox-nav-left" onClick="navigatePrevious(${key})">Previous</button>
+                        <button class="lightbox-nav-right" onClick="navigateNext(${key})">Next</button>
                     </div>
                 </div>
             `
@@ -35,13 +48,23 @@ const insertLightboxes = (images) => {
         });
 }
 
+async function setImageKeys(gallery) {
+    let images = gallery.querySelectorAll("img");
+    images.forEach(image => {
+        const keyvalue = Math.random();
+        image.setAttribute("key", keyvalue);
+    })
+}
+
 class PhotoGallery extends HTMLElement {
-    connectedCallback() {
+    async connectedCallback() {
         this.classList.add('photo-gallery');
-        let images = this.querySelectorAll("img");
+        await setImageKeys(this);
+        const images = this.querySelectorAll("img");
         images.forEach(image => {
             image.classList.add('photo-card', 'animate', 'pop');
             image.style.setProperty('transform', 'rotate(' + getRotation() + 'deg)');
+            listOfKeys.push(image.getAttribute("key"));
         })
 
         // If this is a link directory, don't add lightboxes
