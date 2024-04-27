@@ -30,7 +30,6 @@ const insertLightboxes = (images) => {
                         </div>
                     </div>
                 </div>
-
             `
             image.addEventListener('click', function(e) {showLightbox(key)});
             image.insertAdjacentHTML('afterend', lightboxHtml);
