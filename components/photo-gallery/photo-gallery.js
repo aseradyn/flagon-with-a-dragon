@@ -34,12 +34,14 @@ const insertLightboxes = (images) => {
             const lightboxHtml = `
                 <div id="${key}" class="lightbox-overlay hide">
                     <div class="lightbox">
-                        <img src="${imgUrl}" alt="${alt}" class="photo-card" />
+                        <div class="lightbox-image-container photo-card">
+                            <img src="${imgUrl}" alt="${alt}"  />
+                        </div>
                         <div class="lightbox-caption">
                             ${title}
                         </div>
-                        <button class="lightbox-nav-left" onClick="navigatePrevious(${key})">Previous</button>
-                        <button class="lightbox-nav-right" onClick="navigateNext(${key})">Next</button>
+                        <button class="lightbox-nav-left" onClick="navigatePrevious(${key})">&larr;</button>
+                        <button class="lightbox-nav-right" onClick="navigateNext(${key})">&rarr;</button>
                     </div>
                 </div>
             `
