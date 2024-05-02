@@ -7,13 +7,10 @@
                 <div class="welcome">
                     Welcome!
                 </div>
-
-                
             </h1>
             <p style="text-align: center">I'm so glad you're here!</p>
         </header>
         <div style="text-align: center; padding-bottom: 10px;">
-            
             <p>
                 I am your host, Jill Menning, serial hobbyist, notorious plotter and schemer
             </p>
@@ -22,43 +19,28 @@
 
     <section style="grid-area: main">
         <header>
-            <h2>
-                Here's what I've been up to lately:
-            </h2>
+            <h1>Ephemera</h1>
+            <p style="text-align: center">These posts will self destruct</p>
         </header>
-
-        <div>
-            <?php 
-            include_once($_SERVER["DOCUMENT_ROOT"]."/components/rss-feed-complete.php");
-            rssFeedComplete("https://social.jmenning.com/@jill.rss", 5) 
-            ?>
-        </div>
-        <footer>
-            <p style="text-align: center">See more: <a href="https://social.jmenning.com/@jill">Mastodon</a> | <a href="https://social.jmenning.com/@jill.rss">RSS</a></p>
-        </footer>
-
+        <?php include_once $_SERVER["DOCUMENT_ROOT"]."/components/ephemera.php"; ?>
     </section>
 
-    <section>
-    <table>
-	<tr>
-		<td colspan="3">This site is a member of the CS.Sjoy.lol webring</td>
-	</tr>
-	<tr>
-		<td style="text-align: center"><a href="https://webri.ng/webring/cssjoy/previous?via=https://www.jmenning.com">< Previous</a></td>
-		<td style="text-align: center"><a href="https://webri.ng/webring/cssjoy/random?via=https://www.jmenning.com">Random</a></td>
-		<td style="text-align: center"><a href="https://webri.ng/webring/cssjoy/next?via=https://www.jmenning.com">Next ></a></td>
-	</tr>
-</table>
-    </section>
+    <div class="sidebar-modules">
+        <section>
+            <?php include_once $_SERVER["DOCUMENT_ROOT"]."/components/webring.php"; ?>
+        </section>
+
+        <section>
+            <p>
+                You can also find me on
+            <a href="https://social.jmenning.com/@jill">Mastodon</a>
+</p>
+        </section>
+    </div>
 
     </div>
 </div>
 </div>
-    
-
-    
-
 
 <style>
 
@@ -90,17 +72,10 @@
     color: #E84855;
 }
 
-.uptos {
-    list-style-type: circle;
-}
-
-.uptos>li {
-    margin-bottom: 20px;
-    padding-left: 5px;
-}
-
-.uptos>li::marker {
-    font-size: 1.3em;
+.sidebar-modules {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 </style>
