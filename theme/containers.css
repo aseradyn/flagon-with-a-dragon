@@ -19,7 +19,7 @@
 
 article,
 section {
-    background-color: rgb(255,255,255, 0.7);
+    background-color: var(--text-backdrop);
     border-radius: 10px;
     padding-bottom: 20px;
     overflow-wrap: anywhere;

@@ -2,9 +2,12 @@
     display: grid;
     grid-template-rows: auto auto;
     column-gap: 30px;
-    background-color: rgb(206,231,235, 0.7);
+    background-color: var(--turquoise-half);
     padding-left: 10px;
     padding-right: 10px;
+}
+.pageHeader-background {
+    background-color: var(--text-backdrop);
 }
 .name-full {
     font-family: Merienda, Inter, sans-serif;
@@ -62,5 +65,5 @@
 
 }
 #siteNav a:hover {
-    color: #E84855;
+    color: var(--orange);
 }
