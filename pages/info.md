@@ -38,6 +38,6 @@ download images in any size you need - from thumbnails to full size - at least, 
 	
 ### Special thanks go out to:
 
-* <a href="https://www.patterncooler.com/">Pattern Cooler</a>: A <em>fantastic</em> site for finding and tweaking seamless background graphics, including the bamboo used as the background of my site right now.
+* [Pattern Cooler](https://sc.squirrel.ws/): A <em>fantastic</em> site for finding and tweaking seamless background graphics, including the bamboo used as the background of my site right now. | URL changed - is it temporary? Here's the [previous URL](https://www.patterncooler.com/)
 
 * <a href="https://coolors.co/">Coolors</a>: My favorite way to find, generate, and experiment with color palettes.
