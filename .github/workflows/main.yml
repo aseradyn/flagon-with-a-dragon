@@ -11,10 +11,10 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        dry-run: true
         server: ${{ secrets.FTP_URL }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
+        protocol: ftps
         exclude: |
           **/.git*
           **/.git*/**
