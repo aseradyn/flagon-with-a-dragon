@@ -43,7 +43,7 @@ function isCurrentPath($pathString, $onlyExact = false) {
 </head>
 
 <body>
-
+<div class="pageHeader-background">
 <header id="pageHeader">
 	<div class="name-full"><a href="/">jill.menning</a></div>
 	<nav id="siteNav">
@@ -67,5 +67,6 @@ function isCurrentPath($pathString, $onlyExact = false) {
 			</ul>
 	</nav>
 </header>
+</div>
 
 <main>
