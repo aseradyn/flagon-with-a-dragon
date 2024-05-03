@@ -19,7 +19,7 @@ body {
     body {
         background-image: url("/theme/images/bamboo-dark.png");
         --turquoise-values: 24,53,58;
-        --baseFont: white;
+        --baseFont: rgb(255,255,255,0.85);
         --turquoise: rgb(var(--turquoise-values));
         --turquoise-half: rgb(var(--turquoise-values), 0.5);
         --text-backdrop: rgb(0,0,0,0.7);
