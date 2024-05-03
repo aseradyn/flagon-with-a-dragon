@@ -37,7 +37,7 @@ It's a great class, and if you ever have an opportunity to take it? DO IT
     <img
         src='/images/silk-reeling-workshop/20231023_213328.jpg'
         title="The finished yarns - five out of six of the Slick Silks for the workshop. The spool labeled 'No Twist' is filament straight from the cocoons. The spool labeled '3x1' is three filaments that have been twisted together using a spinning wheel, to make a single 'ply'."
-        alt='In the foreground, five white weaving bobbins, the end of each labeled with blue washi tape, like "3x2" for 3 filaments, 2 plies. In the background, a small spool with a little thread wond on it, and a larger spool half-full of untwisted filament.'/>
+        alt='In the foreground, five white weaving bobbins, the end of each labeled with blue washi tape, like "3x2" for 3 filaments, 2 plies. In the background, a small spool with a little thread wond on it, and a larger spool half-full of untwisted filament.'
     />
 </photo-gallery>
 
