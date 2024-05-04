@@ -31,22 +31,38 @@ const insertLightboxes = (images) => {
             const alt = image.getAttribute("alt") ?? "";
             const title = image.getAttribute("title") ?? "";
             const key = image.getAttribute("key");
-            const lightboxHtml = `
-                <div id="${key}" class="lightbox-overlay hide">
-                    <div class="lightbox">
-                        <div class="lightbox-image-container photo-card">
-                            <img src="${imgUrl}" alt="${alt}"  />
-                        </div>
-                        <div class="lightbox-caption">
-                            ${title}
-                        </div>
-                        <button class="lightbox-nav-left" onClick="navigatePrevious(${key})">&larr;</button>
-                        <button class="lightbox-nav-right" onClick="navigateNext(${key})">&rarr;</button>
-                    </div>
-                </div>
-            `
-            image.addEventListener('click', function(e) {showLightbox(key)});
-            image.insertAdjacentHTML('afterend', lightboxHtml);
+
+            // build needed nodes
+            const replacementImage = image.cloneNode(true);
+            const imageForLightbox = image.cloneNode(true);
+            imageForLightbox.setAttribute("style", ""); // unset the transform style
+
+            const wrapper = document.createElement("div");
+            wrapper.classList = "photo-gallery-photo-wrapper";
+
+            const lightbox = document.createElement("div");
+            lightbox.classList = "lightbox";
+            lightbox.setAttribute("popover", "");
+            lightbox.id = `lightbox-${key}`;
+
+            const button = document.createElement("button");
+            button.classList = "photo-gallery-toggle-button";
+            button.popoverTargetElement = lightbox;
+            button.setAttribute("title", "Pop up larger image");
+            const buttonLabel = document.createTextNode("⇱");
+
+            // assemble   
+            button.appendChild(buttonLabel);         
+            wrapper.appendChild(replacementImage);
+            wrapper.appendChild(button);
+            lightbox.appendChild(imageForLightbox);
+            wrapper.appendChild(lightbox);
+
+            // insert
+            image.after(wrapper);
+
+            // and hide the original
+            image.remove();
         });
 }
 
