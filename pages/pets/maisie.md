@@ -42,6 +42,6 @@ The best bit, though, was the armadillo.
 See, armadillos are neither bright nor sharp-eyed. They kind of bumble around, completely fearless. And one bumbled right up under Maisie’s nose. That was when the armadillo realized it was inches from a predator, and panicked. It did that sudden vertical hop they're famous for, and Maisie jumped back in surprise, then it dove back into the nearest bit of cover. Not that it stayed there. It was seconds, not minutes, before it was bumbling right back out again. Maisie watched the armadillos foraging around the camp sites *very* attentively after that!
 
 <video width="864" height="486" controls>
-<source src="/pages/pets/maisie/20020127_184716.mp4" type="video/mp4">
+<source src="/pages/pets/maisie/20020127_184716_780p.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
