@@ -51,6 +51,6 @@ See, armadillos are neither bright nor sharp-eyed. They kind of bumble around, c
 
 ### June, Quintana Beach County Park
 
-I took Maisie to [the beach](/places/quintana) for the first time this weekend. She had a great time sniffing everything - the seaweed and bits of shell and pieces of driftwood; she put her nose right down into the little crab burrows, and was deeply interested in the remains of sand castles and moats after the children had left for the day, though she showed no inclination to expand the excavations. She didn't like the waves coming at her; she shied back from them every time they approached.
+I took Maisie to [the beach](/places/quintana/#june-2024) for the first time this weekend. She had a great time sniffing everything - the seaweed and bits of shell and pieces of driftwood; she put her nose right down into the little crab burrows, and was deeply interested in the remains of sand castles and moats after the children had left for the day, though she showed no inclination to expand the excavations. She didn't like the waves coming at her; she shied back from them every time they approached.
 
 I know she isn't crazy about driving around in the motorhome - it makes a lot of noise and she spent most of the trip going and coming pressed up against my seat. But on the return trip, she at least wasn't shaking, just watching nervously lest something jump out at her. I'm hopeful that if we do these short trips more often, she'll relax a bit.

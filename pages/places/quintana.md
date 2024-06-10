@@ -7,7 +7,7 @@ I'm not saying it's a _great_ beach, but by Texas standards? It's not bad. I sti
 
 <h2 id="june-2024">2024.06.07</h2>
 
-I packed up the camper and the dog and headed down to the beach for a three-day weekend.
+I packed up the camper and [the dog](/pets/maisie) and headed down to the beach for a three-day weekend.
 
 It's hot. Summer is well and truly upon us, but while the city sits in the mid 90s, the beach is about 10 degrees cooler. With the sun beating down on you, it's a misery: humidity that sticks to your skin, sweat that won't evaporate, that soaks through your clothes, that runs down your face and your body. But if you find a patch of shade, and an unobstructed breeze, and just sit... it's actually pretty comfortable. The beauty of going to the beach while the inland areas swelter under a high pressure system is _wind_. The heat rises over land, pulling in the cooler air from the Gulf, and you can feel it alternating hot and cool against your skin as the strength of the breeze changes - hotter when it slows, cooler when it gusts.
 
