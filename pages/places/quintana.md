@@ -5,6 +5,8 @@ Quintana Beach is my current favorite beach in Texas. It's less crowded than Gal
 
 I'm not saying it's a _great_ beach, but by Texas standards? It's not bad. I still have no desire to go in the water, but it's a lovely place to watch the sun go up and down, to walk, to watch birds, to escape the closed-in feeling of suburban Houston and its surrounding subtropical forests.
 
+Here's their site: [Quintana Beach County Park](https://www.brazoriacountytx.gov/departments/parks-department/quintana-beach)
+
 <h2 id="june-2024">2024.06.07</h2>
 
 I packed up the camper and [the dog](/pets/maisie) and headed down to the beach for a three-day weekend.
