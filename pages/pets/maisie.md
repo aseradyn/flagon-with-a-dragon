@@ -49,6 +49,18 @@ See, armadillos are neither bright nor sharp-eyed. They kind of bumble around, c
 
 ## 2024
 
+### February
+
+I was trimming branches in the garden. As I cut them on one end, Maisie was chewing on the other. What teamwork!
+
+### March
+
+I tested my sprinkler system today, to prepare for summer. Maisie helped.
+
+<photo-gallery>
+    <img src="/pages/pets/maisie/20240331_183237(0)_(WebShare).jpg" alt="Maisie playfully biting the stream from a sprinkler head">
+</photo-gallery>
+
 ### June, Quintana Beach County Park
 
 I took Maisie to [the beach](/places/quintana/#june-2024) for the first time this weekend. She had a great time sniffing everything - the seaweed and bits of shell and pieces of driftwood; she put her nose right down into the little crab burrows, and was deeply interested in the remains of sand castles and moats after the children had left for the day, though she showed no inclination to expand the excavations. She didn't like the waves coming at her; she shied back from them every time they approached.
