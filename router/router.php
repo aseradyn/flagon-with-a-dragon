@@ -29,6 +29,8 @@ if ($request == "" || $request == "/") {
 }
 
 echo '<link rel="stylesheet" href="/components/photo-gallery/photo-gallery.css" />';
-echo '<script src="/components/photo-gallery/photo-gallery.js" />';
+echo '<script src="/components/photo-gallery/photo-gallery.js"></script>';
+echo '<link rel="stylesheet" href="/components/table-of-contents/table-of-contents.css" />';
+echo '<script src="/components/table-of-contents/table-of-contents.js"></script>';
 
 ?>

@@ -1,5 +1,8 @@
 # Maisie
 
+<table-of-contents>
+</table-of-contents>
+
 When I met Maisie, it was love at first lick. She crawled up into my lap and my heart was lost.
 
 We were at CAP on a sunny Saturday morning, and by lunch the papers were signed and we were on our way home.
