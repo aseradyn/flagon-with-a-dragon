@@ -2,6 +2,11 @@ img {
     width: 100%;
 }
 
+video {
+    width: 100%;
+    height: auto;
+}
+
 .wp-block-image,
 .photo-card {
     background-color: white;

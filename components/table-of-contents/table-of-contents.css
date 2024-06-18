@@ -1,5 +1,6 @@
 .toc {
     font-size: 0.8em;
+    margin-inline-start: 10px;
 }
 
 .toc > summary {
