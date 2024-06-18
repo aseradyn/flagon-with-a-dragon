@@ -10,7 +10,7 @@ Wet felting uses water, soap, and agitation to bind the wool fibers together. If
 
 Needle felting uses needles with sort of barbed tips to push dry wool fibers tightly up against each other. This lets you have very precise control of where fibers end up, so if you see little pictures of houses and countryside and delicate little flowers made of wool felt, it was likely needle felted.
 
-[Living Felt](https://feltingsupplies.livingfelt.com/learn) has some great tutorial videos for all kinds of felting!
+[Living Felt](https://feltingsupplies.livingfelt.com/learn) has some great tutorial videos for all kinds of felting! [Here's their YouTube channel](https://www.youtube.com/livingfelt) if you find that easier to navigate.
 
 ## Classes and Projects
 
