@@ -6,13 +6,19 @@ For example, I learn well through experimentation, and I'm fairly mechanical (in
 
 ## In-Person Classes
 
+### Local Classes
+
 A lot of large cities (and quite a few medium-sized ones) have weaving "guilds" (basically non-profit organizations that bring weavers together to socialize, learn, and share). Because teaching new people to weave is a solid way to increase membership in the guild, a lot of them offer some kind of weaving classes, or can at least help hook you up with a local teacher.
 
 A class is great if you learn better in person, with a teacher that can help you find errors, solve problems, and answer questions. Many classes have looms either included or available to rent, so they're also a good option if you don't want to invest in the equipment before you know if you even like the craft. A _local_ class is nice because it can help hook you into a local weaving community for ongoing support and further learning.
 
 Finding local classes may be an exercise in googling and following up on leads. If there's an organized guild with regular meetings, turning up at meetings may put you in contact with teachers or members willing to help new folks get started. If there's no local guild, you can sometimes find other local weavers through forums, Reddit, craft markets, local shows or galleries, etc.
 
-There are also a few "destination" craft schools that teach weaving. You travel to the school for a few days, a week, or sometimes more of classes on a specific topic. A lot of them teach weaving as either one option or their whole deal.
+### Around the USA
+
+If your town doesn't have an active weaving guild, consider joining a guild in a larger city that's within driving distance for you. Guilds often bring in teachers for workshops, and guild members tend to get the first chances at signing up for those workshops. Even if you're not a member, getting on a mailing list or checking their sites regularly for upcoming events can sometimes get you into a class.
+
+There are also a few "destination" craft schools that teach weaving in the US. You travel to the school for a few days, a week, or sometimes more of classes on a specific topic. A lot of them teach weaving as either one option or their whole deal.
 
 Here's the ones I've heard about:
 
@@ -27,8 +33,8 @@ My number one recommendation for learning to weave by watching videos is Jane St
 
 ## Books
 
-If you like learning from books, here's the one I learned from: Deb Chandler's <cite>Learning to Weave</cite>. If you're mostly interested in European-style cloth weaving, this is a great resource.
+If you like learning from books, here's the one I learned from: Deb Chandler's <cite>Learning to Weave</cite> [amazon](https://a.co/d/0eEPdb7P) If you're mostly interested in European-style cloth weaving, this is a great resource.
 
-If you are mostly interested in weaving tapestry (like pictures and strong visual designs), I highly recommend Rebecca Mezoff's <cite>The Art of Tapestry Weaving</cite>. This book has beautifully clear photos and instructional text for picking yarns, warping the loom, and weaving your first pieces.
+If you are mostly interested in weaving tapestry (like pictures and strong visual designs), I highly recommend Rebecca Mezoff's <cite>The Art of Tapestry Weaving</cite> [amazon](https://a.co/d/0ck5dKaz) This book has beautifully clear photos and instructional text for picking yarns, warping the loom, and weaving your first pieces.
 
 Many inkle looms and rigid heddle looms, when purchased new, come with instruction sheets to walk you through warping and weaving on those looms. They are mechanically a lot simpler than table and floor looms, and you may find that the included instructions are all you need to start weaving.
