@@ -10,6 +10,6 @@ In many parts of the US, cotton spinning is rarely taught. It's worth seeking ou
 
 Another good option is finding a spinning video lesson. I rather like these because you can back up and watch the same bit again and again until you think you really understand what is happening.
 
-The video I learned from was by Stephanie Gaustad. It was available on DVD. I believe this may be the same video, but offered online: [Spinning CCotton(https://learn.longthreadmedia.com/courses/spinning-cotton) This video covers preparing and spinning cotton on several different spinning tools, from support spindles to electric spinning wheels.
+The video I learned from was by Stephanie Gaustad. It was available on DVD. I believe this may be the same video, but offered online: [Spinning Cotton](https://learn.longthreadmedia.com/courses/spinning-cotton) This video covers preparing and spinning cotton on several different spinning tools, from support spindles to electric spinning wheels.
 
 If you search on YouTube, there are lots of videos of varying quality. It's worth watching a bunch of them - you can learn a lot just by watching people spin and noting what they have in common and what they do differently.
