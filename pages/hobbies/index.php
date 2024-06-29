@@ -5,6 +5,8 @@
             <h1>Hobbies</h1>
             <p>Other things I like to play around with</p>
         </header>
+        <h3><a href="hobbies/weaving" >Weaving</a>
+        </h3>
         <h3>🎨 
             <a href="hobbies/spinning/silk-reeling-workshop">Class: Six Slick Silks with Michael Cook</a>
         </h3>
