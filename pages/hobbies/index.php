@@ -5,16 +5,14 @@
             <h1>Hobbies</h1>
             <p>Other things I like to play around with</p>
         </header>
-        <h3><a href="hobbies/weaving" >Weaving</a>
+        <h3><a href="/hobbies/weaving" >Weaving</a>
         </h3>
         <h3>
-            <a href="hobbies/spinning/silk-reeling-workshop">Class: Six Slick Silks with Michael Cook</a>
+            <a href="/hobbies/spinning">Spinning</a>
         </h3>
-        <p>A fantastic three-day workshop where we learned to make silk thread from cocoons</p>
         <h3>
             <a href="hobbies/watercolor">A collection of watercolor doodles</a>
         </h3>
-        <p>Not much to show off about, but I'm having fun!</p>
         
             <h3>
                 <a href="hobbies/photography/photo-tips-for-coastal-tx">
