@@ -16,10 +16,10 @@ There are also a few "destination" craft schools that teach weaving. You travel 
 
 Here's the ones I've heard about:
 
-* [Red Stone Glen Fiber Arts School](www.redstoneglen.com): Located in Pennsylvania, with classes in weaving, dyeing, and spinning. Tom Knisley has a reputations as a great weaving teacher, and I've talked to several people who took classes from him while he was still teaching at conferences and guilds, and they all recommend him. I'd hope that the school he runs has other equally capable teachers.
-* [The Folk School](www.folkschool.org): All kinds of craft classes, including beginning and intermediate weaving classes. Located in North Carolina. I haven't personally been there, but I've wanted to go for years.
-* [Tierra Wools](www.handweavers.com): Beginning and intermdeiate weaving classes taught on Rio Grande style "walking" looms. Located in northern New Mexico. I've taken their tapestry class, and I loved working on these large looms, but it is very physical compared to other types of weaving I've done. The principles learned here can be applied to smaller looms as well.
-* [Vavstuga Weaving School](www.vavstuga.com): Located in Massachusetts, this school focuses on Swedish-style weaving. They are also a big vendor of Glimakra and Oxaback looms, so if you are interested in those looms, taking classes here could be a great way to find out if they're a good fit.
+* [Red Stone Glen Fiber Arts School](http://www.redstoneglen.com): Located in Pennsylvania, with classes in weaving, dyeing, and spinning. Tom Knisley has a reputations as a great weaving teacher, and I've talked to several people who took classes from him while he was still teaching at conferences and guilds, and they all recommend him. I'd hope that the school he runs has other equally capable teachers.
+* [The Folk School](http://www.folkschool.org): All kinds of craft classes, including beginning and intermediate weaving classes. Located in North Carolina. I haven't personally been there, but I've wanted to go for years.
+* [Tierra Wools](http://www.handweavers.com): Beginning and intermdeiate weaving classes taught on Rio Grande style "walking" looms. Located in northern New Mexico. I've taken their tapestry class, and I loved working on these large looms, but it is very physical compared to other types of weaving I've done. The principles learned here can be applied to smaller looms as well.
+* [Vavstuga Weaving School](http://www.vavstuga.com): Located in Massachusetts, this school focuses on Swedish-style weaving. They are also a big vendor of Glimakra and Oxaback looms, so if you are interested in those looms, taking classes here could be a great way to find out if they're a good fit.
 
 ## Video Classes
 
