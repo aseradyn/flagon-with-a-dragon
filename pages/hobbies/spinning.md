@@ -1,6 +1,6 @@
 # Spinning
 
-[Learning to Spin](hobbies/spinning/learning-to-spin)
+[Learning to Spin](/hobbies/spinning/learning-to-spin)
 
 ## Workshops
 
