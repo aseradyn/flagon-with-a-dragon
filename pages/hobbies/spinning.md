@@ -1,5 +1,7 @@
 # Spinning
 
+[Learning to Spin](hobbies/spinning/learning-to-spin)
+
 ## Workshops
 
 Workshops and classes I've taken
