@@ -30,6 +30,7 @@ function isCurrentPath($pathString, $onlyExact = false) {
 <head>
     <title>Jill Menning</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="view-transition" content="same-origin" />
 
 	<link rel="stylesheet" type="text/css" href="/theme/fonts.css" />
 	<link rel="stylesheet" type="text/css" href="/theme/base-elements.css" />

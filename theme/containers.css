@@ -17,6 +17,10 @@
     margin-top: 10em;
 }
 
+article {
+    view-transition-name: article
+}
+
 article,
 section {
     background-color: var(--text-backdrop);
