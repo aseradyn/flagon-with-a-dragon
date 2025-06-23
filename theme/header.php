@@ -39,6 +39,7 @@ function isCurrentPath($pathString, $onlyExact = false) {
 	<link rel="stylesheet" type="text/css" href="/theme/highlightjs.css" />
 	<link rel="stylesheet" type="text/css" href="/theme/photos.css" />
 	<link rel="stylesheet" type="text/css" href="/theme/header.css" />
+	<link rel="stylesheet" type="text/css" href="/theme/flag.css" />
 
 </head>
 
