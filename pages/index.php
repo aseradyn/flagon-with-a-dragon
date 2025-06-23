@@ -21,6 +21,7 @@
         <header>
             <h1>Ephemera</h1>
             <p style="text-align: center">These posts will self destruct</p>
+            <p style="text-align: center"><a href="/ephemera/rss">RSS</a></p>
         </header>
         <?php include_once $_SERVER["DOCUMENT_ROOT"]."/components/ephemera.php"; ?>
     </section>
