@@ -22,6 +22,8 @@
                 $Parsedown = new Parsedown();
                 $markdown = file_get_contents($post);
                 $content = $Parsedown->text($markdown);
+                $encodedContent = htmlentities($content, ENT_COMPAT);
+
 
                 $dateStartPosition = strpos($post, "ephemera/") + 9;
                 $postDate = substr($post, $dateStartPosition, 10);
@@ -38,7 +40,7 @@
                 echo "
                     <item>
                         <pubDate>$publishDate</pubDate>
-                        <description>$content</description>
+                        <description>$encodedContent</description>
                         <link>$url</link>
                     </item>
                 ";
