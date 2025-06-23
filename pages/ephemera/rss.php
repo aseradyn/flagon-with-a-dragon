@@ -30,10 +30,16 @@
                 $dateDay = substr($postDate, 8, 2);
                 $publishDate = date(DATE_RFC2822, mktime(0,0,0,$dateMonth, $dateDay, $dateYear));
 
+                
+                $fileName = substr($post, $dateStartPosition);
+                $clippedFileName = substr($fileName, 0, -3);
+                $url = "https://www.jmenning.com/ephemera/$clippedFileName";
+
                 echo "
                     <item>
                         <pubDate>$publishDate</pubDate>
                         <description>$content</description>
+                        <link>$url</link>
                     </item>
                 ";
             }
