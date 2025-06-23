@@ -2,10 +2,10 @@
 <?php
 include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/parsedown/index.php";
 
-$list = glob($_SERVER["DOCUMENT_ROOT"].'/pages/ephemera/*.md');
-$list = array_reverse($list);
-$limit=5; 
-$list=array_slice($list, 0, $limit);                    
+include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/fetchEphemera.php";
+
+$list = fetchEphemera();
+                    
 foreach($list as $post)
 {
     $dateStartPosition = strpos($post, "ephemera/") + 9;

@@ -10,6 +10,11 @@ if (str_contains($request, "/tools/superbowl-squares-generator")) {
     return;
 }
 
+if (str_contains($request, "ephemera/rss")) {
+    include($_SERVER["DOCUMENT_ROOT"]."/pages/ephemera/rss.php");
+    return;
+}
+
 include($_SERVER["DOCUMENT_ROOT"]."/auth/auth0_initialization.php");
 
 if (str_contains($request, "/auth/login")) {
