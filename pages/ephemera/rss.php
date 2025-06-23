@@ -24,14 +24,12 @@
                 $content = $Parsedown->text($markdown);
                 $encodedContent = htmlentities($content, ENT_COMPAT);
 
-
                 $dateStartPosition = strpos($post, "ephemera/") + 9;
                 $postDate = substr($post, $dateStartPosition, 10);
                 $dateYear = substr($postDate, 0, 4);
                 $dateMonth = substr($postDate, 5, 2);
                 $dateDay = substr($postDate, 8, 2);
                 $publishDate = date(DATE_RFC2822, mktime(0,0,0,$dateMonth, $dateDay, $dateYear));
-
                 
                 $fileName = substr($post, $dateStartPosition);
                 $clippedFileName = substr($fileName, 0, -3);
