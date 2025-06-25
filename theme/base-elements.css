@@ -37,6 +37,10 @@ a:hover {
     color: var(--orange);
 }
 
+p {
+    margin-block: 1lh;
+}
+
 h1 {
     font-size: 1.4em;
     text-align: center;
