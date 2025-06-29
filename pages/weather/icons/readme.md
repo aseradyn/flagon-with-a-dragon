@@ -1,0 +1,1 @@
+The icons in this folder were properly purchased from FontAwesome. I can show receipts.

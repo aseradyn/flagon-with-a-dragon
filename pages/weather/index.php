@@ -22,6 +22,8 @@
 
 <?php
 
+include_once($_SERVER["DOCUMENT_ROOT"]."/pages/weather/getIcon.php");
+
 $userAgent = "User-Agent: jmenning.com (jill@jmenning.com)";
 
 function convertCtoF($tempC) {
@@ -90,8 +92,9 @@ if (isset($forecastData['properties']['periods'])) {
     
     echo "<section class='weather-section'><div class='weather-grid'>";
 
-    if ($forecastData['properties']['periods'][0]['number'] = 0) {
-        echo "<div>empty</div>";
+    $isDaytime = $forecastData['properties']['periods'][0]['isDaytime'];
+    if ($isDaytime == false or $isDaytime == 0) {
+        echo "<div></div>";
     }
 
     foreach ($forecastData['properties']['periods'] as $period) {
@@ -101,7 +104,7 @@ if (isset($forecastData['properties']['periods'])) {
 
         <div>
             <h3><?= $period['name'] ?></h3>
-            <p><img src=<?= $period['icon'] ?> class='weather-icon' title="<?= $shortForecast ?>" /> <?= $period['temperature'] ?> <?= $period['temperatureUnit'] ?></p>
+            <p><?php getIcon($period) ?> <?= $period['temperature'] ?> <?= $period['temperatureUnit'] ?></p>
             <p><?= $period['probabilityOfPrecipitation']['value']?>% chance of rain</p>
             <p><?= $period['windSpeed']?> <?= $period['windDirection']?></p>
         </div>
