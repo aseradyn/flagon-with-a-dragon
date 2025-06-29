@@ -16,6 +16,12 @@
         justify-items: center;
         width: fit-content;
     }
+
+    @media (prefers-color-scheme: dark) {
+        .weather-icon {
+            filter: invert(1);
+        }
+    }
 </style>
 
 <div class="single-column-layout">
@@ -111,7 +117,7 @@ if (isset($forecastData['properties']['periods'])) {
 
         <?php
     }
-    
+
     echo "</div></section>";
 
 } else {
