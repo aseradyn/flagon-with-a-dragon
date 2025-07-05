@@ -98,3 +98,18 @@ I tested my sprinkler system today, to prepare for summer. Maisie helped.
 I took Maisie to [the beach](/places/quintana/#june-2024) for the first time this weekend. She had a great time sniffing everything - the seaweed and bits of shell and pieces of driftwood; she put her nose right down into the little crab burrows, and was deeply interested in the remains of sand castles and moats after the children had left for the day, though she showed no inclination to expand the excavations. She didn't like the waves coming at her; she shied back from them every time they approached.
 
 I know she isn't crazy about driving around in the motorhome - it makes a lot of noise and she spent most of the trip going and coming pressed up against my seat. But on the return trip, she at least wasn't shaking, just watching nervously lest something jump out at her. I'm hopeful that if we do these short trips more often, she'll relax a bit.
+
+## 2025
+
+### April, Last Day at Day Camp
+
+Possibly the hardest part about leaving Houston was leaving [Waggin' Tails](https://waggintailsanimalinn.com/). Maisie had been going there three days a week for the whole time I have had her. They love her, and she loves them. They sent me some photos of her last day at camp.
+
+<photo-gallery>
+    <img src="/pages/pets/maisie/20250414-IMG_9077.jpg" alt="Maisie standing in a shallow pool, soaked and filthy" />
+    <img src="/pages/pets/maisie/20250414-IMG_9085.jpg" alt="Maisie rolling in the grass, belly to the sun" />
+    <img src="/pages/pets/maisie/20250414-IMG_9099.jpg" alt="Maisie smiling at someone off-camera" />
+    <img src="/pages/pets/maisie/20250414-IMG_9104.jpg" alt="Mostly just her nose" />
+    <img src="/pages/pets/maisie/20250414-IMG_9108.jpg" alt="Just a happy dog being happy" />
+</photo-gallery>
+
