@@ -38,7 +38,7 @@ download images in any size you need - from thumbnails to full size - at least, 
 	
 ### Special thanks go out to:
 
-* <a href="https://coolors.co/">Coolors</a>: My favorite way to find, generate, and experiment with color palettes.
+* <a href="https://coolors.co/">Coolors</a>: My favorite way to find, generate, and experiment with color palettes. For example, [this is the color palette](https://coolors.co/palette/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08) that was the starting point for my new theme.
 
 * <a href="https://www.transparenttextures.com/">Transparent Textures</a>: A fabulous site for finding seamless textures.
 

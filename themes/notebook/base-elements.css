@@ -7,7 +7,8 @@ body {
     --text-backdrop: rgb(255,255,255,0.7);
     --decoration: #F48C06;
     --dark-red: #590925;
-    --link-default: #DC2F02;
+    --link-default: #136c6c;
+    --link-default-filters: invert(18%) sepia(81%) saturate(4063%) hue-rotate(14deg) brightness(97%) contrast(98%);
     --orange: #F48C06;
 
     color: var(--baseFont);

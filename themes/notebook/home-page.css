@@ -38,3 +38,38 @@
     border-radius: 5px;
     padding-top: 10px;
 }
+
+#ephemera {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "h1 rss"
+        "subtitle .";
+    align-items: center;
+}
+
+#ephemera h1 {
+    text-align: start;
+    grid-area: h1;
+}
+
+#ephemera p {
+    margin: 0px;
+}
+
+#ephemera-rss {
+    grid-area: rss;
+}
+
+#ephemera-rss img {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+    filter: var(--link-default-filters);
+    transform: translateY(3px);
+}
+
+#ephemera-subtitle {
+    grid-area: subtitle;
+}

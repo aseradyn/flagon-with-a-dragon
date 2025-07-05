@@ -27,10 +27,10 @@
     </section>
 
     <section style="grid-area: main">
-        <header>
+        <header id="ephemera">
             <h1>Ephemera</h1>
-            <p style="text-align: center">These posts will self destruct</p>
-            <p style="text-align: center"><a href="/ephemera/rss">RSS</a></p>
+            <p id="ephemera-subtitle">These posts will self destruct</p>
+            <p id="ephemera-rss"><a href="/ephemera/rss"><img src="/images/rss.svg" alt="RSS icon"/>RSS</a></p>
         </header>
         <?php include_once $_SERVER["DOCUMENT_ROOT"]."/components/ephemera.php"; ?>
     </section>

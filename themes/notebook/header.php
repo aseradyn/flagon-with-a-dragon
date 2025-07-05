@@ -37,7 +37,7 @@ $theme = $_SESSION["theme"];
 		grid-template-columns: 1fr auto;
 		grid-template-rows: auto auto;
 		grid-template-areas:
-			"header header"
+			"header ."
 			"main nav";
 		margin: 50px;
 	}
@@ -56,6 +56,12 @@ $theme = $_SESSION["theme"];
 		padding-bottom: 10px;
 		align-items: center;
 	}
+	#pageHeader a {
+		color: white;
+	}
+	#pageHeader a:hover {
+		color: var(--orange);
+	}
 	main {
 		grid-area: main;
 		background-color: white;
@@ -70,8 +76,11 @@ $theme = $_SESSION["theme"];
 		font-size: 2em;
 		color: white;
 	}
+	.name-full a {
+		text-decoration: none;
+	}
 
-	.home-link {
+	.home-link a {
 		font-family: Cabin Sketch, Inter, sans-serif;
 		font-size: 1.5em;
 	}
@@ -187,7 +196,7 @@ $theme = $_SESSION["theme"];
 <body>
 	<div class="whole-page">
 		<header id="pageHeader">
-			<div class="name-full">jill.menning</div>
+			<div class="name-full"><a href="/">jill.menning</a></div>
 			<div class="home-link"><a href="/">Go Home!</a></div>
 			
 		</header>
