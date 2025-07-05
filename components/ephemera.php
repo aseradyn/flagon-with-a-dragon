@@ -27,7 +27,7 @@ foreach($list as $post)
 
 <style>
     .ephemera-post:not(:last-child) {
-        border-bottom: 1px dashed var(--coral);
+        border-bottom: 1px dashed var(--decoration);
         margin-bottom: 10px;
     }
 </style>

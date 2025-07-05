@@ -5,10 +5,10 @@ body {
     --turquoise: rgb(var(--turquoise-values));
     --turquoise-half: rgb(var(--turquoise-values), 0.5);
     --text-backdrop: rgb(255,255,255,0.7);
-    --coral: #E84855;
+    --decoration: #F48C06;
     --dark-red: #590925;
-    --bright-red: #9F0E41;
-    --orange: #FC8755;
+    --link-default: #DC2F02;
+    --orange: #F48C06;
 
     color: var(--baseFont);
     background-color: #1b9898;
@@ -16,7 +16,7 @@ body {
 }
 
 a {
-    color: var(--bright-red);
+    color: var(--link-default);
     text-underline-position: under;
 }
 
@@ -76,5 +76,5 @@ li {
 hr {
     width: min(var(--single-column-width), 100%);
     border-width: 0.5px;
-    border-color: var(--coral);
+    border-color: var(--decoration);
 }

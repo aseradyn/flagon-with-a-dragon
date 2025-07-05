@@ -61,7 +61,6 @@ $theme = $_SESSION["theme"];
 		background-color: white;
 		background-image: url("/themes/notebook/images/notebook-dark.png");
 		padding: 30px;
-		min-height: 110%;
 	}
 	.name-full {
 		font-family: Cabin Sketch, Inter, sans-serif;

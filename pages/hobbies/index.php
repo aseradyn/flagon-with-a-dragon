@@ -7,12 +7,16 @@
         </header>
         <h3><a href="/hobbies/weaving" >Weaving</a>
         </h3>
+        <p>Weaving cloth and bands and other textiles using hand looms.</p>
         <h3>
             <a href="/hobbies/spinning">Spinning</a>
         </h3>
+        
+        <p>Making yarn from fibers such as wool and cotton.</p>
         <h3>
             <a href="hobbies/watercolor">A collection of watercolor doodles</a>
         </h3>
+        <p>Just messing around.</p>
         
             <h3>
                 <a href="hobbies/photography/photo-tips-for-coastal-tx">

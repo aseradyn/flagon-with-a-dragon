@@ -6,7 +6,7 @@
 }
 
 .markdown h2 {
-    border-top-color: var(--coral);
+    border-top-color: var(--decoration);
     margin-top: 40px;
     padding-top: 40px;
     border-top-width: 1px;
@@ -36,7 +36,7 @@ section > * {
 
 article > header,
 section > header {
-    border-bottom-color: var(--coral);
+    border-bottom-color: var(--decoration);
     margin: 0px;
     padding: 10px;
     border-bottom-width: 2px;
@@ -45,8 +45,7 @@ section > header {
 
 article > footer,
 section > footer {
-    background-color: var(--turquoise-half);
-    border-top-color: var(--coral);
+    border-top-color: var(--decoration);
     margin: 0px;
     padding: 10px;
     border-top-width: 2px;

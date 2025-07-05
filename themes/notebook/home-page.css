@@ -30,4 +30,11 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    
+}
+
+.sidebar-modules section {
+    border: 2px solid var(--decoration);
+    border-radius: 5px;
+    padding-top: 10px;
 }
