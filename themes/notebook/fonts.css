@@ -1,0 +1,41 @@
+/* https://rsms.me/inter/ */
+@import url('/themes/tropical/fonts/Inter/inter.css');
+
+
+@import url('/themes/notebook/fonts/Impact.css');
+@import url('/themes/notebook/fonts/HomemadeApple.css');
+
+/* https://www.fontspace.com/steelworks-vintage-font-f24016 */
+@font-face {
+    font-family: 'SteelworksVintageDemo';
+    src:    url('/themes/tropical/fonts/SteelworksVintageDemo-P5wE.otf'), 
+            url('/themes/tropical/fonts/SteelworksVintageDemo-rR98.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merienda';
+    src: url('/themes/tropical/fonts/Merienda-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Merienda';
+    src: url('/themes/tropical/fonts/Merienda-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.cabin-sketch-regular {
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cabin-sketch-bold {
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+

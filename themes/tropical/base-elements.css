@@ -12,12 +12,12 @@ body {
 
     color: var(--baseFont);
     background-color: var(--turquoise-half);
-    background-image: url("/theme/images/bamboo.jpg");
+    background-image: url("/themes/tropical/images/bamboo.jpg");
 }
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-image: url("/theme/images/bamboo-dark.png");
+        background-image: url("/themes/tropical/images/bamboo-dark.png");
         --turquoise-values: 24,53,58;
         --baseFont: rgb(255,255,255,0.85);
         --turquoise: rgb(var(--turquoise-values));

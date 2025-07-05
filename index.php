@@ -1,5 +1,9 @@
 <?php 
 
+session_start();
+$_SESSION["theme"] = "notebook";
+$theme = $_SESSION["theme"];
+
 $request = $_SERVER['REQUEST_URI'];
 
 // Routes that should bypass the header and router
@@ -39,7 +43,7 @@ if (str_contains($request, "/callback")) {
 
 // Main site content
 
-include($_SERVER["DOCUMENT_ROOT"]."/theme/header.php");
+include($_SERVER["DOCUMENT_ROOT"]."/themes/$theme/header.php");
 
 include($_SERVER["DOCUMENT_ROOT"]."/router/router.php");
 
