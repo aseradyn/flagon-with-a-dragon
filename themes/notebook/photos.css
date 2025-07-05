@@ -1,0 +1,27 @@
+img {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.wp-block-image,
+.photo-card {
+    background-color: white;
+    background-image: url("/theme/images/linen.png");
+    padding: 20px;
+    max-width: 100%;
+    box-shadow: 0px 0px 5px rgb(0,0,0,0.5);
+}
+
+/* @media (prefers-color-scheme: dark) {
+    .photo-card {
+        background-color: #000000;
+        background-image: linear-gradient(0deg, #000000 50%, var(--turquoise-half) 50%);
+        background-size: 5px 5px;
+        box-shadow: 0px 0px 2px var(--turquoise-half);
+    }
+} */
+

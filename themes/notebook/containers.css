@@ -6,7 +6,7 @@
 }
 
 .markdown h2 {
-    border-top-color: var(--coral);
+    border-top-color: var(--decoration);
     margin-top: 40px;
     padding-top: 40px;
     border-top-width: 1px;
@@ -19,8 +19,6 @@
 
 article,
 section {
-    background-color: var(--text-backdrop);
-    border-radius: 10px;
     padding-bottom: 20px;
     overflow-wrap: anywhere;
 }
@@ -38,24 +36,18 @@ section > * {
 
 article > header,
 section > header {
-    background-color: var(--turquoise-half);
-    border-bottom-color: var(--coral);
+    border-bottom-color: var(--decoration);
     margin: 0px;
     padding: 10px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
     border-bottom-width: 2px;
     border-bottom-style: dashed;
 }
 
 article > footer,
 section > footer {
-    background-color: var(--turquoise-half);
-    border-top-color: var(--coral);
+    border-top-color: var(--decoration);
     margin: 0px;
     padding: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
     border-top-width: 2px;
     border-top-style: dashed;
 }

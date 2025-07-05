@@ -1,0 +1,80 @@
+body {
+    --baseFont: black;
+
+    --turquoise-values: 206, 231, 235;
+    --turquoise: rgb(var(--turquoise-values));
+    --turquoise-half: rgb(var(--turquoise-values), 0.5);
+    --text-backdrop: rgb(255,255,255,0.7);
+    --decoration: #F48C06;
+    --dark-red: #590925;
+    --link-default: #DC2F02;
+    --orange: #F48C06;
+
+    color: var(--baseFont);
+    background-color: #1b9898;
+    background-image: url("/themes/notebook/images/dimension.png");
+}
+
+a {
+    color: var(--link-default);
+    text-underline-position: under;
+}
+
+a:hover {
+    color: var(--orange);
+}
+
+p {
+    margin-block: 1lh;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 40px;
+    font-family: Cabin Sketch, Inter, sans-serif;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 30px;
+    font-family: Cabin Sketch, Inter, sans-serif;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin-top: 30px;
+    font-family: Cabin Sketch, Inter, sans-serif;
+}
+
+h1 a:any-link,
+h2 a:any-link,
+h3 a:any-link {
+    text-decoration-thickness: 0.03em;
+}
+
+pre, code {
+    white-space: pre-line;
+    font-size: 1.1em;
+}
+
+pre {
+    background-color: rgb(255,255,255,0.4);
+    border: 1px solid #cccccc;
+    padding: 1em;
+    overflow-x: auto;
+}
+
+pre > code {
+    white-space: pre;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+hr {
+    width: min(var(--single-column-width), 100%);
+    border-width: 0.5px;
+    border-color: var(--decoration);
+}

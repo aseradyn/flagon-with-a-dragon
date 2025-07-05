@@ -1,3 +1,12 @@
+
+<style>
+    <?php
+    $theme = $_SESSION["theme"];
+    include($_SERVER["DOCUMENT_ROOT"]."/themes//".$theme."/home-page.css");
+    ?>
+</style>
+
+
 <div class="single-column-layout">
 <div class="layout">
 
@@ -42,42 +51,4 @@
     </div>
 </div>
 </div>
-
-<style>
-
-.layout {
-    display: grid;
-    grid-template-columns: minmax(30em, var(--single-column-width)) 15em;
-    grid-template-rows: auto 1fr;
-    grid-template-areas:    "main welcome"
-                            "main secondary";
-    column-gap: 30px;
-    row-gap: 30px;
-    align-items: start;
-    align-content: start;
-    justify-content: center;
-}
-
-@media screen and (max-width: 1000px) {
-    .layout {
-        grid-template-columns: 1fr;
-        grid-template-areas: "welcome"
-                            "main"
-                            "secondary";
-    }
-}
-
-.welcome {
-    position: relative;
-    width: 100%;
-    color: #E84855;
-}
-
-.sidebar-modules {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-</style>
 

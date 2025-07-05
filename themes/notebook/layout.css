@@ -1,0 +1,29 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr;
+
+    --single-column-width: 60em;
+    
+    padding: 0px;
+    margin: 0px;
+
+    font-family: Inter, Arial, sans-serif;
+    line-height: 1.4;
+}
+@media screen and (max-width: 990px) {
+    body {
+        --single-column-width: calc(100vw - 100px);
+    }
+}
+
+.single-column-layout {
+    max-width: var(--single-column-width);
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.single-column-layout article {
+    max-width: var(--single-column-width);
+}

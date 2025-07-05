@@ -8,6 +8,11 @@
             </p>
         </header>
 
+        <h3><a href="/webdev/standups">On Daily Stand-Ups</a></h3>
+        <p>
+            Better stand-ups for happier and more productive teams, or why scrum sucks
+        </p>
+
         <h3><a href="/webdev/portal_link_react_components">Using Portal to Share Context Between React Components Rendered to Separate DOM Nodes</a></h3>
         <p>
             A Good Use For Portal or, A simple way to let two React components talk across a sea of non-React HTML

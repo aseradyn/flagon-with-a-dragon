@@ -61,7 +61,7 @@ function Breadcrumbs() {
             margin-right: 10px;
         }
         .breadcrumbs-home-icon {
-            color: var(--coral);
+            color: var(--decoration);
             font-size: 20px;
         }
     </style>
