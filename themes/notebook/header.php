@@ -104,7 +104,7 @@ $theme = $_SESSION["theme"];
 		display: inline-block;
 		position: relative;
 		height: 100%;
-		border-radius: 5px 0px;
+		border-radius: 5px 5px 0px 0px;
 		padding: 10px 0px;
 		background-color: white;
 	}
