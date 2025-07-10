@@ -35,6 +35,8 @@ I switched to using the FTP Deploy Action instead of the Github pull/deploy step
 I use Cloudinary as a CDN for my photos. I highly recommend it. If you're cheap (like me) and can do without API access, they have a free tier. It lets you 
 download images in any size you need - from thumbnails to full size - at least, up to a point (there is a file size limit). I use the
 <a href="https://cloudinary.com/cookbook">Cloudinary Cookbook</a> for that little bit of image manipulation.
+
+For the few icons on the site, I either use emoji (so, rendered using your system or browser's emoji glyphs), or FontAwesome. I bought version 5 years ago, and it's served me well. Mostly I'm using one-off SVGs rather than the whole font.
 	
 ### Special thanks go out to:
 
@@ -43,6 +45,10 @@ download images in any size you need - from thumbnails to full size - at least, 
 * <a href="https://www.transparenttextures.com/">Transparent Textures</a>: A fabulous site for finding seamless textures.
 
 * <a href="https://www.fontsquirrel.com/">Font Squirrel</a>: For helping me find licensed, free fonts to play with.
+
+* [This codepen](https://codepen.io/sosuke/pen/Pjoqqp) for helping me set the color for SVGs using CSS filter.
+
+* [W3 Schools Color Picker](https://www.w3schools.com/colors/colors_picker.asp) which is a very easy, quick way to pick a lighter, darker, or hue-shifted version of a color.
 
 For previous versions of this site, I also loved:
 

@@ -56,6 +56,7 @@ function convertDegreesToDirection($degrees) {
 
 $currentObservationsDataUrl = 'https://api.weather.gov/stations/kdma/observations';
 $forecastDataUrl = 'https://api.weather.gov/gridpoints/TWC/96,51/forecast';
+$radarUrl = 'https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJ3ZWF0aGVyIiwiY2VudGVyIjpbLTExMC44MTgsMzIuMTldLCJsb2NhdGlvbiI6Wy0xMTAuODM5LDMyLjI3XSwiem9vbSI6MTAuMjY3OTE5NzA0MzYxODg3LCJsYXllciI6ImJyZWZfcWNkIn0sImFuaW1hdGluZyI6ZmFsc2UsImJhc2UiOiJzdGFuZGFyZCIsImFydGNjIjpmYWxzZSwiY291bnR5IjpmYWxzZSwiY3dhIjpmYWxzZSwicmZjIjpmYWxzZSwic3RhdGUiOmZhbHNlLCJtZW51Ijp0cnVlLCJzaG9ydEZ1c2VkT25seSI6dHJ1ZSwib3BhY2l0eSI6eyJhbGVydHMiOjAuOCwibG9jYWwiOjAuNiwibG9jYWxTdGF0aW9ucyI6MC44LCJuYXRpb25hbCI6MC42fX0%3D';
 
 // Fetch the latest observation
 $ch = curl_init();
@@ -78,6 +79,7 @@ $windDirection = convertDegreesToDirection($observationData['windDirection']['va
     <h3>Currently</h3>
     <p><?= $actualTemp ?> feels like <?= $feelsLikeTemp ?></p>
     <p><?= $windSpeed ?> mph <?= $windDirection ?></p>
+    <p><a href="<?= $radarUrl ?>" target="_blank" rel="noopener noreferrer">Radar</a></p>
 </section>
 
 <?php 
