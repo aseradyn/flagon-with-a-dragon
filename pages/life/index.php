@@ -45,6 +45,11 @@
             <img src="/pages/places/quintana/20240608_063753_(WebShare).jpg" />
         </photo-gallery>
 
+        <h4>Seattle, Washington <a href="/places/seattle">Visit -></a></h4>
+        <photo-gallery>
+            <img src="/pages/places/seattle/20230922-Chihuly-08.jpg" />
+        </photo-gallery>
+
     </section>
 
 
