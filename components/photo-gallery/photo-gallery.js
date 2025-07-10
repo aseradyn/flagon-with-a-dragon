@@ -49,7 +49,7 @@ const insertLightboxes = (images) => {
             button.classList = "photo-gallery-toggle-button";
             button.popoverTargetElement = lightbox;
             button.setAttribute("title", "Pop up larger image");
-            const buttonLabel = document.createTextNode("⇱");
+            const buttonLabel = document.createTextNode("⤡");
 
             // assemble   
             button.appendChild(buttonLabel);         

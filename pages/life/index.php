@@ -12,6 +12,11 @@
 
     #layout section {
         flex-basis: 40%;
+        max-width: calc(100vw - 50px);
+    }
+    h4 {
+        display: flex;
+        justify-content: space-between;
     }
 </style>
 
@@ -28,16 +33,16 @@
 
         <h3>Latest</h3>
 
-        <h4>Saguaro National Park, Arizona</h4>
+        <h4>Saguaro National Park, Arizona<a href="/places/arizona/saguaroNP">Visit -></a></h4>
         <photo-gallery>
-            <a href="/places/arizona/saguaroNP" alt="Silhouette of a saguaro cactus against a sunset sky"><img src="/pages/places/arizona/saguaroNP/20250518-O5180044.jpg" /></a>
+            <img src="/pages/places/arizona/saguaroNP/20250518-O5180044.jpg" alt="Silhouette of a saguaro cactus against a sunset sky" />
         </photo-gallery>
 
         <h3>Previous</h3>
 
-        <h4>Quintana Beach, Texas</h4>
+        <h4>Quintana Beach, Texas <a href="/places/quintana">Visit -></a></h4>
         <photo-gallery>
-            <a href="/places/quintana"><img src="/pages/places/quintana/20240608_063753_(WebShare).jpg" /></a>
+            <img src="/pages/places/quintana/20240608_063753_(WebShare).jpg" />
         </photo-gallery>
 
     </section>
@@ -52,16 +57,16 @@
 
         <h3>Current</h3>
 
-        <h4>Maisie</h4>
+        <h4>Maisie <a href="/pets/maisie">Pet -></a></h4>
         <photo-gallery>
-            <a href="/pets/maisie" alt="Photo of Maisie, a black and white dog, pictured here running with her ball, looking sleek and athletic"><img src="/pages/pets/maisie/2022_1102_PM_00032_(WebShare).jpg" /></a>
+            <img src="/pages/pets/maisie/2022_1102_PM_00032_(WebShare).jpg" alt="Photo of Maisie, a black and white dog, pictured here running with her ball, looking sleek and athletic" />
         </photo-gallery>
 
         <h3>Past</h3>
 
-        <h4>Oreo</h4>
+        <h4>Oreo <a href="/pets/oreo">Pet -></a></h4>
         <photo-gallery>
-            <a href="/pets/oreo" alt="Photo of Oreo, a black and white dog, pictured here laying on a bed looking up at the camera"><img src="/pages/pets/oreo/oreo8.jpg" /></a>
+            <img src="/pages/pets/oreo/oreo8.jpg" alt="Photo of Oreo, a black and white dog, pictured here laying on a bed looking up at the camera" />
         </photo-gallery>
 
     </section>
