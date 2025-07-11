@@ -76,18 +76,21 @@ async function setImageKeys(gallery) {
 
 class PhotoGallery extends HTMLElement {
     async connectedCallback() {
+        const makeThumbnail = this.getAttribute("makeThumbnail");
+        if (makeThumbnail) this.classList.add('thumbnail');
         this.classList.add('photo-gallery');
         await setImageKeys(this);
         const images = this.querySelectorAll("img");
         images.forEach(image => {
             image.classList.add('photo-card', 'animate', 'pop');
+            if (makeThumbnail) image.classList.add('thumbnail');
             image.style.setProperty('transform', 'rotate(' + getRotation() + 'deg)');
             listOfKeys.push(image.getAttribute("key"));
         })
 
         // If this is a link directory, don't add lightboxes
         const isDirectory = this.hasAttribute('isDirectory');
-        if (!isDirectory) {
+        if (!isDirectory && !makeThumbnail) {
             insertLightboxes(images);
         }
     }

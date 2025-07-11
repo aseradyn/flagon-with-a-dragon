@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <style>
     #layout {
         display: flex;
@@ -14,10 +10,22 @@
         flex-basis: 40%;
         max-width: calc(100vw - 50px);
     }
-    h4 {
-        display: flex;
-        justify-content: space-between;
+    h4, a {
+        margin-bottom: 0px;
+        justify-self: center;
     }
+
+    #layout .photo-gallery {
+        margin-top: 5px;
+    }
+
+    .more {
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
 </style>
 
 <h1>Life</h1>
@@ -31,24 +39,26 @@
             <h2>Destinations</h2>
         </header>
 
-        <h3>Latest</h3>
-
-        <h4>Saguaro National Park, Arizona<a href="/places/arizona/saguaroNP">Visit -></a></h4>
-        <photo-gallery>
+        <a href="/places/arizona/saguaroNP"><h4>Saguaro National Park, Arizona</h4>
+        <photo-gallery isDirectory="true">
             <img src="/pages/places/arizona/saguaroNP/20250518-O5180044.jpg" alt="Silhouette of a saguaro cactus against a sunset sky" />
         </photo-gallery>
+        </a>
 
-        <h3>Previous</h3>
+        <div class="more">
+            <a href="/places/quintana"><h4>Quintana Beach, Texas</h4>
+            <photo-gallery makeThumbnail="true">
+                <img src="/pages/places/quintana/20240608_063753_(WebShare).jpg" />
+            </photo-gallery></a>
 
-        <h4>Quintana Beach, Texas <a href="/places/quintana">Visit -></a></h4>
-        <photo-gallery>
-            <img src="/pages/places/quintana/20240608_063753_(WebShare).jpg" />
-        </photo-gallery>
+            <a href="/places/seattle">
+            <h4>Seattle, Washington</h4>
+            <photo-gallery makeThumbnail="true">
+                <img src="/pages/places/seattle/20230922-Chihuly-08.jpg" />
+            </photo-gallery>
+            </a>
+        </div>
 
-        <h4>Seattle, Washington <a href="/places/seattle">Visit -></a></h4>
-        <photo-gallery>
-            <img src="/pages/places/seattle/20230922-Chihuly-08.jpg" />
-        </photo-gallery>
 
     </section>
 
@@ -60,19 +70,17 @@
             <h2>Pets</h2>
         </header>
 
-        <h3>Current</h3>
-
-        <h4>Maisie <a href="/pets/maisie">Pet -></a></h4>
-        <photo-gallery>
+        <a href="/pets/maisie"><h4>Maisie</h4>
+        <photo-gallery isDirectory="true">
             <img src="/pages/pets/maisie/2022_1102_PM_00032_(WebShare).jpg" alt="Photo of Maisie, a black and white dog, pictured here running with her ball, looking sleek and athletic" />
         </photo-gallery>
+        </a>
 
-        <h3>Past</h3>
-
-        <h4>Oreo <a href="/pets/oreo">Pet -></a></h4>
-        <photo-gallery>
+        <a href="/pets/oreo"><h4>Oreo</h4>
+        <photo-gallery makeThumbnail="true">
             <img src="/pages/pets/oreo/oreo8.jpg" alt="Photo of Oreo, a black and white dog, pictured here laying on a bed looking up at the camera" />
         </photo-gallery>
+        </a>
 
     </section>
 

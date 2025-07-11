@@ -16,6 +16,10 @@ video {
     box-shadow: 0px 0px 5px rgb(0,0,0,0.5);
 }
 
+.photo-card.thumbnail {
+    padding: 10px;
+}
+
 /* @media (prefers-color-scheme: dark) {
     .photo-card {
         background-color: #000000;

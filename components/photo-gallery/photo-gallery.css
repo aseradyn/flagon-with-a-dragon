@@ -10,6 +10,10 @@
     max-width: calc(100vw - 120px);
     animation-delay: 0.5s;
 }
+.photo-gallery.thumbnail > div,
+.photo-gallery.thumbnail > img {
+    max-width: 150px;
+}
 .photo-gallery-photo-wrapper {
     width: 350px;
     display: grid;
