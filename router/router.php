@@ -1,12 +1,22 @@
 <?php
 
 include "getCleanRequest.php";
+include "themeOverrides.php";
 include "findMarkdownRoutes.php";
 include "findPHPRoutes.php";
 include "loadContent.php";
 include "handleIncludes.php";
 
 $request = getCleanRequest();
+
+// Apply template
+
+$didOverrideTheme = handleThemeOverrides($request);
+if (!$didOverrideTheme) {
+   include($_SERVER["DOCUMENT_ROOT"]."/themes/$theme/header.php");
+}
+
+// Load page content
 $phpRoutes = findPHPRoutes();
 $markdownRoutes = findMarkdownRoutes();
 
@@ -22,6 +32,10 @@ if ($request == "" || $request == "/") {
    include('404.php');
 }
 
+// Load supplemental files
 handleIncludes($request);
+
+var_dump($didOverrideTheme);
+var_dump($request);
 
 ?>
