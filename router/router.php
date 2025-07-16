@@ -1,18 +1,11 @@
 <?php
 
-include($_SERVER["DOCUMENT_ROOT"]."/router/findMarkdownRoutes.php");
-include($_SERVER["DOCUMENT_ROOT"]."/router/findPHPRoutes.php");
-include($_SERVER["DOCUMENT_ROOT"]."/router/loadContent.php");
+include("getCleanRequest.php");
+include("findMarkdownRoutes.php");
+include("findPHPRoutes.php");
+include("loadContent.php");
 
-$request = $_SERVER['REQUEST_URI'];
-$request = rtrim($request, '/\\'); // ignore trailing slashes
-
-// ignore parameters
-$parametersPosition = strpos($request, "?");
-if ($parametersPosition) {
-   $request = substr($request, 0, $parametersPosition);
-}
-
+$request = getCleanRequest();
 $phpRoutes = findPHPRoutes();
 $markdownRoutes = findMarkdownRoutes();
 
@@ -30,6 +23,7 @@ if ($request == "" || $request == "/") {
 
 echo '<link rel="stylesheet" href="/components/photo-gallery/photo-gallery.css" />';
 echo '<script src="/components/photo-gallery/photo-gallery.js"></script>';
+
 echo '<link rel="stylesheet" href="/components/table-of-contents/table-of-contents.css" />';
 echo '<script src="/components/table-of-contents/table-of-contents.js"></script>';
 
