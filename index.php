@@ -19,6 +19,8 @@ if (str_contains($request, "ephemera/rss")) {
     return;
 }
 
+// Authentication
+
 include($_SERVER["DOCUMENT_ROOT"]."/auth/auth0_initialization.php");
 
 if (str_contains($request, "/auth/login")) {
@@ -50,4 +52,3 @@ include($_SERVER["DOCUMENT_ROOT"]."/router/router.php");
 ?>
 
 <div style="margin-bottom: 40px;"></div>
-<script src="/utilities/htmx.min.js"></script>

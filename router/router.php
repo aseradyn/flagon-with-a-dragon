@@ -1,9 +1,10 @@
 <?php
 
-include("getCleanRequest.php");
-include("findMarkdownRoutes.php");
-include("findPHPRoutes.php");
-include("loadContent.php");
+include "getCleanRequest.php";
+include "findMarkdownRoutes.php";
+include "findPHPRoutes.php";
+include "loadContent.php";
+include "handleIncludes.php";
 
 $request = getCleanRequest();
 $phpRoutes = findPHPRoutes();
@@ -21,10 +22,6 @@ if ($request == "" || $request == "/") {
    include('404.php');
 }
 
-echo '<link rel="stylesheet" href="/components/photo-gallery/photo-gallery.css" />';
-echo '<script src="/components/photo-gallery/photo-gallery.js"></script>';
-
-echo '<link rel="stylesheet" href="/components/table-of-contents/table-of-contents.css" />';
-echo '<script src="/components/table-of-contents/table-of-contents.js"></script>';
+handleIncludes($request);
 
 ?>
