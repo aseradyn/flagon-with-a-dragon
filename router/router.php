@@ -35,7 +35,4 @@ if ($request == "" || $request == "/") {
 // Load supplemental files
 handleIncludes($request);
 
-var_dump($didOverrideTheme);
-var_dump($request);
-
 ?>

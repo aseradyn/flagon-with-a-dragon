@@ -21,6 +21,9 @@ function isCurrentPath( array $pathArray, $onlyExact = false) {
     <li <?php isCurrentPath(array("/life", "/places", "/pets")) ?>>
         <a href="/life">Life</a>
     </li>
+    <li <?php isCurrentPath(array("/food")) ?>>
+        <a href="/food">Food</a>
+    </li>
     <li <?php isCurrentPath(array("/webdev")) ?>>
         <a href="/webdev">Dev</a>
     </li>
