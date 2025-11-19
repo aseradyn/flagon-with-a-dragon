@@ -12,9 +12,9 @@ At the visitor center, there's a great video talking about how the ecosystem wor
 
 <photo-gallery>
 
-<img src="/pages/places/arizona/saguaroNP/20250518-O5180029.jpg" title="Desert ridge, May 2025" />
-<img src="/pages/places/arizona/saguaroNP/20250518-O5180035 - edited.jpg" title="Saguaro in dusk light, May 2025"/>
-<img src="/pages/places/arizona/saguaroNP/20250518-O5180041- edited.jpg" title="Saguaro blossoms, May 2025" />
-<img src="/pages/places/arizona/saguaroNP/20250518-O5180044.jpg" title="Saguaro against a sunset, May 2025" />
+<img src="/pages/places/saguaroNP/20250518-O5180029.jpg" title="Desert ridge, May 2025" />
+<img src="/pages/places/saguaroNP/20250518-O5180035 - edited.jpg" title="Saguaro in dusk light, May 2025"/>
+<img src="/pages/places/saguaroNP/20250518-O5180041- edited.jpg" title="Saguaro blossoms, May 2025" />
+<img src="/pages/places/saguaroNP/20250518-O5180044.jpg" title="Saguaro against a sunset, May 2025" />
 
 </photo-gallery>

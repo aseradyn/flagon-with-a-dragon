@@ -27,3 +27,13 @@ I love to flip through cookbooks, in a shop or - especially - in a library, but 
 * _The Ultimate Cooking for One Cookbook_ by Joanie Zisk - Another one based on a blog, this time it's [One Dish Kitchen](https://onedishkitchen.com/). The idea behind this book, and the blog, is to cut down recipes so they make just enough food for one or two people, without a ton of leftovers. A blueberry cake in a 5x5 baking dish. A quiche that fits in a 10-ounce ramekin. Pasta and rice dishes that make just enough for you, and maybe a friend if you're not too hungry. If you're tired of your fridge filling up with leftovers you don't want to eat any more, or you find yourself with a random half-cup of leftover blueberries, or you want to indulge your sweet tooth today without tempting yourself tomorrow, this book (and blog) can help you out.
 
 * _Third Culture Cooking_ by Zaynab Issa - This is the newest book in my collection. I checked it out of the library and tried a few recipes. I loved them, so I bought the book so I could try the rest without hurrying. The recipes are a fusion of European and Indian-Tanzanian cooking. Spiced in ways that I'm not used to, but shaped like dishes I'm familiar with. Like adding curry to chicken salad or chicken noodle soup, or cinnamon to a beef stew. This book is probably not a long-term keeper for me. I'll probably try a bunch more recipes, adapt and adjust them for my own needs, and then pass the book along so someone else can enjoy it. But you never know!
+
+## Channels
+
+Love me a good cooking video. Here's a few I love.
+
+* _[Tasting History with Max Miller](https://www.youtube.com/@TastingHistory)_ - A recipe and a back story. See how a historical dish might have been made, and learn a little history to go with it. Sometimes I even want to eat the food when it's done 😄
+
+* _[Food Wishes](https://www.youtube.com/@foodwishes)_ - A YouTube legend. Chef John has a calming style that makes you feel like you can cook anything. You are after all the Loretta Lynn of your porchetta skin.
+
+* _[Ethan Chlebowski](https://www.youtube.com/@EthanChlebowski)_ - He does a lot of deep dives on ingredients and techniques. Really interesting to dig around in his back catalog.
