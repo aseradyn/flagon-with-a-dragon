@@ -39,7 +39,7 @@
             <h2>Destinations</h2>
         </header>
 
-        <a href="/places/Tohono Chul"><h4>Tohono Chul, Tucson, Arizona</h4>
+        <a href="/places/TohonoChul"><h4>Tohono Chul, Tucson, Arizona</h4>
         <photo-gallery isDirectory="true">
             <img src="/pages/places/TohonoChul/20251118-OB180073.jpg" alt="Orange butterflies on blue mist flowers" />
         </photo-gallery>
