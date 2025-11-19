@@ -1,7 +1,5 @@
 # Onion Crunch Chicken
 
-This is a quick one to throw together for a weeknight dinner. The result is moist, flavorful chicken with a crunchy topping. An easy win!
-
 For another variant, see [Crusted Chicken](/food/recipes/CrustedChicken)
 
 Based on a recipe from Hello Fresh: [Sheet Pan Dijon Onion Crunch Chicken](https://www.hellofresh.com/recipes/sheet-pan-dijon-onion-crunch-chicken-6892e7b1cbac543541f2e5cf)

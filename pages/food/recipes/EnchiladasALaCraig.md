@@ -1,16 +1,14 @@
 # Enchiladas a la Craig
 
-This is classic college dude food - open a few cans, a little stirring and baking, and out comes something delicious that a foodie would turn their nose up at.
-
-Eat at your own risk
+From my brother
 
 ## Ingredients
 
-1 can cream of mushroom soup
-1 can Old El Paso green enchilada sauce
-1 can Rotel tomatoes
-1 box frozen taquitos
-Shredded cheese
+* 1 can cream of mushroom soup
+* 1 can Old El Paso green enchilada sauce
+* 1 can Rotel tomatoes
+* 1 box frozen taquitos
+* Shredded cheese
 
 ## Instructions
 

@@ -1,7 +1,5 @@
 # Granola
 
-Growing up, granola was something my mother made in a giant bowl in the microwave. I rarely make it these days, but it is sure delicious when I do!
-
 ## Ingredients
 
 * 1 small package Quaker Oats
@@ -23,7 +21,7 @@ Stir everything together
 
 Heat on 50% for 3 minutes, stir, and repeat until it smells done. 
 
-(The original was on high, but microwaves are more powerful now and that scorches the raisins before the granola is done)
+(The original used the high setting, but microwaves are more powerful now and that scorches the raisins before the granola is done)
 
 ### Oven
 

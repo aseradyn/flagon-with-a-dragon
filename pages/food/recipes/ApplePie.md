@@ -1,10 +1,6 @@
 # Apple Pie
 
-This is my personal favorite apple pie. It's a classic pie, except that I cut the sugar in half and doubled the cinnamon, and I measure the apples with my heart. The result is a pie that is not syrupy-sweet and that is chock-ful of apples.
-
-I just use the Pillsbury refrigerated pie crusts. They're easy and very good. The other brands I've tried have not been as good.
-
-This is based on the recipe from the classic [Betty Crocker](https://www.bettycrocker.com/recipes/apple-pie-recipe/c9a4acc6-85aa-4128-b0b0-1a17bdbe05e0) cookbook.
+This is based on the recipe from the classic [Betty Crocker](https://www.bettycrocker.com/recipes/apple-pie-recipe/c9a4acc6-85aa-4128-b0b0-1a17bdbe05e0) cookbook, but adjusted to up the spice and cut the sugar.
 
 ## Ingredients
 

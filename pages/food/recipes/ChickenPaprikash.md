@@ -1,7 +1,5 @@
 # Chicken Paprikash
 
-[Chicken paprikash](https://en.wikipedia.org/wiki/Chicken_paprikash) is a traditional dish from Hungarian cuisine. It's essentially chicken braised in a sauce whose main flavor is paprika. Its spiciness will depend on the type of paprika you use. I make it with a sweet paprika, so it came out very mild and flavorful.
-
 This recipe is based on the one from [Tasting History](https://www.tastinghistory.com/episodes/chickenpaprikash), but I cut the recipe roughly in half.
 
 ## Ingredients

@@ -1,7 +1,5 @@
 # Country Style Ribs
 
-I've been very into braises recently, and this is a grand one! When done, the meat is fork tender and full of flavor. I don't think it even needs BBQ sauce for serving.
-
 Adapted from 'Best Damned Slow Cooker Ribs' from recipeteacher.com
 
 ## Ingredients

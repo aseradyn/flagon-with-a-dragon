@@ -1,7 +1,5 @@
 # Cashew Chicken
 
-This is a quick, homemade version of the American-Chinese classic dish. It's essentially what the name says: chicken and cashews in a sauce, served over rice.
-
 I picked this one up from [One Dish Kitchen](https://onedishkitchen.com/cashew-chicken-recipe-for-one/). It's a great site for recipes that serve just one or two people. I upped the ginger and dropped the broccoli. Imagine your own favorite vegetable in there instead.
 
 ## Ingredients

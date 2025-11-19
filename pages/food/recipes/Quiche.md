@@ -1,6 +1,4 @@
-# Quiche
-
-Love a good crustless quiche. Tasty, but easy on my blood sugar for those times when I'm really fight it!
+# Small Crustless Quiche
 
 ## Ingredients
 

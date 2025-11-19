@@ -1,9 +1,5 @@
 # Pumpkin Spiced Muffins
 
-No idea where I got this one. 🤷‍♀️ I don't like the texture of pumpkin pie, but I love these muffins. Spices and pumpkin and nuts, oh yeah!
-
-Double the recipe to use a whole can of pumpkin puree.
-
 ## Ingredients
 
 * 1 box white cake mix

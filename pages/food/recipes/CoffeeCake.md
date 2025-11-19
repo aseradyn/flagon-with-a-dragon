@@ -1,9 +1,5 @@
 # Coffee Cake
 
-This coffee cake is basically a dense cake with two layers of cinnamon-and-nut streusel. If you use salted butter in the streusel - which I recommend - you get that slightly-salty-sweet-nutty flavor, which is to die for.
-
-I got this recipe from my mother, who got it from her aunt, who probably got it out of a magazine. The original called for shortening in the cake, but I usually use butter.
-
 ## Ingredients
 
 ### Streusel

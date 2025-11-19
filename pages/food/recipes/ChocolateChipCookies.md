@@ -1,8 +1,6 @@
 # Chocolate Chip Cookies
 
-It's hard to beat the classic. This is basically just the Tollhouse recipe, preseerved here so that I can check the ingredients before I go to the grocery store.
-
-I use salted butter and salt, so they have that yummy salt-and-sweet thing going. 
+This is just the Tollhouse recipe, preseerved here so that I can check the ingredients before I go to the grocery store.
 
 ## Ingredients
 

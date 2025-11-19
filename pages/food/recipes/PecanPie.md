@@ -1,9 +1,5 @@
 # Pecan Pie
 
-A good pecan pie, in my oh-so-humble opinion, should be absolutely full of pecans, from top to bottom. This recipe is my ideal.
-
-This is a hand-me-down from my great aunt to my mother to me.
-
 ## Ingredients
 
 * 3 eggs

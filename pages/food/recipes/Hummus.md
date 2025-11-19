@@ -1,7 +1,5 @@
 # Hummus
 
-This is a recipe in three parts: making the pureed chickpeas, making the tahini, then making the hummus itself. It takes some time, and a small food processor, but it's worth it!
-
 ## Chickpeas
 
 Start with dried chickpeas. Soak them overnight in the fridge, then drain.

@@ -1,7 +1,5 @@
 # Spiced Beef Stew
 
-Tender, moist, and loaded with flavor, this is my favorite way to braise beef.
-
 This is another one based on Zaynab Issa's 'Third Culture Cooking' book, her Spiced Short Ribs with Potatoes recipe
 
 ## Ingredients

@@ -1,7 +1,5 @@
 # Fried Fish
 
-The first time I made this, it was for a little dinner party, and it was a hit! I've made it several times since then, and it's always a good choice.
-
 Based on instructions from 'The Art of Simple Food' by Alice Waters.
 
 ## Ingredients
