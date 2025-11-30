@@ -25,6 +25,7 @@ There's not a lot of sides listed, because mostly that means roasted vegetables 
 
 * [Bacon](/food/recipes/Bacon) - Just basic instructions for cooking bacon in the oven
 * [Hummus](/food/recipes/Hummus) - Smooth and totally customizeable
+* [Dinner Rolls](/food/recipes/BasicDinnerRolls) - Easy basic bread rolls for a stand mixer
 
 ## Treats
 
