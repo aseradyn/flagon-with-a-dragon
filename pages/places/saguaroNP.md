@@ -47,6 +47,7 @@ At the visitor center, there's a great video talking about how the ecosystem wor
 
 <img src="/pages/places/saguaroNP/20260301-O3010226.jpg" title="Ocotillos" />
 
-<p>And here's... my other flower, whose name I do not remember. </p>
+<p>And here's... my other flower, whose name I do not remember. Some day, perhaps, I will have learned all their names. Off to find my field guide... </p>
+
 <img src="/pages/places/saguaroNP/20260301-O3010247.jpg" title="Something purple, I don't remember" />
 </photo-gallery>
