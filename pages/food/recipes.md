@@ -10,10 +10,11 @@ There's not a lot of sides listed, because mostly that means roasted vegetables 
 
 ## Mains
 
+* [Braised Chicken](/food/recipes/BraisedChicken) - Seared and then finished in liquid in the oven, with a pan sauce
 * [Cashew Chicken](/food/recipes/CashewChicken) - Classic American-Chinese dish, just what it says on the tin
 * [Chicken Paprikash](/food/recipes/ChickenPaprikash) - Moist braised chicken in a paprika sauce
 * [Chicken Ramen Noodle Soup](/food/recipes/ChickenNoodleSoup) - With ramen noodles and curry powder, this is becoming my go-to comfort food
-* [Country Style Ribs](food/recipes/CountryStyleRibs) - So good you don't even need barbecue sauce!
+* [Country Style Ribs](/food/recipes/CountryStyleRibs) - So good you don't even need barbecue sauce!
 * [Crusted Chicken](/food/recipes/CrustedChicken) - Roasted chicken breast topped with breadcrumbs and cheese
 * [Enchiladas a la Craig](/food/recipes/EnchiladasALaCraig) - Delicious, but not "healthy"
 * [Fried Fish](/food/recipes/FriedFish) - Simple but delicious and light!
