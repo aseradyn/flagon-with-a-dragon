@@ -13,23 +13,19 @@ She needed me almost as much as I needed her. I had just lost Ada a few days bef
 
 Here's the first photo I ever took of her. Funny thing: when I sent the photo over to my brother, he didn't read my note at first, just saw the photo and thought I'd sent him a photo I'd found of a dog we had when we were kids, [Oreo](/pets/oreo). Here's Oreo - you can see why he made that mistake!
 
-<photo-gallery>
-    <img src="/pages/pets/maisie/20210612_181022_(WebShare).jpg" title="Maisie, 2021" alt="A black and white dog">
-    <img src="/pages/pets//oreo/oreo8.jpg" title="Oreo, circa 1990" alt="This dog looks identical to the first, except the ears are a different shape">
-</photo-gallery>
+![A black and white dog](/pages/pets/maisie/20210612_181022_(WebShare).jpg "Maisie, 2021")
+![This dog looks identical to the first, except the ears are a different shape](/pages/pets//oreo/oreo8.jpg "Oreo, circa 1990")
 
 ## 2021
 
 ### Couches are Hard
 
-<photo-gallery>
-    <img src="/pages/pets/maisie/20210626_110905_(WebShare).jpg" alt="Dog wedged behind a couch cushion" />
-    <img src="/pages/pets/maisie/20210627_124348_(WebShare).jpg" alt="Dog draped over the arm of a couch" />
-    <img src="/pages/pets/maisie/20210707_203806_(WebShare).jpg" alt="Dog on her back between couch cushions and a pillow" />
-    <img src="/pages/pets/maisie/20210807_093904_(WebShare).jpg" alt="Dog with her back legs on the couch, the frong on the floor" />
-    <img src="/pages/pets/maisie/20210822_212740_(WebShare).jpg" alt="Dog draped across the back of the couch, head on the console table behind it" />
-    <img src="/pages/pets/maisie/20210829_144148_(WebShare).jpg" alt="Dog on her back making an L, stomach against the back of the couch, head turned 90 degrees up against the armrest" />
-</photo-gallery>
+![Dog wedged behind a couch cushion](/pages/pets/maisie/20210626_110905_(WebShare).jpg)
+![Dog draped over the arm of a couch](/pages/pets/maisie/20210627_124348_(WebShare).jpg)
+![Dog on her back between couch cushions and a pillow](/pages/pets/maisie/20210707_203806_(WebShare).jpg)
+![Dog with her back legs on the couch, the frong on the floor](/pages/pets/maisie/20210807_093904_(WebShare).jpg)
+![Dog draped across the back of the couch, head on the console table behind it](/pages/pets/maisie/20210822_212740_(WebShare).jpg)
+![Dog on her back making an L, stomach against the back of the couch, head turned 90 degrees up against the armrest](/pages/pets/maisie/20210829_144148_(WebShare).jpg)
 
 ### September, South Llano River State Park
 
@@ -39,14 +35,8 @@ Since it's nearly west Texas, the earth was sandy and dry, the grass grew thinly
 
 Maisie wasn’t crazy about having people walking along the camping loop road, past the camp site. She’d growl and get her hackles up about it. But she liked the exploring, and watching the wildlife.
 
-<photo-gallery>
-    <img src="/pages/pets/maisie/20020127_152041_(WebShare).jpg" 
-        title="A nice little campground on the near side of west Texas" 
-        alt="It was pretty in the evening light">
-    <img src="/pages/pets/maisie/20020126_185050_(WebShare).jpg" 
-        title="Maisie guarding her newly-claimed domain" 
-        alt="She's watching something intently, poised for action">
-</photo-gallery>
+![It was pretty in the evening light](/pages/pets/maisie/20020127_152041_(WebShare).jpg "A nice little campground on the near side of west Texas")
+![She's watching something intently, poised for action](/pages/pets/maisie/20020126_185050_(WebShare).jpg "Maisie guarding her newly-claimed domain")
 
 The best bit, though, was the armadillo.
 
@@ -64,20 +54,16 @@ This dog _loves_ chasing a ball. She will chase it as long as I'm willing to thr
 
 Her favorite ball is [one that Kong makes](https://www.kongcompany.com/catalogue/PSV11/), with a stretchy cord on it. The elastic is a great cheat, because I can stand at one end of a soccer pitch and throw the ball to the other end.
 
-<photo-gallery>
-    <img src="/pages/pets/maisie/2022_1102_PM_00032_(WebShare).jpg" title="Action shot!" alt="Dog in a green bandana, running with a ball, looking very sporty" />
-    <img src="/pages/pets/maisie/20220513_144338_(WebShare).jpg" alt="Dog in a shallow pool with her ball stil in mouth" />
-</photo-gallery>
+![Dog in a green bandana, running with a ball, looking very sporty](/pages/pets/maisie/2022_1102_PM_00032_(WebShare).jpg "Action shot!")
+![Dog in a shallow pool with her ball stil in mouth](/pages/pets/maisie/20220513_144338_(WebShare).jpg)
 
 ### Holiday Portraits
 
 Her day care used to do really cute photo shoots, where they'd dress the dogs up, take pictures, and then mail us printed copies. Here's a couple of my favorites.
 
-<photo-gallery>
-    <img src="/pages/pets/maisie/Maisie 3_(WebShare).jpg" alt="Dog wearing an orange bandana in front of a Halloween-themed backdrop" title="Halloween 2022">
-    <img src="/pages/pets/maisie/Maisie 4_(WebShare).jpg" alt="Dog wearing a feather boa and a bobbly bat headband" title="Halloween 2022">
-    <img src="/pages/pets/maisie/20230502_080002_(WebShare).jpg" alt="Dog in a tiny straw hat with lots of bright colors and a pinata" title="Cinco de Mayo 2023">
-</photo-gallery>
+![Dog wearing an orange bandana in front of a Halloween-themed backdrop](/pages/pets/maisie/Maisie%203_(WebShare).jpg "Halloween 2022")
+![Dog wearing a feather boa and a bobbly bat headband](/pages/pets/maisie/Maisie%204_(WebShare).jpg "Halloween 2022")
+![Dog in a tiny straw hat with lots of bright colors and a pinata](/pages/pets/maisie/20230502_080002_(WebShare).jpg "Cinco de Mayo 2023")
 
 ## 2024
 
@@ -105,11 +91,9 @@ I know she isn't crazy about driving around in the motorhome - it makes a lot of
 
 Possibly the hardest part about leaving Houston was leaving [Waggin' Tails](https://waggintailsanimalinn.com/). Maisie had been going there three days a week for the whole time I have had her. They love her, and she loves them. They sent me some photos of her last day at camp.
 
-<photo-gallery>
-    <img src="/pages/pets/maisie/20250414-IMG_9077.jpg" alt="Maisie standing in a shallow pool, soaked and filthy" />
-    <img src="/pages/pets/maisie/20250414-IMG_9085.jpg" alt="Maisie rolling in the grass, belly to the sun" />
-    <img src="/pages/pets/maisie/20250414-IMG_9099.jpg" alt="Maisie smiling at someone off-camera" />
-    <img src="/pages/pets/maisie/20250414-IMG_9104.jpg" alt="Mostly just her nose" />
-    <img src="/pages/pets/maisie/20250414-IMG_9108.jpg" alt="Just a happy dog being happy" />
-</photo-gallery>
+![Maisie standing in a shallow pool, soaked and filthy](/pages/pets/maisie/20250414-IMG_9077.jpg)
+![Maisie rolling in the grass, belly to the sun](/pages/pets/maisie/20250414-IMG_9085.jpg)
+![Maisie smiling at someone off-camera](/pages/pets/maisie/20250414-IMG_9099.jpg)
+![Mostly just her nose](/pages/pets/maisie/20250414-IMG_9104.jpg)
+![Just a happy dog being happy](/pages/pets/maisie/20250414-IMG_9108.jpg)
 

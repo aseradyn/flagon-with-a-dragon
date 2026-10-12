@@ -140,7 +140,7 @@ And then let's create a few pages with some nonsense content, so that we can cli
 
 NOTE: The links in the sample files will break if you're not starting from the Home page, so go back after clicking each link.  If you implement this feature, either use absolute URLs in your navigation (easiest) or use code to write/rewrite the links so that they'll work over multiple levels of your site structure.
 
-([Download all example files](2013-09-25_JSHighlight.zip))
+([Download all example files](/pages/webdev/2013_09_25_JSHighlight.zip))
 
 index.php:
 

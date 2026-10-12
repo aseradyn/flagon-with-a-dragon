@@ -106,5 +106,5 @@
         color: black;
     }
 
-    <?php include_once($_SERVER["DOCUMENT_ROOT"]."/theme/animation.css"); ?>
+    <?php include_once($_SERVER["DOCUMENT_ROOT"]."/themes/".$_SESSION["theme"]."/animation.css"); ?>
 </style>

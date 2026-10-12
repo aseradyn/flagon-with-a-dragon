@@ -1,6 +1,6 @@
 <div>
 <?php
-include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/parsedown/index.php";
+include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/processMarkdown.php";
 
 include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/fetchEphemera.php";
 
@@ -13,7 +13,7 @@ foreach($list as $post)
 
     $markdown = file_get_contents($post);
 
-    $Parsedown = new Parsedown();
+    $Parsedown = new SiteParsedown();
     echo "<div class='ephemera-post'>";
     echo "<p>";
     echo $postDate;

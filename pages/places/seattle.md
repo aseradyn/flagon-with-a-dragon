@@ -24,12 +24,10 @@ I could have spent _days_ at the [Seattle Aquarium](https://www.seattleaquarium.
 
 My favorite features were the touch pools and the underwater dome.
 
-<photo-gallery>
-    <img src="/pages/places/seattle/20230921-aquarium-01.jpg" title="Touch pools"/>
-    <img src="/pages/places/seattle/20230921-aquarium-02.jpg" title="Underwater dome"/>
-    <img src="/pages/places/seattle/20230921-aquarium-03.jpg" title="Sunlight through kelp"/>
-    <img src="/pages/places/seattle/20230921-aquarium-04.jpg" title="View from the underwater dome"/>
-</photo-gallery>
+![](/pages/places/seattle/20230921-aquarium-01.jpg "Touch pools")
+![](/pages/places/seattle/20230921-aquarium-02.jpg "Underwater dome")
+![](/pages/places/seattle/20230921-aquarium-03.jpg "Sunlight through kelp")
+![](/pages/places/seattle/20230921-aquarium-04.jpg "View from the underwater dome")
 
 ## Chuhuly Garden and Glass
 
@@ -37,13 +35,11 @@ I don't know why, but I expected the [Chuhuly Garden and Glass Museum ↗️](ht
 
 When I went, you had to buy your ticket for a particular entry time. I got there, bought my ticket, and then wandered the grounds around the Space Needle and other attractions there for an hour or so before I could go in.
 
-<photo-gallery>
-    <img src="/pages/places/seattle/20230922-Chihuly-01.jpg" title="Glass shell"/>
-    <img src="/pages/places/seattle/20230922-Chihuly-02.jpg" title="The Sealife Tower" />
-    <img src="/pages/places/seattle/20230922-Chihuly-03.jpg" title="Octopus on kelp" />
-    <img src="/pages/places/seattle/20230922-Chihuly-04.jpg" title="Persian Ceiling" />
-    <img src="/pages/places/seattle/20230922-Chihuly-05.jpg" title="Mille Fiore" />
-    <img src="/pages/places/seattle/20230922-Chihuly-06.jpg" title="Glasshouse" />
-    <img src="/pages/places/seattle/20230922-Chihuly-07.jpg" title="Garden" />
-    <img src="/pages/places/seattle/20230922-Chihuly-08.jpg" title="Garden" />
-</photo-gallery>
+![](/pages/places/seattle/20230922-Chihuly-01.jpg "Glass shell")
+![](/pages/places/seattle/20230922-Chihuly-02.jpg "The Sealife Tower")
+![](/pages/places/seattle/20230922-Chihuly-03.jpg "Octopus on kelp")
+![](/pages/places/seattle/20230922-Chihuly-04.jpg "Persian Ceiling")
+![](/pages/places/seattle/20230922-Chihuly-05.jpg "Mille Fiore")
+![](/pages/places/seattle/20230922-Chihuly-06.jpg "Glasshouse")
+![](/pages/places/seattle/20230922-Chihuly-07.jpg "Garden")
+![](/pages/places/seattle/20230922-Chihuly-08.jpg "Garden")

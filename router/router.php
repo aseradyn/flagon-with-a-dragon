@@ -9,6 +9,18 @@ include "handleIncludes.php";
 
 $request = getCleanRequest();
 
+// Resolve the route before any output, so the status code can still be set
+
+$phpRoutes = findPHPRoutes();
+$markdownRoutes = findMarkdownRoutes();
+
+$isHome = $request == "" || $request == "/";
+$isFound = $isHome || isset($phpRoutes[$request]) || isset($markdownRoutes[$request]);
+
+if (!$isFound) {
+   http_response_code(404);
+}
+
 // Apply template
 
 $didOverrideTheme = handleThemeOverrides($request);
@@ -17,19 +29,16 @@ if (!$didOverrideTheme) {
 }
 
 // Load page content
-$phpRoutes = findPHPRoutes();
-$markdownRoutes = findMarkdownRoutes();
 
-if ($request == "" || $request == "/") {
+if ($isHome) {
     loadPage("index");
 } else if (isset($phpRoutes[$request])) {
    include($_SERVER["DOCUMENT_ROOT"]."/pages/".$phpRoutes[$request].".php");
 } else if (isset($markdownRoutes[$request])) {
    loadArticle($markdownRoutes[$request]);
 } else {
-   http_response_code(404);
-   echo "Tried to find: " . $request;
-   include('404.php');
+   echo "Tried to find: " . htmlspecialchars($request, ENT_QUOTES, 'UTF-8');
+   include($_SERVER["DOCUMENT_ROOT"]."/404.php");
 }
 
 // Load supplemental files
