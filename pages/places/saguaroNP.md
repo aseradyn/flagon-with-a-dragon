@@ -12,14 +12,10 @@ At the visitor center, there's a great video talking about how the ecosystem wor
 
 ### 2025
 
-<photo-gallery>
-
-<img src="/pages/places/saguaroNP/20250518-O5180029.jpg" title="Desert ridge, May 2025" />
-<img src="/pages/places/saguaroNP/20250518-O5180035 - edited.jpg" title="Saguaro in dusk light, May 2025"/>
-<img src="/pages/places/saguaroNP/20250518-O5180041- edited.jpg" title="Saguaro blossoms, May 2025" />
-<img src="/pages/places/saguaroNP/20250518-O5180044.jpg" title="Saguaro against a sunset, May 2025" />
-
-</photo-gallery>
+![](/pages/places/saguaroNP/20250518-O5180029.jpg "Desert ridge, May 2025")
+![](/pages/places/saguaroNP/20250518-O5180035%20-%20edited.jpg "Saguaro in dusk light, May 2025")
+![](/pages/places/saguaroNP/20250518-O5180041-%20edited.jpg "Saguaro blossoms, May 2025")
+![](/pages/places/saguaroNP/20250518-O5180044.jpg "Saguaro against a sunset, May 2025")
 
 ### 2026 <a id="2026">&nbsp;</a>
 

@@ -27,13 +27,11 @@ On Friday evening, we took a short walk out to the beach. Well, up to the gun, t
 
 On Saturday morning, we walked to the beach, then slowly all the way down to the jetty. We watched people fishing in the surf, and off the jetty. We watched ships come in and speedboats go out, and tugboats going to and fro with great purpose but no obvious pattern. I sat on a large tree trunk, washed smooth by the ocean, and just breathed the ocean air and listened to the waves. We walked back to the access path, passing another dog, a pair of beachcombers, and lots of birds. 
 
-<photo-gallery>
-    <img src="/pages/places/quintana/20240608_063753_(WebShare).jpg" title="Saturday morning" alt="Orange sunrise over the beach">
-    <img src="/pages/places/quintana/20240608_065840_(WebShare).jpg" title="Maisie" alt="My dog exploring the beach">
-    <img src="/pages/places/quintana/20240608_070601_(WebShare).jpg" alt="A wide stretch of empty beach">
-    <img src="/pages/places/quintana/20240608_070652_(WebShare).jpg" alt="Flowers growing out of the dunes onto the beach">
-    <img src="/pages/places/quintana/20240608_071256_(WebShare).jpg" alt="A quick look back over the dunes toward the water">
-</photo-gallery>
+![Orange sunrise over the beach](/pages/places/quintana/20240608_063753_(WebShare).jpg "Saturday morning")
+![My dog exploring the beach](/pages/places/quintana/20240608_065840_(WebShare).jpg "Maisie")
+![A wide stretch of empty beach](/pages/places/quintana/20240608_070601_(WebShare).jpg)
+![Flowers growing out of the dunes onto the beach](/pages/places/quintana/20240608_070652_(WebShare).jpg)
+![A quick look back over the dunes toward the water](/pages/places/quintana/20240608_071256_(WebShare).jpg)
 
 By the time the sun was properly up, my back was sore and I was starting to overheat, so we went back to our site. I pulled a chair into the shade next to the camper; I read and [Maisie](/pets/maisie) watched the neighbors go about their morning routines, growling if any dared walk past our site.
 

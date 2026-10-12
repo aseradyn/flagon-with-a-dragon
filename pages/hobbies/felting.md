@@ -34,9 +34,7 @@ Then we were back to the rolling and turning and rolling and turning, which got 
 
 But then - oh! yes! - Dee Dee pulled out washboard for me to try. That was awesome! Get everything wet and soapy and then rub aggressively against the textured glass surface, turning the piece every so often. That went _much_ faster than the rolling! In no time flat, I had a finished piece of felt that had no stretch left in it.
 
-<photo-gallery>
-    <img src="/pages/hobbies/felting/20240618_100333_(WebShare).jpg" alt="The second, blue-and-white piece">
-    <img src="/pages/hobbies/felting/20240616_152057_(WebShare).jpg" alt="Both pieces side by side; the blue piece is slightly larger and much smoother than the magenta piece">
-</photo-gallery>
+![The second, blue-and-white piece](/pages/hobbies/felting/20240618_100333_(WebShare).jpg)
+![Both pieces side by side; the blue piece is slightly larger and much smoother than the magenta piece](/pages/hobbies/felting/20240616_152057_(WebShare).jpg)
 
 So then we rinsed out all the soap and gave the pieces a dip in a vinegar water solution, and laid them out to dry.
