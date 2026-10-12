@@ -7,7 +7,8 @@
     //   To opt out, put the images on the same line.
     class SiteParsedown extends Parsedown
     {
-        const IMAGE_LINE = '/^\s*!\[[^\]]*\]\([^)]*\)\s*$/';
+        // a single rendered <img> tag; Parsedown escapes any > inside attribute values
+        const IMAGE_TAG = '/^<img [^>]*\/>$/';
 
         protected function element(array $Element)
         {
@@ -21,16 +22,23 @@
 
         private function isGallery(string $text)
         {
-            $lines = array_filter(explode("\n", $text), 'trim');
+            if (strpos($text, '![') === false)
+            {
+                return false;
+            }
+
+            $lines = array_filter(array_map('trim', explode("\n", $text)));
 
             if (count($lines) < 2)
             {
                 return false;
             }
 
+            // let Parsedown decide what counts as an image, so tricky URLs
+            // like file_(WebShare).jpg are handled the same way it renders them
             foreach ($lines as $line)
             {
-                if ( ! preg_match(self::IMAGE_LINE, $line))
+                if ( ! preg_match(self::IMAGE_TAG, $this->line($line)))
                 {
                     return false;
                 }
