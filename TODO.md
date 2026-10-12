@@ -18,6 +18,18 @@ Galleries of two or more images, one per line, are detected automatically by `ut
 - [ ] **`makeThumbnail` galleries.** No markdown way to pass attributes like `makeThumbnail="true"` (used in `ephemera/2025-07-10_02.md` and `ephemera/2026-03-06_01.md`).
 - [ ] **Galleries with text between photos.** The second gallery in `pages/places/saguaroNP.md` interleaves paragraphs with images.
 
+## Accessibility
+
+- [ ] **Add alt text to photos that are missing it.** Screen readers skip these photos or fall back to the title. In markdown, the alt text goes in the brackets: `![alt text](/path.jpg "Title")`. Empty brackets render as `alt=""`, which marks the image as decorative.
+  - `pages/places/seattle.md`: 12 markdown images with empty brackets, 2 HTML `<img>` with no `alt`
+  - `pages/places/TohonoChul.md`: 8 markdown images with empty brackets
+  - `pages/places/saguaroNP.md`: 4 markdown images with empty brackets, 9 HTML `<img>` with no `alt`
+  - `pages/ephemera/2025-07-10_02.md`: 4 HTML `<img>` with no `alt`
+  - `pages/ephemera/2026-03-06_01.md`: 3 HTML `<img>` with no `alt`
+  - `pages/ephemera/2025-11-19_01.md`: 1 HTML `<img>` with no `alt`
+  - `pages/pets/oreo.md`: 1 HTML `<img>` with no `alt`
+  - `pages/life/index.php`: 2 HTML `<img>` with no `alt` (the Quintana and Seattle thumbnails)
+
 ## Cleanup
 
 - [ ] **`utilities/parsedown/ParsedownExtra.php` doesn't work.** It's a newer version than `Parsedown.php` (1.7.4) and crashes with `Call to undefined method ParsedownExtra::textElements()`. Nothing uses it today; either remove it or update Parsedown to a matching version.
