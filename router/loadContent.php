@@ -20,8 +20,8 @@ function loadArticle($fileName) {
     </script>
 
     <?php
-    include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/parsedown/index.php";
-    $Parsedown = new Parsedown();
+    include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/processMarkdown.php";
+    $Parsedown = new SiteParsedown();
 
     $markdown = file_get_contents($_SERVER["DOCUMENT_ROOT"]."/pages".$fileName.".md");
    

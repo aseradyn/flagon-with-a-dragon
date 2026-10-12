@@ -1,7 +1,7 @@
 <?php
     header("Content-Type: application/rss+xml; charset=UTF-8");
     include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/fetchEphemera.php";
-    include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/parsedown/index.php";
+    include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/processMarkdown.php";
 
     $list = fetchEphemera();
     $date = date(DATE_RFC2822);
@@ -19,7 +19,7 @@
         <?php
 
             foreach($list as $post) {
-                $Parsedown = new Parsedown();
+                $Parsedown = new SiteParsedown();
                 $markdown = file_get_contents($post);
                 $content = $Parsedown->text($markdown);
                 $encodedContent = htmlentities($content, ENT_COMPAT);
