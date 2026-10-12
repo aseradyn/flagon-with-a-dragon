@@ -16,7 +16,7 @@ Needle felting uses needles with sort of barbed tips to push dry wool fibers tig
 
 <h3 id="june-flat-felt-class">June 2024 - Basic flat felting</h3>
 
-This class was taught at the [Contemporary Handweavers of Houston](weavehouston.org) by one of our members, Dee Dee Woodbury. We walked through the process of making a couple of pieces of felt, using a few different techniques for laying out, wetting, felting, and fulling the project.
+This class was taught at the [Contemporary Handweavers of Houston](https://weavehouston.org) by one of our members, Dee Dee Woodbury. We walked through the process of making a couple of pieces of felt, using a few different techniques for laying out, wetting, felting, and fulling the project.
 
 The first piece was done by laying out wool roving in layers. Each layer is 90 degrees to the one below it, kind of like making lasagna. For this one, I just used a solid color, though most of the class got more creative and went with multiple colors to see how they blend together.
 

@@ -12,7 +12,7 @@
         
         ?>
         
-        <link rel="stylesheet" type="text/css" href="/theme/animation.css" />
+        <link rel="stylesheet" type="text/css" href="/themes/<?= $_SESSION["theme"] ?>/animation.css" />
         <link rel="stylesheet" type="text/css" href="/components/PhotoDirectory.css" />
 
         <div class="photoDirectory">
