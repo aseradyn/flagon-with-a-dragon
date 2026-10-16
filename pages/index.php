@@ -39,13 +39,6 @@
         <section>
             <?php include_once $_SERVER["DOCUMENT_ROOT"]."/components/webring.php"; ?>
         </section>
-
-        <section>
-            <p>
-                You can also find me on
-            <a href="https://social.jmenning.com/@jill">Mastodon</a>
-</p>
-        </section>
     </div>
 
     </div>
