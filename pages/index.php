@@ -8,9 +8,8 @@
 
 
 <div class="single-column-layout">
-<div class="layout">
 
-    <section style="grid-area: welcome">
+    <section>
         <header>
             <h1>
                 <div class="welcome">
@@ -26,7 +25,7 @@
         </div>
     </section>
 
-    <section style="grid-area: main">
+    <section>
         <header id="ephemera">
             <h1>Ephemera</h1>
             <p id="ephemera-subtitle">These posts will self destruct</p>
@@ -45,7 +44,6 @@
         </section>
     </div>
 
-    </div>
 </div>
 </div>
 
