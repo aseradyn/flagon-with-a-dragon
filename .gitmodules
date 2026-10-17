@@ -1,0 +1,3 @@
+[submodule "photos"]
+	path = photos
+	url = https://github.com/aseradyn/flagon-photos.git
