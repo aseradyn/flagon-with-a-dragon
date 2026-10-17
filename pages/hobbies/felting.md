@@ -25,7 +25,7 @@ To make the felt, we got everything good and wet and soapy, then rolled it in a 
 After a lot of rolling and turning and rolling and turning I got bored before my piece was fully felted. It holds together as fabric, but it's still very fuzzy.
 
 <photo-gallery>
-    <img src="/pages/hobbies/felting/20240618_100336_(WebShare).jpg" alt="The first piece, magenta, fairly fuzzy">
+    <img src="/photos/hobbies/felting/20240618_100336_(WebShare).jpg" alt="The first piece, magenta, fairly fuzzy">
 </photo-gallery>
 
 After lunch, for our second piece, we started with white wool batt as our base instead of roving. I sandwiched in one layer of blue roving, which gave the impression of a sunny sky with wispy clouds. Rolling with the theme, I did some loose finger-spinning with some yellow roving and laid down a sort of sunny spiral - it isn't meant to look like anything, just to add some color and movement.
@@ -34,7 +34,7 @@ Then we were back to the rolling and turning and rolling and turning, which got 
 
 But then - oh! yes! - Dee Dee pulled out washboard for me to try. That was awesome! Get everything wet and soapy and then rub aggressively against the textured glass surface, turning the piece every so often. That went _much_ faster than the rolling! In no time flat, I had a finished piece of felt that had no stretch left in it.
 
-![The second, blue-and-white piece](/pages/hobbies/felting/20240618_100333_(WebShare).jpg)
-![Both pieces side by side; the blue piece is slightly larger and much smoother than the magenta piece](/pages/hobbies/felting/20240616_152057_(WebShare).jpg)
+![The second, blue-and-white piece](/photos/hobbies/felting/20240618_100333_(WebShare).jpg)
+![Both pieces side by side; the blue piece is slightly larger and much smoother than the magenta piece](/photos/hobbies/felting/20240616_152057_(WebShare).jpg)
 
 So then we rinsed out all the soap and gave the pieces a dip in a vinegar water solution, and laid them out to dry.

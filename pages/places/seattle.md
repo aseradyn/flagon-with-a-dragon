@@ -9,13 +9,13 @@ There were things I loved about Seattle: the aquarium, the light rail, the weath
 I visited Smith Tower. The museum was pretty neat -- you just wander around rooms staged to look like they would have in the early 1900's, with lots of papers and doodads out to look at. The elevators are still done up with their brass cages (but I'm pretty sure they're much more modern than they look). The observation deck was terrifying - a narrow walkway with a cage around it, hanging out into space. I managed to get all the way around, with my back firmly pressed against the solid wall of the building, and then retreated inside.
 
 <photo-gallery>
-    <img src="/pages/places/seattle/20230922-views-02.jpg" title="Overlook from Smith Tower" />
+    <img src="/photos/places/seattle/20230922-views-02.jpg" title="Overlook from Smith Tower" />
 </photo-gallery>
 
 I also took the ferry out to Bainbridge Island. The day started just overcast, but by the time we got out to the island it was getting pretty wet. I didn't explore the island; just got back on the ferry and headed back to town. The ride itself is what I was really after.
 
 <photo-gallery>
-    <img src="/pages/places/seattle/20230923-views-01.jpg" title="Port from the ferry to Bainbridge Island" />
+    <img src="/photos/places/seattle/20230923-views-01.jpg" title="Port from the ferry to Bainbridge Island" />
 </photo-gallery>
 
 ## Seattle Aquarium
@@ -24,10 +24,10 @@ I could have spent _days_ at the [Seattle Aquarium](https://www.seattleaquarium.
 
 My favorite features were the touch pools and the underwater dome.
 
-![](/pages/places/seattle/20230921-aquarium-01.jpg "Touch pools")
-![](/pages/places/seattle/20230921-aquarium-02.jpg "Underwater dome")
-![](/pages/places/seattle/20230921-aquarium-03.jpg "Sunlight through kelp")
-![](/pages/places/seattle/20230921-aquarium-04.jpg "View from the underwater dome")
+![](/photos/places/seattle/20230921-aquarium-01.jpg "Touch pools")
+![](/photos/places/seattle/20230921-aquarium-02.jpg "Underwater dome")
+![](/photos/places/seattle/20230921-aquarium-03.jpg "Sunlight through kelp")
+![](/photos/places/seattle/20230921-aquarium-04.jpg "View from the underwater dome")
 
 ## Chuhuly Garden and Glass
 
@@ -35,11 +35,11 @@ I don't know why, but I expected the [Chuhuly Garden and Glass Museum ↗️](ht
 
 When I went, you had to buy your ticket for a particular entry time. I got there, bought my ticket, and then wandered the grounds around the Space Needle and other attractions there for an hour or so before I could go in.
 
-![](/pages/places/seattle/20230922-Chihuly-01.jpg "Glass shell")
-![](/pages/places/seattle/20230922-Chihuly-02.jpg "The Sealife Tower")
-![](/pages/places/seattle/20230922-Chihuly-03.jpg "Octopus on kelp")
-![](/pages/places/seattle/20230922-Chihuly-04.jpg "Persian Ceiling")
-![](/pages/places/seattle/20230922-Chihuly-05.jpg "Mille Fiore")
-![](/pages/places/seattle/20230922-Chihuly-06.jpg "Glasshouse")
-![](/pages/places/seattle/20230922-Chihuly-07.jpg "Garden")
-![](/pages/places/seattle/20230922-Chihuly-08.jpg "Garden")
+![](/photos/places/seattle/20230922-Chihuly-01.jpg "Glass shell")
+![](/photos/places/seattle/20230922-Chihuly-02.jpg "The Sealife Tower")
+![](/photos/places/seattle/20230922-Chihuly-03.jpg "Octopus on kelp")
+![](/photos/places/seattle/20230922-Chihuly-04.jpg "Persian Ceiling")
+![](/photos/places/seattle/20230922-Chihuly-05.jpg "Mille Fiore")
+![](/photos/places/seattle/20230922-Chihuly-06.jpg "Glasshouse")
+![](/photos/places/seattle/20230922-Chihuly-07.jpg "Garden")
+![](/photos/places/seattle/20230922-Chihuly-08.jpg "Garden")

@@ -22,16 +22,16 @@ Since that last visit, the place was hit by a hurricane, and signs of the damage
 On Friday evening, we took a short walk out to the beach. Well, up to the gun, then back down, then over to the old office and out to the beach; that's how I know the boardwalk that used to connect the gun's hill to the guest cabins was closed. We watched the sunset turn the sky to soft colors, and listened to the waves.
 
 <photo-gallery>
-    <img src="/pages/places/quintana/20240607_200057_(WebShare).jpg" title="Friday night, Quintana Beach" alt="A snapshot of the beach on Friday evening">
+    <img src="/photos/places/quintana/20240607_200057_(WebShare).jpg" title="Friday night, Quintana Beach" alt="A snapshot of the beach on Friday evening">
 </photo-gallery>
 
 On Saturday morning, we walked to the beach, then slowly all the way down to the jetty. We watched people fishing in the surf, and off the jetty. We watched ships come in and speedboats go out, and tugboats going to and fro with great purpose but no obvious pattern. I sat on a large tree trunk, washed smooth by the ocean, and just breathed the ocean air and listened to the waves. We walked back to the access path, passing another dog, a pair of beachcombers, and lots of birds. 
 
-![Orange sunrise over the beach](/pages/places/quintana/20240608_063753_(WebShare).jpg "Saturday morning")
-![My dog exploring the beach](/pages/places/quintana/20240608_065840_(WebShare).jpg "Maisie")
-![A wide stretch of empty beach](/pages/places/quintana/20240608_070601_(WebShare).jpg)
-![Flowers growing out of the dunes onto the beach](/pages/places/quintana/20240608_070652_(WebShare).jpg)
-![A quick look back over the dunes toward the water](/pages/places/quintana/20240608_071256_(WebShare).jpg)
+![Orange sunrise over the beach](/photos/places/quintana/20240608_063753_(WebShare).jpg "Saturday morning")
+![My dog exploring the beach](/photos/places/quintana/20240608_065840_(WebShare).jpg "Maisie")
+![A wide stretch of empty beach](/photos/places/quintana/20240608_070601_(WebShare).jpg)
+![Flowers growing out of the dunes onto the beach](/photos/places/quintana/20240608_070652_(WebShare).jpg)
+![A quick look back over the dunes toward the water](/photos/places/quintana/20240608_071256_(WebShare).jpg)
 
 By the time the sun was properly up, my back was sore and I was starting to overheat, so we went back to our site. I pulled a chair into the shade next to the camper; I read and [Maisie](/pets/maisie) watched the neighbors go about their morning routines, growling if any dared walk past our site.
 
@@ -40,7 +40,7 @@ The shade disappeared and drove me indoors. I cooked breakfast, and showered, an
 On Sunday morning, I woke stiff and tired and aching. I rolled out of bed and put my walking clothes on, and we went back to the beach, but we didn't stay long; I hurt too badly to really enjoy the walk. I would have loved to have a bench and some shade where I could just sit and enjoy the waves, the shifting colors of the sunrise on the clouds, the little flocks of birds swooping up and down. But I didn't have that, so I turned back. While the morning was still reasonably cool, I washed all the dishes and made everything secure indoors, dumped my tanks, and hit the road.
 
 <photo-gallery>
-    <img src="/pages/places/quintana/20240609_070522_(WebShare).jpg" title="Sunday morning" alt="A snapshot of the beach on Sunday morning">
+    <img src="/photos/places/quintana/20240609_070522_(WebShare).jpg" title="Sunday morning" alt="A snapshot of the beach on Sunday morning">
 </photo-gallery>
 
 I know it sounds like it ended on a down note, but really, truly, I had a lovely weekend. I like driving home on a Sunday morning, when I have no schedule to keep. On this trip, a wide load, complete with police escort, slowed all traffic on Highway 288 down to 45 miles per hour - nobody could pass this thing, whatever it was, it took up the whole road. We were all stuck doing 45 for 20 miles, and... I simply didn't care; I had nowhere to be. I was relaxed and happy, just the way a good weekend should leave you.

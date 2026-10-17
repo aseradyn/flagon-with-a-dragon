@@ -41,26 +41,26 @@
 
         <a href="/places/TohonoChul"><h4>Tohono Chul, Tucson, Arizona</h4>
         <photo-gallery isDirectory="true">
-            <img src="/pages/places/TohonoChul/20251118-OB180073.jpg" alt="Orange butterflies on blue mist flowers" />
+            <img src="/photos/places/TohonoChul/20251118-OB180073.jpg" alt="Orange butterflies on blue mist flowers" />
         </photo-gallery>
         </a>
 
         <div class="more">
             <a href="/places/saguaroNP"><h4>Saguaro National Park, Arizona</h4>
             <photo-gallery isDirectory="true">
-                <img src="/pages/places/saguaroNP/20250518-O5180044.jpg" alt="Silhouette of a saguaro cactus against a sunset sky" />
+                <img src="/photos/places/saguaroNP/20250518-O5180044.jpg" alt="Silhouette of a saguaro cactus against a sunset sky" />
             </photo-gallery>
             </a>
 
             <a href="/places/quintana"><h4>Quintana Beach, Texas</h4>
             <photo-gallery makeThumbnail="true">
-                <img src="/pages/places/quintana/20240608_063753_(WebShare).jpg" />
+                <img src="/photos/places/quintana/20240608_063753_(WebShare).jpg" />
             </photo-gallery></a>
 
             <a href="/places/seattle">
             <h4>Seattle, Washington</h4>
             <photo-gallery makeThumbnail="true">
-                <img src="/pages/places/seattle/20230922-Chihuly-08.jpg" />
+                <img src="/photos/places/seattle/20230922-Chihuly-08.jpg" />
             </photo-gallery>
             </a>
         </div>
@@ -78,13 +78,13 @@
 
         <a href="/pets/maisie"><h4>Maisie</h4>
         <photo-gallery isDirectory="true">
-            <img src="/pages/pets/maisie/2022_1102_PM_00032_(WebShare).jpg" alt="Photo of Maisie, a black and white dog, pictured here running with her ball, looking sleek and athletic" />
+            <img src="/photos/pets/maisie/2022_1102_PM_00032_(WebShare).jpg" alt="Photo of Maisie, a black and white dog, pictured here running with her ball, looking sleek and athletic" />
         </photo-gallery>
         </a>
 
         <a href="/pets/oreo"><h4>Oreo</h4>
         <photo-gallery makeThumbnail="true">
-            <img src="/pages/pets/oreo/oreo8.jpg" alt="Photo of Oreo, a black and white dog, pictured here laying on a bed looking up at the camera" />
+            <img src="/photos/pets/oreo/oreo8.jpg" alt="Photo of Oreo, a black and white dog, pictured here laying on a bed looking up at the camera" />
         </photo-gallery>
         </a>
 
