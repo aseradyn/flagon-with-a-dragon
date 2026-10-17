@@ -1,3 +1,8 @@
+<?php
+    $ephemeraCount = 10;
+    $ephemeraStartAfter = 3;
+?>
+
 <div class="single-column-layout markdown">
     <article>
         <header><h1>Ephemera</h1><p style="text-align: center">These posts will self destruct</p></header>

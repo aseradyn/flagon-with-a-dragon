@@ -4,7 +4,7 @@ include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/processMarkdown.php";
 
 include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/fetchEphemera.php";
 
-$list = fetchEphemera();
+$list = fetchEphemera($ephemeraCount ?? 3, $ephemeraStartAfter ?? 0);
                     
 foreach($list as $post)
 {
@@ -26,7 +26,7 @@ foreach($list as $post)
 </div>
 
 <style>
-    .ephemera-post:not(:last-child) {
+    .ephemera-post {
         border-bottom: 1px dashed var(--decoration);
         margin-bottom: 10px;
     }

@@ -32,7 +32,11 @@
             <p id="ephemera-subtitle">These posts will self destruct</p>
             <p id="ephemera-rss"><a href="/ephemera/rss"><img src="/images/rss.svg" alt="RSS icon"/>RSS</a></p>
         </header>
-        <?php include_once $_SERVER["DOCUMENT_ROOT"]."/components/ephemera.php"; ?>
+        <?php
+            $ephemeraCount = 3; 
+            include_once $_SERVER["DOCUMENT_ROOT"]."/components/ephemera.php"; 
+        ?>
+        <p><a href="/ephemera">Previous Ephemera -></a></p>
     </section>
 
     <div class="sidebar-modules">

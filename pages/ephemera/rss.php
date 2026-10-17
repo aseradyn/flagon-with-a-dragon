@@ -3,7 +3,7 @@
     include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/fetchEphemera.php";
     include_once $_SERVER["DOCUMENT_ROOT"]."/utilities/processMarkdown.php";
 
-    $list = fetchEphemera();
+    $list = fetchEphemera(20);
     $date = date(DATE_RFC2822);
 ?>
 
