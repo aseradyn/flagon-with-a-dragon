@@ -32,9 +32,7 @@ I love GitHub both for it's minimum-viable IDE (in case I want to make changes w
 
 I switched to using the FTP Deploy Action instead of the Github pull/deploy steps in CPanel. It's the thing I most loved about 'serverless' hosting - just commit and *poof* deployed!
 
-I use Cloudinary as a CDN for my photos. I highly recommend it. If you're cheap (like me) and can do without API access, they have a free tier. It lets you 
-download images in any size you need - from thumbnails to full size - at least, up to a point (there is a file size limit). I use the
-<a href="https://cloudinary.com/cookbook">Cloudinary Cookbook</a> for that little bit of image manipulation.
+I have photos stored in a private repo (submodule fun!). There's some fun stuff in the deployment pipeline to make sure they get resized before deploying, and I have a custom web component that I wrote to add the styled borders and gallery lightbox onto plain markdown files.
 
 For the few icons on the site, I either use emoji (so, rendered using your system or browser's emoji glyphs), or FontAwesome. I bought version 5 years ago, and it's served me well. Mostly I'm using one-off SVGs rather than the whole font.
 	
@@ -53,3 +51,9 @@ For the few icons on the site, I either use emoji (so, rendered using your syste
 For previous versions of this site, I also loved:
 
 * [Pattern Cooler](https://sc.squirrel.ws/): A <em>fantastic</em> site for finding and tweaking seamless background graphics, including the bamboo used as the background of my site right now. | URL changed - is it temporary? Here's the [previous URL](https://www.patterncooler.com/)
+
+## AI Statement
+
+I have started using AI (primarily Claude) to help with some of the grunt work and infrastructure improvements on this site. All the photos are mine, hand-edited in a combination of Lightroom and RawTherapee. All text on the site is mine - I don't even let the robot proof-read it. I may have hooked AI up to the wagon, but I'm still driving. It means that I am actually getting things done instead of just thinking about getting them done, because I can get the bulk work out of the way quickly and get back to the interesting bits. I find this type of assistance genuinely useful and do not believe it degrades the quality of what I'm sharing here.
+
+I understand and acknowledge the ethical concerns about the use of models trained on unlicensed content and running in resource-hogging data centers. I also eat animals.
