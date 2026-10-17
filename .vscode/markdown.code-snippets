@@ -1,0 +1,10 @@
+{
+	// Copy an image's path first (right-click it in Explorer > Copy Relative Path),
+	// then type "img" in a Markdown file and press Tab.
+	"Image with alt and title": {
+		"scope": "markdown",
+		"prefix": "img",
+		"body": "![${1:alt text}](/${2:$CLIPBOARD} \"${3:title}\")$0",
+		"description": "Image link using the copied path"
+	}
+}

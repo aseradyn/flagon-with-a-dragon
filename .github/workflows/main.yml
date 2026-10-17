@@ -20,6 +20,7 @@ jobs:
           **/.git*
           **/.git*/**
           **/node_modules/**
+          **/.vscode/**
           **/.well-known*/**
           **/blog*/**
           **/vendor*/**

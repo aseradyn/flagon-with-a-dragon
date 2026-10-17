@@ -1,0 +1,43 @@
+{
+	"folders": [
+		{
+			"name": "www",
+			"path": ".."
+		},
+		{
+			"name": "configurations",
+			"path": "../../configurations"
+		}
+	],
+	"settings": {
+		"explorer.copyRelativePathSeparator": "/",
+		"[markdown]": {
+			"editor.quickSuggestions": { "other": "on", "comments": "off", "strings": "off" },
+			"editor.wordBasedSuggestions": "off",
+			"editor.tabCompletion": "on"
+		},
+		"VsCodeTaskButtons.tasks": [
+			{
+				"label": "$(new-file) New Ephemera",
+				"task": "New Ephemera page",
+				"tooltip": "Create today's next empty Ephemera page"
+			}
+		]
+	},
+	"extensions": {
+		"recommendations": ["spencerwmiles.vscode-task-buttons"]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "New Ephemera page",
+				"type": "shell",
+				"command": "powershell",
+				"args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder:www}/.vscode/new-ephemera.ps1"],
+				"problemMatcher": [],
+				"presentation": { "reveal": "silent" }
+			}
+		]
+	}
+}
