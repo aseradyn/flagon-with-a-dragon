@@ -16,6 +16,12 @@ function findMarkdownRoutes() {
         $clippedExtension = substr($clippedPath, 0, -3);                    // info/index
 
         $markdownRoutes[$clippedExtension] = $clippedExtension;
+
+        // if it's an index file, we also want the bare path
+        if (substr($clippedExtension, -6) == "/index") {
+            $clippedIndex = substr($clippedExtension, 0, -6);              // info
+            $markdownRoutes[$clippedIndex] = $clippedExtension;
+        }
     }
 
     return $markdownRoutes;

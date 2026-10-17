@@ -60,9 +60,6 @@ function isCurrentPath($pathString, $onlyExact = false) {
 			<li <?php isCurrentPath("/unsolicited")?>>
 				<a href="/unsolicited">Advice</a>
 			</li>
-			<li <?php isCurrentPath("/photos")?>>
-				<a href="/photos">Photos</a>
-			</li>
 			<li <?php isCurrentPath("/hobbies")?>>
 				<a href="/hobbies">Hobbies</a>
 			</li>

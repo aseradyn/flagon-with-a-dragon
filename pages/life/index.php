@@ -63,6 +63,27 @@
                 <img src="/photos/places/seattle/20230922-Chihuly-08.jpg" />
             </photo-gallery>
             </a>
+
+            <a href="/places/grand-canyon">
+            <h4>The Grand Canyon</h4>
+            <photo-gallery makeThumbnail="true">
+                <img src="/photos/places/grand-canyon/PC220219.jpg" />
+            </photo-gallery>
+            </a>
+
+            <a href="/places/ouachita-mountains">
+            <h4>Ouachita Mountains</h4>
+            <photo-gallery makeThumbnail="true">
+                <img src="/photos/places/ouachita-mountains/2018-11-13_09.41.44.jpg" />
+            </photo-gallery>
+            </a>
+
+            <a href="/places/norway">
+            <h4>Stavanger, Norway</h4>
+            <photo-gallery makeThumbnail="true">
+                <img src="/photos/places/norway/IMG_1095.jpg" />
+            </photo-gallery>
+            </a>
         </div>
 
 

@@ -1,6 +1,5 @@
 <?php
 
-include_once("Photo.php");
 
 function rssFeedComplete($url, $limit) {
     $rss_feed = simplexml_load_file($url);
