@@ -8,7 +8,19 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v4
-    
+      with:
+        submodules: true
+        token: ${{ secrets.PHOTOS_TOKEN }}
+        persist-credentials: false
+
+    # Shrinks photos/ to display size and strips metadata (including GPS)
+    # so full-size originals never reach the server. Files keep their names.
+    - name: 🖼️ Resize photos
+      run: |
+        command -v mogrify >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick; }
+        find photos -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) -print0 \
+          | xargs -0 -r mogrify -auto-orient -resize '2000x2000>' -strip -quality 82
+
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
@@ -25,3 +37,4 @@ jobs:
           **/blog*/**
           **/vendor*/**
           **/php.ini
+          photos/README.md
