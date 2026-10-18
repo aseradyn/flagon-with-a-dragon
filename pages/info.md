@@ -2,9 +2,9 @@
 		
 Professionally, I design and build applications. My primary experience is with business applications - the kinds of tools that allow businesses
 to track and report on their internal activities so that they can make good decisions. I am currently
-employed by <a href="http://www.hcss.com">HCSS</a>, a company in Sugar Land, TX that creates software for the heavy civil construction industry (think: the guys building/rebuilding roads, dams, bridges, and do on).
+employed as a senior software developer by <a href="http://www.hcss.com">HCSS</a>, a company in Sugar Land, TX that creates software for the heavy civil construction industry (think: the guys building/rebuilding roads, dams, bridges, and do on).
 
-I am the team lead for an project that is helping my employer expand into a huge new market. We've released our MVP and are iterating and improving on that foundation. The tech stack for this project is C# for APIs and UI back end, React for UI front end, SQL Server for data, and Azure services like service buses and function apps to handle asynchronous processing tasks.
+The tech stack for this work is primarily C# for APIs and UI back end, React for UI front end, SQL Server for data, and Azure services like service buses and function apps to handle asynchronous processing tasks. As in all such legacy projects, there are also strata of other tech from past work, including jQuery and Razor and Angular and Vue. Gotta stay on your toes!
 
 Outside of work, I am a serial hobbyist: I love learning new things, and every few months I seem to
 find myself with something new to try out. My longest-running hobbies are photography, spinning (making yarn from wool or cotton fiber), weaving cloth, and gardening (flowers, not vegetables). Recently, I've also played with watercolors, basket weaving, dyeing, and card-making.
@@ -24,7 +24,7 @@ photos, stories, links... Through it all, it's been a place for me to experiment
 
 The current iteration of the site is built with PHP, Markdown, CSS, and a smattering of javascript and Web Components. <a href="https://github.com/aseradyn/flagon-with-a-dragon">The repo is public</a>, if you feel like poking around.
 
-I love GitHub both for it's minimum-viable IDE (in case I want to make changes when I'm away from my computer). This site is live on A2 Hosting.
+I love GitHub for it's minimum-viable IDE (in case I want to make changes when I'm away from my computer). This site is live on hosting.com (formerly A2 Hosting).
 
 <a href="https://github.com/SamKirkland/FTP-Deploy-Action">
     <img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=0077b6" style="width: 300px">
@@ -56,4 +56,4 @@ For previous versions of this site, I also loved:
 
 I have started using AI (primarily Claude) to help with some of the grunt work and infrastructure improvements on this site. All the photos are mine, hand-edited in a combination of Lightroom and RawTherapee. All text on the site is mine - I don't even let the robot proof-read it. I may have hooked AI up to the wagon, but I'm still driving. It means that I am actually getting things done instead of just thinking about getting them done, because I can get the bulk work out of the way quickly and get back to the interesting bits. I find this type of assistance genuinely useful and do not believe it degrades the quality of what I'm sharing here.
 
-I understand and acknowledge the ethical concerns about the use of models trained on unlicensed content and running in resource-hogging data centers. I also eat animals.
+I understand and acknowledge the ethical concerns about the use of models trained on unlicensed content and running in resource-hogging data centers. I can't fix what has already happened; my goal is to use what's here now in a responsible way.
