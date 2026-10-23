@@ -27,3 +27,30 @@ body {
 .single-column-layout article {
     max-width: var(--single-column-width);
 }
+
+/* Markdown pages: text stays in the center column, galleries go full width */
+.single-column-layout.markdown {
+    max-width: none;
+}
+.single-column-layout.markdown article {
+    max-width: none;
+    display: grid;
+    grid-template-columns:
+        [full-start] minmax(0, 1fr)
+        [content-start] min(var(--single-column-width), 100%)
+        [content-end] minmax(0, 1fr)
+        [full-end];
+}
+.single-column-layout.markdown article > * {
+    grid-column: content;
+}
+.single-column-layout.markdown article > photo-gallery {
+    grid-column: full;
+}
+@media screen and (max-width: 990px) {
+    /* the column already fills the paper here, so pull galleries out over main's padding */
+    .single-column-layout.markdown article > photo-gallery {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+}
