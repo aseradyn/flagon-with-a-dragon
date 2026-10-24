@@ -1,0 +1,5 @@
+scripts:
+  - name: Initialize photos submodule
+    command: git -c credential.helper='!gh auth git-credential' submodule update --init --recursive -- photos
+    triggers:
+      - session.create
