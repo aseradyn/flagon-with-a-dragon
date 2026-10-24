@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Start local PHP server",
+      "type": "php",
+      "request": "launch",
+      "runtimeExecutable": "C:\\xampp\\php\\php.exe",
+      "runtimeArgs": [
+        "-d",
+        "include_path=.;${workspaceFolder}",
+        "-d",
+        "display_errors=On",
+        "-d",
+        "error_reporting=E_ALL",
+        "-S",
+        "localhost:0",
+        "-t",
+        "${workspaceFolder}"
+      ],
+      "program": "${workspaceFolder}/.vscode/dev-router.php",
+      "cwd": "${workspaceFolder}",
+      "port": 0,
+      "serverReadyAction": {
+        "pattern": "Development Server \\(http://localhost:([0-9]+)\\) started",
+        "uriFormat": "http://localhost:%s",
+        "action": "openExternally"
+      }
+    }
+  ]
+}

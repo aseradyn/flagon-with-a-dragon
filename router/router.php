@@ -25,6 +25,7 @@ if (!$isFound) {
 
 $didOverrideTheme = handleThemeOverrides($request);
 if (!$didOverrideTheme) {
+   include($_SERVER["DOCUMENT_ROOT"]."/router/includes/document-start.php");
    include($_SERVER["DOCUMENT_ROOT"]."/themes/$theme/header.php");
 }
 
@@ -43,5 +44,11 @@ if ($isHome) {
 
 // Load supplemental files
 handleIncludes($request);
+
+if (!$didOverrideTheme) {
+   echo '<div style="margin-bottom: 40px;"></div>';
+   include($_SERVER["DOCUMENT_ROOT"]."/themes/$theme/footer.php");
+   include($_SERVER["DOCUMENT_ROOT"]."/router/includes/document-end.php");
+}
 
 ?>
