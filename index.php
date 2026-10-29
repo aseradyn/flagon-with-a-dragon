@@ -19,34 +19,8 @@ if (str_contains($request, "ephemera/rss")) {
     return;
 }
 
-// Authentication
-
-include($_SERVER["DOCUMENT_ROOT"]."/auth/auth0_initialization.php");
-
-if (str_contains($request, "/auth/login")) {
-    include($_SERVER["DOCUMENT_ROOT"]."/auth/login.php");
-    return;
-}
-
-if (str_contains($request, "/auth/logout")) {
-    include($_SERVER["DOCUMENT_ROOT"]."/auth/logout.php");
-    return;
-}
-
-if (str_contains($request, "/auth/profile")) {
-    include($_SERVER["DOCUMENT_ROOT"]."/auth/profile.php");
-    return;
-}
-
-if (str_contains($request, "/callback")) {
-    include($_SERVER["DOCUMENT_ROOT"]."/auth/callback.php");
-    return;
-}
-
 // Main site content
 
 include($_SERVER["DOCUMENT_ROOT"]."/router/router.php");
 
 ?>
-
-<div style="margin-bottom: 40px;"></div>
